@@ -9,6 +9,11 @@
 
 @import url(../blocks/support/support.css);
 @import url(../blocks/support-form/support-form.css);
-@import url(../blocks/donuts/donuts.css);
+
+@import url(../blocks/donators-list/donators-list.css);
+
+@import url(../blocks/donator/donator.css);
+@import url(../blocks/donator/__name-container/donator__name-container.css);
+@import url(../blocks/donator/__sum-container/donator__sum-container.css);
 
 @import url(../blocks/footer/footer.css);
