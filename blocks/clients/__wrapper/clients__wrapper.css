@@ -1,0 +1,20 @@
+.clients__wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 40px 0 40px;
+}
+
+@media screen and (max-width: 1279px) {
+  .clients__wrapper {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .clients__wrapper {
+    align-items: center;
+    padding: 0 10px 0 10px;
+  }
+}

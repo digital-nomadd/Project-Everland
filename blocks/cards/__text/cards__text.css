@@ -1,0 +1,20 @@
+.cards__text {
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1279px) {
+  .cards__text {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards__text {
+    font-size: 14px;
+  }
+}
