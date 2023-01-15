@@ -1,0 +1,5 @@
+.donation__value {
+  display: flex;
+  gap: 40px;
+  margin-left: 30px;
+}

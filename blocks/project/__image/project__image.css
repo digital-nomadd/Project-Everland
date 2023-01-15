@@ -1,0 +1,8 @@
+.project__image {
+  display: flex;
+  width: 392px;
+  height: 407px;
+  object-fit: cover;
+  border: none;
+  border-radius: 10px;
+}

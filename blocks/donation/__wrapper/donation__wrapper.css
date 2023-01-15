@@ -1,0 +1,11 @@
+.donation__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 90px auto 50px;
+  right: 54px;
+  width: 1360px;
+  height: 164px;
+  background: #e7f0ff;
+  border-radius: 10px;
+}
