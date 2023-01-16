@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
+/* 
 span {
   content: "";
   transition: all 0.3s ease 0s;
@@ -33,4 +33,4 @@ span:last-child {
 .icon-menu.active span:last-child {
   transform: rotate(-45deg);
   bottom: 8px;
-}
+} */

@@ -4,3 +4,25 @@
   width: 520px;
   height: 565px;
 }
+
+
+@media screen and (max-width: 1439px) {
+  .project__images {
+    width: calc(244px + 276*(100vw - 768px)/(1440 - 768));
+    height: calc(272px + 293*(100vw - 768px)/(1440 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project__images {
+    width: calc(300px - 56*(100vw - 320px)/(768 - 320));
+    height: calc(200px + 72*(100vw - 768px)/(1440 - 768));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .project__images {
+    width: 300px;
+    height: 200px;
+  }
+}

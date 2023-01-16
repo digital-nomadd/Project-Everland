@@ -5,3 +5,27 @@
   margin: 50px auto 0;
   gap: 14px;
 }
+
+
+@media screen and (max-width: 1439px) {
+  .project__wrapper {
+    width: calc(688px + 672*(100vw - 768px)/(1440 - 768));
+    margin: 56px auto 0;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project__wrapper {
+    width: calc(300px + 388*(100vw - 320px)/(768 - 320));
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .project__wrapper {
+    width: 300px;
+    gap: 26px;
+  }
+}

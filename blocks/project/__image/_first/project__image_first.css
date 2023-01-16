@@ -3,4 +3,27 @@
   left: 0;
   bottom: 0;
   z-index: 5;
+  width: 392px;
+  height: 407px;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .project__image_first {
+    width: calc(170px + 222*(100vw - 768px)/(1440 - 768));
+    height: calc(175px + 232*(100vw - 768px)/(1440 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project__image_first {
+    height: calc(160px + 15*(100vw - 768px)/(1440 - 768));
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .project__image_first {
+    height: 160px;
+  }
 }

@@ -1,24 +1,4 @@
 .button {
   display: flex;
-  margin: 0;
-  padding: 0;
-  height: 48px;
-  border-radius: 10px;
-  border: none;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  max-width: 100%;
 }
-
-@media screen and (max-width: 1439px) {
-  .button {
-    height: calc(44px + 4*(100vw - 768px)/(1440 - 768));
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .button {
-    height: 44px;
-  }
-}
-
