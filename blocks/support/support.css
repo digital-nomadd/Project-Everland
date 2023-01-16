@@ -1,4 +1,11 @@
 .support {
   background-color: #E7F0FF;
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 104px 100px 40px;
+  gap: 10px;
 }
