@@ -30,22 +30,41 @@
 
       <div class="support__supports-container">
         <form class="support-form" name="Support us">
-          <fieldset>
-            <div>
+
+          <fieldset class="support-form__payment-period-container">
+            <div class="support-form__radio-button">
               <input type="radio" id="support-monthly" name="support-monthly" />
               <label for="support-monthly">Ежемесячно</label>
+            </div>
+            <div class="support-form__radio-button">
               <input type="radio" id="support-once" name="support-once" />
               <label for="support-once">Разово</label>
             </div>
           </fieldset>
-          <fieldset>
+
+          <fieldset class="support-form__payment-amount-container">
             <legend>Размер пожертвования</legend>
-            <div class="amount-container">
-              <button>250₽</button>
-              <button>500₽</button>
-              <button>750₽</button>
-              <button>1000₽</button>
-              <button>Другая сумма</button>
+            <div class="support-form__amount-container">
+              <div class="support-form__radio-button">
+                <input type="radio" id="amount-250" name="amount-250"/>
+                <label for="amount-250">250₽</label>
+              </div>
+              <div class="support-form__radio-button">
+                <input type="radio" id="amount-500" name="amount-500"/>
+                <label for="amount-500">500₽</label>
+              </div>
+              <div class="support-form__radio-button">
+                <input type="radio" id="amount-750" name="amount-750"/>
+                <label for="amount-750">750₽</label>
+              </div>
+              <div class="support-form__radio-button">
+                <input type="radio" id="amount-1000" name="amount-1000"/>
+                <label for="amount-1000">1000₽</label>
+              </div>
+              <div class="support-form__radio-button">
+                <input type="radio" id="another-amount" name="another-amount"/>
+                <label for="another-amount">Другая сумма</label>
+              </div>
             </div>
             <p>Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим программам работать бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную задачу.
               Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.
@@ -53,10 +72,20 @@
           </fieldset>
           <fieldset>
             <legend>Способ оплаты</legend>
-            <div class="amount-container">
-              <button>750₽</button>
-              <button>1000₽</button>
-              <button>Другая сумма</button>
+            <div class="support-form__payment-container">
+
+              <div class="support-form__radio-button">
+                <input type="radio" id="bank-card" name="bank-card"/>
+                <label for="bank-card"></label>
+              </div>
+              <div class="support-form__radio-button">
+                <input type="radio" id="io-pay" name="io-pay"/>
+                <label for="io-pay"></label>
+              </div>
+              <div class="support-form__radio-button">
+                <input type="radio" id="web-money" name="web-money"/>
+                <label for="web-money"></label>
+              </div>
             </div>
           </fieldset>
           <fieldset>
