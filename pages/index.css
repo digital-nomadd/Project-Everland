@@ -13,10 +13,13 @@
 
 @import url(../blocks/support/support.css);
 @import url(../blocks/support-form/support-form.css);
+@import url(../blocks/support-form/__section-text/support-form__section-text.css);
 @import url(../blocks/support-form/__radio-button/support-form__radio-button.css);
 @import url(../blocks/support-form/__amount-container/support-form__amount-container.css);
 @import url(../blocks/support-form/__payment-period-container/support-form__payment-period-container.css);
 @import url(../blocks/support-form/__payment-amount-container/support-form__payment-amount-container.css);
+@import url(../blocks/support-form/__payment-method/support-form__payment-method.css);
+@import url(../blocks/support-form/__payment-data/support-form__payment-data.css);
 
 @import url(../blocks/support/support.css);
 @import url(../blocks/support/__supports-container/support__supports-container.css);

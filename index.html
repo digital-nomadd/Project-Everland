@@ -28,41 +28,41 @@
     <section class="support">
       <h2 class="section-title">Поддержите нас</h2>
 
-      <div class="support__supports-container">
+      <div class="support__supports-container main-text">
         <form class="support-form" name="Support us">
 
           <fieldset class="support-form__payment-period-container">
             <div class="support-form__radio-button">
-              <input type="radio" id="support-monthly" name="support-monthly" />
+              <input type="radio" id="support-monthly" name="period" />
               <label for="support-monthly">Ежемесячно</label>
             </div>
             <div class="support-form__radio-button">
-              <input type="radio" id="support-once" name="support-once" />
+              <input type="radio" id="support-once" name="period" />
               <label for="support-once">Разово</label>
             </div>
           </fieldset>
 
           <fieldset class="support-form__payment-amount-container">
-            <legend>Размер пожертвования</legend>
+            <legend class="support-form__section-text">Размер пожертвования</legend>
             <div class="support-form__amount-container">
               <div class="support-form__radio-button">
-                <input type="radio" id="amount-250" name="amount-250"/>
+                <input type="radio" id="amount-250" name="amount"/>
                 <label for="amount-250">250₽</label>
               </div>
               <div class="support-form__radio-button">
-                <input type="radio" id="amount-500" name="amount-500"/>
+                <input type="radio" id="amount-500" name="amount"/>
                 <label for="amount-500">500₽</label>
               </div>
               <div class="support-form__radio-button">
-                <input type="radio" id="amount-750" name="amount-750"/>
+                <input type="radio" id="amount-750" name="amount"/>
                 <label for="amount-750">750₽</label>
               </div>
               <div class="support-form__radio-button">
-                <input type="radio" id="amount-1000" name="amount-1000"/>
+                <input type="radio" id="amount-1000" name="amount"/>
                 <label for="amount-1000">1000₽</label>
               </div>
               <div class="support-form__radio-button">
-                <input type="radio" id="another-amount" name="another-amount"/>
+                <input type="radio" id="another-amount" name="amount"/>
                 <label for="another-amount">Другая сумма</label>
               </div>
             </div>
@@ -70,26 +70,26 @@
               Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.
             </p>
           </fieldset>
-          <fieldset>
-            <legend>Способ оплаты</legend>
+          <fieldset class="support-form__payment-method">
+            <legend class="support-form__section-text">Способ оплаты</legend>
             <div class="support-form__payment-container">
 
               <div class="support-form__radio-button">
-                <input type="radio" id="bank-card" name="bank-card"/>
+                <input type="radio" id="bank-card" name="method"/>
                 <label for="bank-card"></label>
               </div>
               <div class="support-form__radio-button">
-                <input type="radio" id="io-pay" name="io-pay"/>
+                <input type="radio" id="io-pay" name="method"/>
                 <label for="io-pay"></label>
               </div>
               <div class="support-form__radio-button">
-                <input type="radio" id="web-money" name="web-money"/>
+                <input type="radio" id="web-money" name="method"/>
                 <label for="web-money"></label>
               </div>
             </div>
           </fieldset>
-          <fieldset>
-            <legend>Ваши данные</legend>
+          <fieldset class="support-form__payment-data">
+            <legend class="support-form__section-text">Ваши данные</legend>
 
             <input class="popup__input" type="text" id="payer-name" aria-label="имя" placeholder="Иван Иванов" name="name" required>
             <input class="popup__input" type="text" id="payer-mail" aria-label="почта" placeholder="myemail@example.com" name="mail" required>

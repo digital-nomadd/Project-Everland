@@ -1,0 +1,6 @@
+.support-form__payment-data {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-top: 1px solid #DADADA;;
+}
