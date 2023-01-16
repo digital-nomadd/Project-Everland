@@ -1,0 +1,36 @@
+.support-form__radio-button {
+  display: inline-block;
+}
+.support-form__radio-button input[type=radio] {
+  position: absolute;
+  height: 1px;
+  clip-path: inset(0 0 0 0);
+  overflow: hidden;
+}
+.support-form__radio-button label {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  align-items: center;
+
+}
+
+.support-form__radio-button input[type=radio]:checked + label {
+  border: 1px solid #0C4BA0;
+}
+
+.support-form__radio-button label:hover {
+  border: 1px solid #0C4BA0;
+}
+
+.support-form__radio-button input[type=radio]:disabled + label {
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+}
