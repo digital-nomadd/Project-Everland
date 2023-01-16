@@ -1,0 +1,29 @@
+.footer__content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+.footer__content:first-child {
+  margin-bottom: 90px;
+}
+.footer__content:last-child {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 780px) {
+  .footer__content {
+    margin-bottom: 35px;
+  }
+  .footer__content:first-child {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .footer__content {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .footer__content:first-child {
+    margin-bottom: 40px;
+  }
+}

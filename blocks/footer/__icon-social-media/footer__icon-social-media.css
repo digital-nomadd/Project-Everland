@@ -1,0 +1,12 @@
+.footer__icon-social-media {
+  margin-top: 11px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+@media screen and (max-width: 780px) {
+  .footer__icon-social-media {
+    gap: 4px;
+  }
+}
