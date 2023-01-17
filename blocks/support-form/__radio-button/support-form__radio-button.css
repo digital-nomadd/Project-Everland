@@ -19,7 +19,8 @@
   padding-bottom: 12px;
   padding-top: 12px;
   align-items: center;
-
+  box-sizing: border-box;
+  height: 48px;
 }
 
 .support-form__radio-button input[type=radio]:checked + label {

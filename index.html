@@ -33,7 +33,7 @@
 
           <fieldset class="support-form__payment-period-container">
             <div class="support-form__radio-button">
-              <input type="radio" id="support-monthly" name="period" />
+              <input type="radio" id="support-monthly" name="period"/>
               <label for="support-monthly">Ежемесячно</label>
             </div>
             <div class="support-form__radio-button">
@@ -66,8 +66,10 @@
                 <label for="another-amount">Другая сумма</label>
               </div>
             </div>
-            <p>Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим программам работать бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную задачу.
-              Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.
+            <p>Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим программам работать
+              бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную задачу.
+              Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться
+              указанная вами сумма.
             </p>
           </fieldset>
           <fieldset class="support-form__payment-method">
@@ -76,28 +78,49 @@
 
               <div class="support-form__radio-button">
                 <input type="radio" id="bank-card" name="method"/>
-                <label for="bank-card"></label>
+                <label for="bank-card" class="support-form__payment-button">
+                  <img src="images/icon_payment-maestro.svg" alt="maestro">
+                  <img src="images/icon_payment-mastercard.svg" alt="mastercard">
+                  <img src="images/icon_payment-mir.svg" alt="mir">
+                  <img src="images/icon_payment-visa.svg" alt="visa">
+                </label>
               </div>
               <div class="support-form__radio-button">
                 <input type="radio" id="io-pay" name="method"/>
-                <label for="io-pay"></label>
+                <label for="io-pay" class="support-form__payment-button">
+                  <img src="images/icon_payment-io.svg" alt="io">
+                </label>
               </div>
               <div class="support-form__radio-button">
                 <input type="radio" id="web-money" name="method"/>
-                <label for="web-money"></label>
+                <label for="web-money" class="support-form__payment-button">
+                  <img src="images/icon_payment-webmoney.svg" alt="webmoney">
+                </label>
               </div>
             </div>
           </fieldset>
           <fieldset class="support-form__payment-data">
             <legend class="support-form__section-text">Ваши данные</legend>
 
-            <input class="popup__input" type="text" id="payer-name" aria-label="имя" placeholder="Иван Иванов" name="name" required>
-            <input class="popup__input" type="text" id="payer-mail" aria-label="почта" placeholder="myemail@example.com" name="mail" required>
+            <div class="support-form__information-container">
+              <input class="support-form__input" type="text" id="payer-name" aria-label="имя" placeholder="Иван Иванов" name="name" required>
+              <input class="support-form__input" type="text" id="payer-mail" aria-label="почта" placeholder="myemail@example.com" name="mail" required>
+            </div>
 
-            <input type="checkbox" id="offer" name="offer" checked>
-            <label for="offer">Соглашаюсь с офертой</label>
-            <input type="checkbox" id="personal-data" name="personal-data">
-            <label for="personal-data">Соглашаюсь на обработку моих персональных данных</label>
+            <div class="support-form__checkbox-container">
+              <label for="offer">
+                <input class="support-form__checkbox_invisible" type="checkbox" id="offer" name="offer" required checked>
+                <span class="support-form__checkbox_visible"></span>
+                Соглашаюсь с офертой
+              </label>
+
+              <label for="personal-data">
+                <input class="support-form__checkbox_invisible" type="checkbox" id="personal-data" name="personal-data" required checked>
+                <span class="support-form__checkbox_visible"></span>
+                Соглашаюсь на обработку моих персональных данных
+              </label>
+            </div>
+
             <div>
               <button type="submit">Поддержать</button>
             </div>

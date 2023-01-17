@@ -1,0 +1,23 @@
+.support-form__checkbox_visible {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  width: 25px;
+  height: 25px;
+  background: #DADADA url(../../../../images/Icon_check.svg) no-repeat center;
+
+}
+
+.support-form__checkbox_invisible:checked  + span {
+  border: 2px solid #DADADA;
+  background: #FFFFFF;
+}
+
+.support-form__checkbox_invisible:checked  + span {
+
+}
