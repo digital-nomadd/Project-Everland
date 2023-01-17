@@ -1,0 +1,15 @@
+.footer__sub-container {
+  min-height: 165px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 780px) {
+  .footer__sub-container {
+    min-height: 130px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .footer__sub-container {
+    min-height: 120px;
+  }
+}
