@@ -1,0 +1,7 @@
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .cards__item_on-the-right {
+    grid-column-start: -1;
+    grid-column-end: -2;
+    grid-row-start: 2;
+  }
+}

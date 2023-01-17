@@ -20,6 +20,13 @@
 @import url(../blocks/cards/_one-column/cards_one-column.css);
 @import url(../blocks/cards/__button/cards__button.css);
 
+@import url(../blocks/areas-of-work/areas-of-work.css);
+@import url(../blocks/cards/__item/_type/cards__item_type_no-icon.css);
+@import url(../blocks/cards/__item/_color/cards__item_color_orange.css);
+@import url(../blocks/cards/__item/_color/cards__item_color_blue.css);
+@import url(../blocks/cards/__item/_color/cards__item_color_green.css);
+@import url(../blocks/cards/__item/_on-the-right/cards__item_on-the-right.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
