@@ -1,0 +1,10 @@
+.footer__icon-support {
+  width: 100px;
+  height: 50px;
+}
+@media screen and (max-width: 780px) {
+  .footer__icon-support {
+    width: 89px;
+    height: 40px;
+  }
+}

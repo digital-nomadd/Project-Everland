@@ -43,3 +43,25 @@
 @import url(../blocks/news/__card-image/news__card-image.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__item/_height/footer__item_height.css);
+@import url(../blocks/footer/__item-content/footer__item-content.css);
+@import url(../blocks/footer/__item-logo/footer__item-logo.css);
+@import url(../blocks/footer/__item-title/footer__item-title.css);
+@import url(../blocks/footer/__item-text/footer__item-text.css);
+@import url(../blocks/footer/__item-text/_width-320/footer__item-text_width-320.css);
+@import url(../blocks/footer/__item-support-list/footer__item-support-list.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__menu-links/footer__menu-links.css);
+@import url(../blocks/footer/__menu-link/footer__menu-link.css);
+@import url(../blocks/footer/__icon-container/footer__icon-container.css);
+@import url(../blocks/footer/__icon-support-container/footer__icon-support-container.css);
+@import url(../blocks/footer/__icon-support/footer__icon-support.css);
+@import url(../blocks/footer/__icon-social-media/footer__icon-social-media.css);
+@import url(../blocks/footer/__icon-copyright/footer__icon-copyright.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__sub-container/footer__sub-container.css);
