@@ -3,9 +3,8 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  gap: 5px;
+  gap: 12px 5px;
 }
-
 
 @media (max-width: 660px) {
   .support-form__amount-container {
