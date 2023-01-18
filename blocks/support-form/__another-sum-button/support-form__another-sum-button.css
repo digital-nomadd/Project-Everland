@@ -1,0 +1,5 @@
+@media (max-width: 660px) {
+  .support-form__another-sum-button {
+    grid-column: -3/-1;
+  }
+}
