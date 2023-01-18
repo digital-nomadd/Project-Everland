@@ -9,13 +9,13 @@
 @media (max-width: 768px){
   .support__donation-container {
     max-width: 349px;
-    gap: 24px;
+    gap: 32px;
   }
 }
 
 @media (max-width: 320px){
   .support__donation-container {
     max-width: 300px;
-    gap: 10px;
+    gap: 36px;
   }
 }
