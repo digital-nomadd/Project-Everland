@@ -19,10 +19,16 @@
 @import url(../blocks/button/__color/_light-green/button__color_light-green.css);
 @import url(../blocks/button/__type/_primary/button__type_primary.css);
 @import url(../blocks/button/__type/_fix-sum/button__type_fix-sum.css);
+@import url(../blocks/button/__type/_rand-sum/button__type_rand-sum.css);
+@import url(../blocks/button/__type/_slider/button__type_slider.css);
 @import url(../blocks/button/__type/_link/button__type_link.css);
 @import url(../blocks/button/__text-color/_white/button__text-color_white.css);
 @import url(../blocks/button/__text-color/_blue/button__text-color_blue.css);
 @import url(../blocks/button/__text-color/_black/button__text-color_black.css);
+@import url(../blocks/button/__border/_blue/button__border_blue.css);
+@import url(../blocks/button/__border/_black/button__color_black.css);
+@import url(../blocks/button/__img/_arrow/button__img_arrow.css);
+@import url(../blocks/button/__img/_arrow/_rotate/button__img_arrow_rotate.css);
 
 
 
@@ -34,6 +40,7 @@
 @import url(../blocks/header/__menu-icon/header__menu-icon.css);
 @import url(../blocks/header/__menu-text/header__menu-text.css);
 @import url(../blocks/header/__buttons/header__buttons.css);
+@import url(../blocks/header/__span/header__span.css);
 
 
 @import url(../blocks/popup-menu/popup-menu.css);
@@ -69,10 +76,8 @@
 
 @import url(../blocks/donation/donation.css);
 @import url(../blocks/donation/__wrapper/donation__wrapper.css);
+@import url(../blocks/donation/__summa/donation__summa.css);
 @import url(../blocks/donation/__value/donation__value.css);
-@import url(../blocks/donation/__support-button/donation__support-button.css);
-@import url(../blocks/donation/__button-fix/donation__button-fix.css);
-@import url(../blocks/donation/__button-random/donation__button-random.css);
 
 
 

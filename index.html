@@ -22,20 +22,28 @@
       </a>
       <div class="header__menu">
         <button class="header__menu-icon icon-menu" type="button">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span class="header__span"></span>
+          <span class="header__span"></span>
+          <span class="header__span"></span>
         </button>
         <p class="header__menu-text big-text">Меню</p>
       </div>
 
       <div class="header__buttons">
-        <button class="header__button button-text platform-button" type="button">
-          Платформа
-        </button>
-        <button class="header__button support-button button" type="button">
-          <a href="#" class="header__link button-text">Поддержать</a>
-        </button>
+        <div class="button">
+          <div class="button__wrapper button__color_white button__type_primary button__border_blue">
+            <a href="#" class="button__link">
+              <span class="button__text button__text-color_blue">Платформа</span>
+            </a>
+          </div>
+        </div>
+        <div class="button">
+          <div class="button__wrapper button__color_blue button__type_primary">
+            <a href="#" class="button__link">
+              <span class="button__text button__text-color_white">Поддержать</span>
+            </a>
+          </div>
+        </div>
         <!--ссылка на раздел "Поддержите нас" -->
       </div>
 
@@ -208,8 +216,8 @@
             инвалидностью устойчиво интегрироваться в открытый рынок труда
           </p>
           <div class="project__switcher">
-            <button class="project__switcher-button" type="button">
-              <img class="project__arrow project__arrow_rotate"
+            <button class="button__wrapper  button__color_blue button__type_slider" type="button">
+              <img class="button__img_arrow button__img_arrow_rotate"
                 src="./images/Icon_arrow-forward.svg" alt="Вперед" />
             </button>
             <div class="project__switcher-counter">
@@ -217,8 +225,9 @@
               <p class="big-text">/</p>
               <p class="big-text">6</p>
             </div>
-            <button class="project__switcher-button">
-              <img class="project__arrow" src="./images/Icon_arrow-forward.svg" alt="Назад" />
+            <button class="button__wrapper  button__color_blue button__type_slider" type="button">
+              <img class="button__img_arrow"
+                src="./images/Icon_arrow-forward.svg" alt="Вперед" />
             </button>
           </div>
         </div>
@@ -235,27 +244,51 @@
     </section>
     <section class="donation">
       <div class="donation__wrapper">
-        <div class="donation__value">
-          <button class="donation__button-fix button button-text" type="button">
-            250₽
-          </button>
-          <button class="donation__button-fix button button-text" type="button">
-            500₽
-          </button>
-          <button class="donation__button-fix button button-text" type="button">
-            7500₽
-          </button>
-          <button class="donation__button-fix button button-text" type="button">
-            1000₽
-          </button>
-          <button class="donation__button-random button button-text" type="button">
-            Другая сумма
-          </button>
-        </div>
-        <div class="donation__support-button">
-          <button class="support-button button button-text" type="button">
-            Поддержать
-          </button>
+        <div class="donation__summa">
+          <div class="donation__value">
+            <div class="button">
+              <div class="button__wrapper button__color_white button__type_fix-sum">
+                <a href="#" class="button__link">
+                  <span class="button__text button__text-color_black">250Р</span>
+                </a>
+              </div>
+            </div>
+            <div class="button">
+              <div class="button__wrapper button__color_white button__type_fix-sum">
+                <a href="#" class="button__link">
+                  <span class="button__text button__text-color_black">500Р</span>
+                </a>
+              </div>
+            </div>
+            <div class="button">
+              <div class="button__wrapper button__color_white button__type_fix-sum">
+                <a href="#" class="button__link">
+                  <span class="button__text button__text-color_black">750Р</span>
+                </a>
+              </div>
+            </div>
+            <div class="button">
+              <div class="button__wrapper button__color_white button__type_fix-sum">
+                <a href="#" class="button__link">
+                  <span class="button__text button__text-color_black">1000Р</span>
+                </a>
+              </div>
+            </div>
+            <div class="button">
+              <div class="button__wrapper button__color_white button__type_rand-sum">
+                <a href="#" class="button__link">
+                  <span class="button__text button__text-color_black">Другая сумма</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="button">
+            <div class="button__wrapper button__color_blue button__type_primary">
+              <a href="#" class="button__link">
+                <span class="button__text button__text-color_white">Поддержать</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -273,18 +306,10 @@
     <section></section>
     <section></section>
 
-    <div class="button">
-      <div class="button__wrapper button__color_light-green button__type_primary">
-        <a href="#" class="button__link">
-          <span class="button__text button__text-color_black">Поддержать</span>
-        </a>
-      </div>
-    </div>
-
 
   </main>
   <footer class="footer"></footer>
-  <script src="scripts/script.js"></script>
+  <script src="./scripts/script.js"></script>
 </body>
 
 </html>

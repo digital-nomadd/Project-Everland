@@ -1,0 +1,21 @@
+.button__type_slider {
+  display: flex;
+  border: none;
+  width: 35px;
+  height: 35px;
+}
+
+@media screen and (max-width: 1439px) {
+  .button__type_slider {
+    width: calc(24px + 11*(100vw - 768px)/(1440 - 768));
+    height: calc(24px + 11*(100vw - 768px)/(1440 - 768));
+    border-radius: 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button__type_slider {
+    width: 24px;
+    height: 24px;
+  }
+}

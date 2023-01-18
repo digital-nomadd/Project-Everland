@@ -19,6 +19,7 @@
   .project__wrapper {
     width: calc(300px + 388*(100vw - 320px)/(768 - 320));
     flex-direction: column;
+    align-items: center;
     gap: 20px;
   }
 }
