@@ -1,0 +1,15 @@
+.button_img_arrow {
+  width: 17px;
+  height: 17px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .button_img_arrow {
+    width: 10px;
+    height: 10px;
+  }
+}

@@ -9,26 +9,26 @@
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__wrapper/button__wrapper.css);
-@import url(../blocks/button/__text/button__text.css);
-@import url(../blocks/button/__link/button__link.css);
-@import url(../blocks/button/__arrow/button__arrow.css);
-@import url(../blocks/button/__arrow/_rotate/button__arrow_rotate.css);
-@import url(../blocks/button/__color/_blue/button__color_blue.css);
-@import url(../blocks/button/__color/_white/button__color_white.css);
-@import url(../blocks/button/__color/_light-orange/button__color_light-orange.css);
-@import url(../blocks/button/__color/_light-green/button__color_light-green.css);
-@import url(../blocks/button/__type/_primary/button__type_primary.css);
-@import url(../blocks/button/__type/_fix-sum/button__type_fix-sum.css);
-@import url(../blocks/button/__type/_rand-sum/button__type_rand-sum.css);
-@import url(../blocks/button/__type/_slider/button__type_slider.css);
-@import url(../blocks/button/__type/_link/button__type_link.css);
-@import url(../blocks/button/__text-color/_white/button__text-color_white.css);
-@import url(../blocks/button/__text-color/_blue/button__text-color_blue.css);
-@import url(../blocks/button/__text-color/_black/button__text-color_black.css);
-@import url(../blocks/button/__border/_blue/button__border_blue.css);
-@import url(../blocks/button/__border/_black/button__color_black.css);
-@import url(../blocks/button/__img/_arrow/button__img_arrow.css);
-@import url(../blocks/button/__img/_arrow/_rotate/button__img_arrow_rotate.css);
+@import url(../blocks/button/_text/button_text.css);
+@import url(../blocks/button/_link/button_link.css);
+@import url(../blocks/button/_arrow/button_arrow.css);
+@import url(../blocks/button/_arrow/_rotate/button_arrow_rotate.css);
+@import url(../blocks/button/_color/_blue/button_color_blue.css);
+@import url(../blocks/button/_color/_white/button_color_white.css);
+@import url(../blocks/button/_color/_light-orange/button_color_light-orange.css);
+@import url(../blocks/button/_color/_light-green/button_color_light-green.css);
+@import url(../blocks/button/_type/_primary/button_type_primary.css);
+@import url(../blocks/button/_type/_fix-sum/button_type_fix-sum.css);
+@import url(../blocks/button/_type/_rand-sum/button_type_rand-sum.css);
+@import url(../blocks/button/_type/_slider/button_type_slider.css);
+@import url(../blocks/button/_type/_link/button_type_link.css);
+@import url(../blocks/button/_text-color/_white/button_text-color_white.css);
+@import url(../blocks/button/_text-color/_blue/button_text-color_blue.css);
+@import url(../blocks/button/_text-color/_black/button_text-color_black.css);
+@import url(../blocks/button/_border/_blue/button_border_blue.css);
+@import url(../blocks/button/_border/_black/button_color_black.css);
+@import url(../blocks/button/_img/_arrow/button_img_arrow.css);
+@import url(../blocks/button/_img/_arrow/_rotate/button_img_arrow_rotate.css);
 
 
 

@@ -1,24 +1,11 @@
 .page {
   display: flex;
   flex-direction: column;
-  width: 1440px;
-  min-height: 100%;
-  min-width: 100%;
-  background-color: white;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #fff;
   font-family: 'Raleway', Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  color: black;
-}
-
-@media screen and (max-width: 1439px) {
-  .page {
-    width: calc(320px + 1120*(100vw - 320px)/(1440 - 320));
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .page {
-    width: 320px;
-  }
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333;
+  min-width: 320px;
 }
