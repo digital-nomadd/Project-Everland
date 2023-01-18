@@ -1,0 +1,12 @@
+.support-form__checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #DADADA;
+  background: #FFFFFF;
+  box-sizing: border-box;
+
+}

@@ -14,7 +14,6 @@
 
 @import url(../blocks/support-form/support-form.css);
 @import url(../blocks/support-form/__section-text/support-form__section-text.css);
-@import url(../blocks/support-form/__radio-button/support-form__radio-button.css);
 @import url(../blocks/support-form/__amount-container/support-form__amount-container.css);
 @import url(../blocks/support-form/__payment-period-container/support-form__payment-period-container.css);
 @import url(../blocks/support-form/__payment-amount-container/support-form__payment-amount-container.css);
@@ -23,14 +22,17 @@
 @import url(../blocks/support-form/__input/support-form__input.css);
 @import url(../blocks/support-form/__agreements/support-form__agreements.css);
 @import url(../blocks/support-form/__checkbox-container/support-form__checkbox-container.css);
-@import url(../blocks/support-form/__checkbox/_invisible/support-form__checkbox_invisible.css);
-@import url(../blocks/support-form/__checkbox/_visible/support-form__checkbox_visible.css);
 @import url(../blocks/support-form/__payment-button/support-form__payment-button.css);
 @import url(../blocks/support-form/__payment-container/support-form__payment-container.css);
+@import url(../blocks/support-form/__shevron/support-form__shevron.css);
+@import url(../blocks/support-form/__radio-button/support-form__radio-button.css);
+@import url(../blocks/support-form/__radio-button/_invisible/support-form__radio-button_invisible.css);
+@import url(../blocks/support-form/__checkbox/support-form__checkbox.css);
+@import url(../blocks/support-form/__checkbox/_invisible/support-form__checkbox_invisible.css);
 
-@import url(../blocks/support/support.css);
 @import url(../blocks/support-button/support-button.css);
 
+@import url(../blocks/support/support.css);
 @import url(../blocks/support/__supports-container/support__supports-container.css);
 @import url(../blocks/support/__donation-container/support__donation-container.css);
 

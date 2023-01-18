@@ -4,4 +4,5 @@
   border-radius: 30px;
   max-width: 691px;
   box-shadow: 0 4px 30px rgba(42, 48, 56, 0.1);
+  box-sizing: border-box;
 }
