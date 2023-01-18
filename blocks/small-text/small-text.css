@@ -1,0 +1,20 @@
+.small-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .small-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .small-text {
+    font-size: 12px;
+  }
+}
