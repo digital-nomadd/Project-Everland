@@ -1,26 +1,21 @@
 .support-subtitle {
+  font-style: normal;
+  font-weight: 700;
   font-size: 34px;
   line-height: 120%;
-  font-weight: 700;
   margin: 0;
   color: #333333;
   text-align: center;
 }
 
-@media screen and (max-width: 1279px){
+@media (max-width: 768px){
   .support-subtitle {
-    font-size: 20px;
-    line-height: 120%;
-    font-weight: 700;
-    margin: 0;
+    font-size: 26px;
   }
 }
 
-@media screen and (max-width: 767px){
+@media (max-width: 320px){
   .support-subtitle {
-    font-size: 16px;
-    line-height: 120%;
-    font-weight: 700;
-    margin: 0;
+    font-size: 18px;
   }
 }
