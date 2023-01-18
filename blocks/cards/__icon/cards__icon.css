@@ -1,0 +1,11 @@
+.cards__icon {
+  width: 64px;
+  height: 64px;
+}
+
+@media screen and (max-width: 1279px) {
+  .cards__icon {
+    width: 48px;
+    height: 48px;
+  }
+}

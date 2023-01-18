@@ -1,0 +1,17 @@
+.footer__item-support-list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 55px;
+}
+@media screen and (max-width: 780px) {
+  .footer__item-support-list {
+    margin-right: 0;
+    margin-bottom: 16px;
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .footer__item-support-list {
+    flex-direction: row;
+  }
+}

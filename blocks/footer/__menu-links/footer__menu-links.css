@@ -1,0 +1,20 @@
+.footer__menu-links {
+  max-width: 230px;
+  margin-right: 85px;
+  display: flex;
+  flex-direction: column;
+}
+.footer__menu-links:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 780px) {
+  .footer__menu-links {
+    max-width: 160px;
+    margin-right: 55px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .footer__menu-links {
+    margin-right: 16px;
+  }
+}

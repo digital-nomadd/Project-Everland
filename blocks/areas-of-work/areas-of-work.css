@@ -1,0 +1,13 @@
+.areas-of-work {
+  display: flex;
+  flex-direction: column;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 40px 0 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .areas-of-work {
+    padding: 0 10px 0 10px;
+  }
+}

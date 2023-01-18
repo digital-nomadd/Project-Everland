@@ -1,0 +1,6 @@
+.footer__icon-container {
+  /* min-height: 125px; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
