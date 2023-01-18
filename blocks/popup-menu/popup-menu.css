@@ -1,11 +1,20 @@
 .popup-menu {
+  display: flex;
   position: fixed;
   top: 0;
+  bottom: 0;
+  right: 0;
   left: 0;
+  flex-flow: column nowrap;
+  justify-content: center; 
+  align-items: center;
+  margin: auto;
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
-  padding: 30px;
-  transition: top 0.3s ease 0s;
-  padding: 30px;
+  min-height: 100%;
+  border: none;
+  pointer-events: all;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* visibility: hidden; */
+  opacity: 1;
+  transition: visibility 0.5s, opacity 0.5s ease-in;
 }

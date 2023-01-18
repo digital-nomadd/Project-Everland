@@ -31,7 +31,7 @@
 
       <div class="header__buttons">
         <div class="button">
-          <div class="button__wrapper button_color_white button_type_primary button_border_blue">
+          <div class="button__wrapper button_color_white button_type_primary button_border-color_blue">
             <a href="#" class="button_link">
               <span class="button_text button_text-color_blue">Платформа</span>
             </a>
@@ -47,117 +47,119 @@
         <!--ссылка на раздел "Поддержите нас" -->
       </div>
 
-      <nav class="popup-menu popup overlay">
-        <div class="popup-menu__container">
-          <div class="popup-menu__wrapper">
-            <div class="popup-menu__group">
-              <h4 class="subtitle-text-four">О проекте</h4>
-              <ul class="popup-menu__list">
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">
-                      АНО Пространство равных возможностей
-                    </p>
-                  </a>
-                </li>
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">Новости</p>
-                  </a>
-                </li>
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">Сотрудничество</p>
-                  </a>
-                </li>
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">Инклюзия</p>
-                  </a>
-                </li>
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">Учебным заведениям</p>
-                  </a>
-                </li>
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">Годовые отчеты</p>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="popup-menu__group">
-              <h4 class="subtitle-text-four">Людям с инвалидностью</h4>
-              <ul class="popup-menu__list">
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">Платформа</p>
-                  </a>
-                </li>
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">Курсы</p>
-                  </a>
-                </li>
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">Everland Profi</p>
-                  </a>
-                </li>
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">Бесплатное такси</p>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="popup-menu__group">
-              <h4 class="subtitle-text-four">Услуги</h4>
-              <ul class="popup-menu__list">
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">Услуги агентства</p>
-                  </a>
-                </li>
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">Готовые сайты</p>
-                  </a>
-                </li>
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">
-                      Доступность для людей с инвалидностью
-                    </p>
-                  </a>
-                </li>
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">Работодателям</p>
-                  </a>
-                </li>
-                <li class="popup-menu__item">
-                  <a class="popup-menu__link" href="#">
-                    <p class="main-text">Портфолио</p>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="popup-menu__group">
-              <a class="popup-menu__link" href="#">
-                <h4 class="subtitle-text-four">Мы благодарим</h4>
-              </a>
-              <a class="popup-menu__link" href="#">
-                <h4 class="subtitle-text-four">Программы</h4>
-              </a>
-              <a class="popup-menu__link" href="#">
-                <h4 class="subtitle-text-four">Наставникам</h4>
-              </a>
-              <a class="popup-menu__link" href="#">
-                <h4 class="subtitle-text-four">Помочь</h4>
-              </a>
-            </div>
+      <nav class="popup-menu popup overlay" id="popup-menu">
+        <div class="popup-menu__wrapper">
+          <button class="popup-menu__close close" type="button" id="closebutton">
+            <img class="popup-menu__close-icon" src="./images/Icon_close-accordeon.svg"
+              alt="close" />
+          </button>
+          <div class="popup-menu__group">
+            <h4 class="subtitle-text-four">О проекте</h4>
+            <ul class="popup-menu__list">
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">
+                    АНО Пространство равных возможностей
+                  </p>
+                </a>
+              </li>
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">Новости</p>
+                </a>
+              </li>
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">Сотрудничество</p>
+                </a>
+              </li>
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">Инклюзия</p>
+                </a>
+              </li>
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">Учебным заведениям</p>
+                </a>
+              </li>
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">Годовые отчеты</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="popup-menu__group">
+            <h4 class="subtitle-text-four">Людям с инвалидностью</h4>
+            <ul class="popup-menu__list">
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">Платформа</p>
+                </a>
+              </li>
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">Курсы</p>
+                </a>
+              </li>
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">Everland Profi</p>
+                </a>
+              </li>
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">Бесплатное такси</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="popup-menu__group">
+            <h4 class="subtitle-text-four">Услуги</h4>
+            <ul class="popup-menu__list">
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">Услуги агентства</p>
+                </a>
+              </li>
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">Готовые сайты</p>
+                </a>
+              </li>
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">
+                    Доступность для людей с инвалидностью
+                  </p>
+                </a>
+              </li>
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">Работодателям</p>
+                </a>
+              </li>
+              <li class="popup-menu__item">
+                <a class="popup-menu__link" href="#">
+                  <p class="main-text">Портфолио</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="popup-menu__group">
+            <a class="popup-menu__link" href="#">
+              <h4 class="subtitle-text-four">Мы благодарим</h4>
+            </a>
+            <a class="popup-menu__link" href="#">
+              <h4 class="subtitle-text-four">Программы</h4>
+            </a>
+            <a class="popup-menu__link" href="#">
+              <h4 class="subtitle-text-four">Наставникам</h4>
+            </a>
+            <a class="popup-menu__link" href="#">
+              <h4 class="subtitle-text-four">Помочь</h4>
+            </a>
           </div>
         </div>
       </nav>
@@ -217,7 +219,7 @@
           </p>
           <div class="project__switcher">
             <button class="button__wrapper  button_color_blue button_type_slider" type="button">
-              <img class="button_img_arrow button_img_arrow_rotate"
+              <img class="button__arrow button__arrow_rotate"
                 src="./images/Icon_arrow-forward.svg" alt="Вперед" />
             </button>
             <div class="project__switcher-counter">
@@ -226,8 +228,7 @@
               <p class="big-text">6</p>
             </div>
             <button class="button__wrapper  button_color_blue button_type_slider" type="button">
-              <img class="button_img_arrow"
-                src="./images/Icon_arrow-forward.svg" alt="Вперед" />
+              <img class="button__arrow" src="./images/Icon_arrow-forward.svg" alt="Вперед" />
             </button>
           </div>
         </div>

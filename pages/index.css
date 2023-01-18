@@ -15,8 +15,9 @@
 @import url(../blocks/button/_arrow/_rotate/button_arrow_rotate.css);
 @import url(../blocks/button/_color/_blue/button_color_blue.css);
 @import url(../blocks/button/_color/_white/button_color_white.css);
-@import url(../blocks/button/_color/_light-orange/button_color_light-orange.css);
-@import url(../blocks/button/_color/_light-green/button_color_light-green.css);
+@import url(../blocks/button/_color/_orange/button_color_orange.css);
+@import url(../blocks/button/_color/_green/button_color_green.css);
+@import url(../blocks/button/_color/_purple/button_color_purple.css);
 @import url(../blocks/button/_type/_primary/button_type_primary.css);
 @import url(../blocks/button/_type/_fix-sum/button_type_fix-sum.css);
 @import url(../blocks/button/_type/_rand-sum/button_type_rand-sum.css);
@@ -25,10 +26,10 @@
 @import url(../blocks/button/_text-color/_white/button_text-color_white.css);
 @import url(../blocks/button/_text-color/_blue/button_text-color_blue.css);
 @import url(../blocks/button/_text-color/_black/button_text-color_black.css);
-@import url(../blocks/button/_border/_blue/button_border_blue.css);
-@import url(../blocks/button/_border/_black/button_color_black.css);
-@import url(../blocks/button/_img/_arrow/button_img_arrow.css);
-@import url(../blocks/button/_img/_arrow/_rotate/button_img_arrow_rotate.css);
+@import url(../blocks/button/_border-color/_blue/button_border-color_blue.css);
+@import url(../blocks/button/_border-color/_black/button_border-color_black.css);
+@import url(../blocks/button/__arrow/button__arrow.css);
+@import url(../blocks/button/__arrow/_rotate/button__arrow_rotate.css);
 
 
 
@@ -44,12 +45,13 @@
 
 
 @import url(../blocks/popup-menu/popup-menu.css);
-@import url(../blocks/popup-menu/__container/popup-menu__container.css);
 @import url(../blocks/popup-menu/__wrapper/popup-menu__wrapper.css);
 @import url(../blocks/popup-menu/__group/popup-menu__group.css);
 @import url(../blocks/popup-menu/__list/popup-menu__list.css);
 @import url(../blocks/popup-menu/__item/popup-menu__item.css);
 @import url(../blocks/popup-menu/__link/popup-menu__link.css);
+@import url(../blocks/popup-menu/__close/popup-menu__close.css);
+@import url(../blocks/popup-menu/__close-icon/popup-menu__close-icon.css);
 
 @import url(../blocks/secondary-menu/secondary-menu.css);
 @import url(../blocks/secondary-menu/__wrapper/secondary-menu__wrapper.css);
