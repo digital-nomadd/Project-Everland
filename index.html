@@ -25,6 +25,7 @@
     <section></section>
     <section></section>
     <section></section>
+    <section></section>
     <section class="support">
       <h2 class="section-title">Поддержите нас</h2>
 
@@ -101,29 +102,19 @@
           </fieldset>
           <fieldset class="support-form__payment-data">
             <legend class="support-form__section-text">Ваши данные</legend>
-
-            <div class="support-form__information-container">
-              <input class="support-form__input" type="text" id="payer-name" aria-label="имя" placeholder="Иван Иванов" name="name" required>
-              <input class="support-form__input" type="text" id="payer-mail" aria-label="почта" placeholder="myemail@example.com" name="mail" required>
-            </div>
-
-            <div class="support-form__checkbox-container">
-              <label for="offer">
-                <input class="support-form__checkbox_invisible" type="checkbox" id="offer" name="offer" required checked>
-                <span class="support-form__checkbox_visible"></span>
-                Соглашаюсь с офертой
-              </label>
-
-              <label for="personal-data">
-                <input class="support-form__checkbox_invisible" type="checkbox" id="personal-data" name="personal-data" required checked>
-                <span class="support-form__checkbox_visible"></span>
-                Соглашаюсь на обработку моих персональных данных
-              </label>
-            </div>
-
-            <div>
-              <button type="submit">Поддержать</button>
-            </div>
+            <input class="support-form__input" type="text" id="payer-name" aria-label="имя" placeholder="Иван Иванов" name="name" required>
+            <input class="support-form__input" type="text" id="payer-mail" aria-label="почта" placeholder="myemail@example.com" name="mail" required>
+          </fieldset>
+          <fieldset class="support-form__agreements">
+            <label for="offer" class="support-form__checkbox-container">Соглашаюсь с офертой
+              <input class="support-form__checkbox_invisible" type="checkbox" id="offer" name="offer" required checked>
+              <span class="support-form__checkbox_visible"></span>
+            </label>
+            <label for="personal-data" class="support-form__checkbox-container">Соглашаюсь на обработку моих персональных данных
+              <input class="support-form__checkbox_invisible" type="checkbox" id="personal-data" name="personal-data" required checked>
+              <span class="support-form__checkbox_visible"></span>
+            </label>
+            <button class="button" type="submit">Поддержать</button>
           </fieldset>
         </form>
         <div class="support__donation-container">
@@ -213,7 +204,6 @@
         </div>
       </div>
     </section>
-    <section></section>
   </main>
   <footer class="footer">
 

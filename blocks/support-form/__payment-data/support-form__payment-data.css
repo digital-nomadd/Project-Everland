@@ -3,4 +3,7 @@
   flex-direction: column;
   border: none;
   border-top: 1px solid #DADADA;
+  align-items: flex-start;
+  gap: 21px;
+  padding: 28px 0 39px;
 }

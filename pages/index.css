@@ -20,7 +20,7 @@
 @import url(../blocks/support-form/__payment-method/support-form__payment-method.css);
 @import url(../blocks/support-form/__payment-data/support-form__payment-data.css);
 @import url(../blocks/support-form/__input/support-form__input.css);
-@import url(../blocks/support-form/__information-container/support-form__information-container.css);
+@import url(../blocks/support-form/__agreements/support-form__agreements.css);
 @import url(../blocks/support-form/__checkbox-container/support-form__checkbox-container.css);
 @import url(../blocks/support-form/__checkbox/_invisible/support-form__checkbox_invisible.css);
 @import url(../blocks/support-form/__checkbox/_visible/support-form__checkbox_visible.css);

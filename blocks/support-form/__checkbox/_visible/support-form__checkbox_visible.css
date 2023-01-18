@@ -1,11 +1,7 @@
 .support-form__checkbox_visible {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
   border-radius: 10px;
   width: 25px;
   height: 25px;
