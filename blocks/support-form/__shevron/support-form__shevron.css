@@ -2,3 +2,11 @@
   align-self: center;
   margin-left: -8px;
 }
+
+@media (max-width: 660px) {
+  .support-form__shevron {
+    margin-left: 0;
+    transform: rotate(90deg);
+    justify-self: center;
+  }
+}

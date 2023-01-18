@@ -1,7 +1,13 @@
 .support-form__payment-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1px;
+  grid-template-columns: repeat(3, 1fr) 1px;
   grid-template-rows: 1fr;
   gap: 18px;
   box-sizing: border-box;
+}
+
+@media (max-width: 660px) {
+  .support-form__payment-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
