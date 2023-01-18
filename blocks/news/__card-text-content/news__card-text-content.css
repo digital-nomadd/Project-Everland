@@ -1,0 +1,13 @@
+.news__card-text-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  gap: 20px;
+}
+@media screen and (max-width: 1279px) {
+  .news__card-text-content {
+    gap: 10px;
+  }
+}

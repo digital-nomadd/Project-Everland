@@ -27,4 +27,19 @@
 @import url(../blocks/cards/__item/_color/cards__item_color_green.css);
 @import url(../blocks/cards/__item/_on-the-right/cards__item_on-the-right.css);
 
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__container/news__container.css);
+@import url(../blocks/news/__title-container/news__title-container.css);
+@import url(../blocks/news/__card/news__card.css);
+@import url(../blocks/news/__card-item/news__card-item.css);
+@import url(../blocks/news/__card-item-content/news__card-item-content.css);
+@import url(../blocks/news/__card-item/_border/news__card-item_border.css);
+@import url(../blocks/news/__card-item/_color/news__card-item_color_green.css);
+@import url(../blocks/news/__card-text-content/news__card-text-content.css);
+@import url(../blocks/news/__card-text/news__card-text.css);
+@import url(../blocks/news/__card-title/news__card-title.css);
+@import url(../blocks/news/__card-date-text/news__card-date-text.css);
+@import url(../blocks/news/__card-theme-text/news__card-theme-text.css);
+@import url(../blocks/news/__card-image/news__card-image.css);
+
 @import url(../blocks/footer/footer.css);
