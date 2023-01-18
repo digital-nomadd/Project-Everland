@@ -1,0 +1,23 @@
+.button__wrapper {
+  display: flex;
+  height: 48px;
+  border-radius: 10px;
+  flex-direction: column;
+
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .button__wrapper {
+    height: calc(44px + 4 * (100vw - 768px) / (1440 - 768));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button__wrapper {
+    height: 44px;
+  }
+}
