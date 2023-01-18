@@ -8,10 +8,9 @@
 
 
 @media (max-width: 660px) {
-    .support-form__amount-container {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
+  .support-form__amount-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 400px) {
