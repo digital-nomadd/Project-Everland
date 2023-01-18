@@ -50,3 +50,11 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__sub-container/footer__sub-container.css);
+
+@import url(../blocks/agency/agency.css);
+@import url(../blocks/cards/_agency/cards_agency.css);
+@import url(../blocks/cards/__item/_type/cards__item_type_agency.css);
+@import url(../blocks/cards/__item/_type/cards__item_type_hidden.css);
+@import url(../blocks/cards/__subtitle/cards__subtitle.css);
+@import url(../blocks/section-subtitle/_type/section-subtitle_type_agency.css);
+@import url(../blocks/cards/__image/cards__image.css);

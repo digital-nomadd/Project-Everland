@@ -1,0 +1,14 @@
+.agency {
+  display: flex;
+  flex-direction: column;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 40px 0 40px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .agency {
+    padding: 10px;
+  }
+}
