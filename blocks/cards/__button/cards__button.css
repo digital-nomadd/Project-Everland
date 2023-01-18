@@ -1,0 +1,36 @@
+.cards__button {
+  width: 165px;
+  height: 48px;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 500;
+  padding: 0;
+  border: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .cards__button {
+    width: 139px;
+    height: 44px;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 500;
+    padding: 0;
+    border: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards__button {
+    width: 128px;
+    height: 44px;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 500;
+    padding: 0;
+    border: 0;
+  }
+}

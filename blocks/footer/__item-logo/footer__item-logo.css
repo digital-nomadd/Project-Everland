@@ -1,0 +1,12 @@
+.footer__item-logo {
+  width: 263px;
+  height: 46px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 780px) {
+  .footer__item-logo {
+    width: 137px;
+    height: 24px;
+    margin-bottom: 16px;
+  }
+}

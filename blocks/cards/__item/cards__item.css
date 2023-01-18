@@ -1,0 +1,24 @@
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 380px;
+  max-height: 378px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 30px;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1279px) {
+  .cards__item {
+    max-width: 450px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards__item {
+    padding: 24px;
+  }
+}
