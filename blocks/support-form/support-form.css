@@ -1,8 +1,20 @@
 .support-form {
-  padding: 30px;
+  padding: 16px;
   background-color: white;
   border-radius: 30px;
   max-width: 691px;
   box-shadow: 0 4px 30px rgba(42, 48, 56, 0.1);
   box-sizing: border-box;
+}
+
+@media (max-width: 768px){
+  .support__donation-container {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 320px){
+  .support__donation-container {
+    padding: 19px;
+  }
 }
