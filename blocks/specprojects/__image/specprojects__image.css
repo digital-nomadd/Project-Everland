@@ -1,0 +1,13 @@
+@media screen and (max-width: 1045px) {
+  .specprojects__image {
+    max-width: 260px;
+    width: 100%;
+
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .specprojects__image {
+    display: none;
+  }
+}

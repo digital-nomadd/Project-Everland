@@ -1,0 +1,9 @@
+.digits__box {
+  margin: 0 40px;
+}
+
+@media screen and (max-width: 440px) {
+  .digits__box {
+    margin: 0 10px;
+  }
+}

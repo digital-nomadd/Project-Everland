@@ -27,6 +27,42 @@
 @import url(../blocks/cards/__item/_color/cards__item_color_green.css);
 @import url(../blocks/cards/__item/_on-the-right/cards__item_on-the-right.css);
 
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__box/advantages__box.css);
+@import url(../blocks/advantages/__accordion/advantages__accordion.css);
+@import url(../blocks/advantages/__accordion/_opened/advantages__accordion_opened.css);
+@import url(../blocks/advantages/__button/advantages__button.css);
+@import url(../blocks/advantages/__button/_pressed/advantages__button_pressed.css);
+@import url(../blocks/advantages/__column/advantages__column.css);
+@import url(../blocks/advantages/__content/advantages__content.css);
+@import url(../blocks/advantages/__header/advantages__header.css);
+@import url(../blocks/advantages/__item/advantages__item.css);
+@import url(../blocks/advantages/__title/advantages__title.css);
+
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/digits/__box/digits__box.css);
+@import url(../blocks/digits/__content/digits__content.css);
+@import url(../blocks/digits/__grid/digits__grid.css);
+@import url(../blocks/digits/__image/digits__image.css);
+@import url(../blocks/digits/__item/digits__item.css);
+@import url(../blocks/digits/__paragraph/digits__paragraph.css);
+@import url(../blocks/digits/__title-accent/digits__title-accent.css);
+@import url(../blocks/digits/__title/digits__title.css);
+
+@import url(../blocks/specprojects/specprojects.css);
+@import url(../blocks/specprojects/__box/specprojects__box.css);
+@import url(../blocks/specprojects/__button/specprojects__button.css);
+@import url(../blocks/specprojects/__buttons-sld/specprojects__buttons-sld.css);
+@import url(../blocks/specprojects/__column/specprojects__column.css);
+@import url(../blocks/specprojects/__description/specprojects__description.css);
+@import url(../blocks/specprojects/__header/specprojects__header.css);
+@import url(../blocks/specprojects/__image/specprojects__image.css);
+@import url(../blocks/specprojects/__item/specprojects__item.css);
+@import url(../blocks/specprojects/__photo-mobile/specprojects__photo-mobile.css);
+@import url(../blocks/specprojects/__photo/specprojects__photo.css);
+@import url(../blocks/specprojects/__title/specprojects__title.css);
+@import url(../blocks/specprojects/__track/specprojects__track.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);

@@ -1,0 +1,12 @@
+.specprojects__item {
+  display: flex;
+  padding: 40px;  
+  /* margin-right: 50%; */
+  /* min-width: 95%; */
+}
+
+@media screen and (max-width: 715px) {
+  .specprojects__item {
+    padding: 25px;
+  }
+}

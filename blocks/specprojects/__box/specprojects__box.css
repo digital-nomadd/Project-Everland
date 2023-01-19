@@ -1,0 +1,11 @@
+.specprojects__box {
+  background-color: #E7F0FF;
+  margin: 0 40px;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 440px) {
+  .specprojects__box {
+    margin: 0 10px;
+  }
+}

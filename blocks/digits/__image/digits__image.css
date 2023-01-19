@@ -1,0 +1,21 @@
+.digits__image {
+  max-width: 555px;
+  width: 100%;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 970px) {
+  .digits__image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .digits__image {
+    display: block;
+    max-width: 440px;
+    width: 100%;
+    margin-top: 24px;
+
+  }
+}

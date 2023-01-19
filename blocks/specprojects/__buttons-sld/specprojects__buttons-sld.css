@@ -1,0 +1,53 @@
+.specprojects__buttons-sld {
+  position: absolute;
+  top: 85%;
+  right: 55%;
+  display: flex;
+  column-gap: 8px;
+}
+
+@media screen and (max-width: 715px) {
+  .specprojects__buttons-sld {
+    right: 24px;
+    top: 24px;
+
+  }
+}
+
+.specprojects__button-sld {
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 17px 17px;
+  border-radius: 10px;
+  border: none;
+
+}
+
+.specprojects__button-sld:hover {
+  background-color: #0C4BA0;
+}
+
+.specprojects__button-sld:active {
+  background-color: #00275C;
+}
+
+@media screen and (max-width: 715px) {
+  .specprojects__button-sld {
+    width: 24px;
+    height: 24px;
+    background-size: 10px 10px;
+
+  }
+}
+
+
+.specprojects__button-sld_prev {
+  background-image: url(../../../images/arrow_forward_prev.svg);
+}
+.specprojects__button-sld_next {
+  background-image: url(../../../images/arrow_forward_next.svg);
+
+}
