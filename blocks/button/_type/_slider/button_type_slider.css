@@ -1,0 +1,14 @@
+.button_type_slider {
+  display: flex;
+  border: none;
+  width: 35px;
+  height: 35px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .button_type_slider {
+    width: 24px;
+    height: 24px;
+  }
+}
