@@ -30,6 +30,9 @@
 @import url(../blocks/button/_border-color/_black/button_border-color_black.css);
 @import url(../blocks/button/__arrow/button__arrow.css);
 @import url(../blocks/button/__arrow/_rotate/button__arrow_rotate.css);
+@import url(../blocks/button/_place/button_place_up.css);
+@import url(../blocks/button/_place/button_place_down.css);
+@import url(../blocks/button/__wrapper/_full-width/button__wrapper_full-width.css);
 
 
 
@@ -130,7 +133,6 @@
 @import url(../blocks/news/__card-theme-text/news__card-theme-text.css);
 @import url(../blocks/news/__card-image/news__card-image.css);
 
-@import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__content/footer__content.css);
