@@ -1,0 +1,21 @@
+.donation__value {
+  display: flex;
+  gap: 40px;
+}
+
+
+
+@media screen and (max-width: 1439px) {
+  .donation__value {
+   gap: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation__value {
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
