@@ -12,6 +12,7 @@
     grid-auto-rows: 0;
     overflow-y: hidden;
     margin: 32px 0;
+    row-gap: 0;
   }
 }
 @media screen and (max-width: 767px) {

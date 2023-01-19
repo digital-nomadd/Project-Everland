@@ -1,7 +1,6 @@
 .footer__social-icon {
   width: 64px;
   height: 64px;
-  border: 1px solid transparent;
 }
 @media screen and (max-width: 780px) {
   .footer__social-icon {
