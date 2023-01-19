@@ -50,8 +50,7 @@
       <nav class="popup-menu popup overlay" id="popup-menu">
         <div class="popup-menu__wrapper">
           <button class="popup-menu__close close" type="button" id="closebutton">
-            <img class="popup-menu__close-icon" src="./images/Icon_close-accordeon.svg"
-              alt="close" />
+            <img class="popup-menu__close-icon" src="./images/Icon_close-accordeon.svg" alt="close" />
           </button>
           <div class="popup-menu__group">
             <h4 class="subtitle-text-four">О проекте</h4>
@@ -219,8 +218,7 @@
           </p>
           <div class="project__switcher">
             <button class="button__wrapper  button_color_blue button_type_slider" type="button">
-              <img class="button__arrow button__arrow_rotate"
-                src="./images/Icon_arrow-forward.svg" alt="Вперед" />
+              <img class="button__arrow button__arrow_rotate" src="./images/Icon_arrow-forward.svg" alt="Вперед" />
             </button>
             <div class="project__switcher-counter">
               <p class="big-text">1</p>
@@ -235,8 +233,7 @@
 
         <div class="project__slider">
           <div class="project__images">
-            <img class="project__image project__image_first" src="./images/main-photo-1.jpg"
-              alt="Мужчина на стуле" />
+            <img class="project__image project__image_first" src="./images/main-photo-1.jpg" alt="Мужчина на стуле" />
             <img class="project__image project__image_second" src="./images/main-photo-2.jpg"
               alt="Мужчина у флипчарта" />
           </div>
@@ -388,11 +385,17 @@
     <section></section>
     <section></section>
     <section></section>
-    <section class="news">
+    <section id="news" class="news">
       <div class="news__container">
         <div class="news__title-container">
           <h2 class="section-title">Новости</h2>
-          <button class="button">Все новости</button>
+          <div class="button button_place_up">
+            <div class="button__wrapper button_color_white button_type_primary button_border-color_blue">
+              <a href="#" class="button_link">
+                <span class="button_text button_text-color_blue">Все новости</span>
+              </a>
+            </div>
+          </div>
         </div>
         <div class="news__card">
           <div class="news__card-item news__card-item_border">
@@ -437,7 +440,14 @@
             </div>
           </div>
         </div>
-        <button>Все новости</button>
+        <div class="button button_place_down">
+          <div
+            class="button__wrapper button__wrapper_full-width button_color_white button_type_primary button_border-color_blue">
+            <a href="#" class="button_link">
+              <span class="button_text button_text-color_blue">Все новости</span>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
     <section></section>
