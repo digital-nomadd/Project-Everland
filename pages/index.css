@@ -121,7 +121,7 @@
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__container/news__container.css);
 @import url(../blocks/news/__title-container/news__title-container.css);
-@import url(../blocks/news/__card/news__card.css);
+@import url(../blocks/news/__cards/news__cards.css);
 @import url(../blocks/news/__card-item/news__card-item.css);
 @import url(../blocks/news/__card-item-content/news__card-item-content.css);
 @import url(../blocks/news/__card-item/_border/news__card-item_border.css);

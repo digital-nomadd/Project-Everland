@@ -2,7 +2,6 @@
   width: 64px;
   height: 64px;
   border: 1px solid transparent;
-  border-radius: 10px;
 }
 @media screen and (max-width: 780px) {
   .footer__social-icon {
