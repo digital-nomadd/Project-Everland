@@ -105,6 +105,7 @@
 @import url(../blocks/cards/__item/_color/cards__item_color_green.css);
 @import url(../blocks/cards/__item/_on-the-right/cards__item_on-the-right.css);
 
+
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 
@@ -148,6 +149,7 @@
 @import url(../blocks/specprojects/__photo/specprojects__photo.css);
 @import url(../blocks/specprojects/__title/specprojects__title.css);
 @import url(../blocks/specprojects/__track/specprojects__track.css);
+
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/footer.css);
