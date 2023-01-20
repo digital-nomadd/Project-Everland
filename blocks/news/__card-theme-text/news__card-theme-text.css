@@ -1,0 +1,17 @@
+.news__card-theme-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 1279px) {
+  .news__card-theme-text {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .news__card-theme-text {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,22 @@
+.button_type_link {
+  width: 165px;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .button_type_link {
+    width: calc(139px + 26*(100vw - 768px)/(1440 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button_type_link {
+    width: calc(128px + 11*(100vw - 320px)/(768 - 320));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .button_type_link {
+    width: 128px;
+  }
+}

@@ -1,0 +1,30 @@
+.project__image_second {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+width: 352px;
+height: 315px;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .project__image_second {
+    width: calc(184px + 168*(100vw - 768px)/(1440 - 768));
+    height: calc(152px + 163*(100vw - 768px)/(1440 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project__image_second {
+    width: calc(190px - 6*(100vw - 320px)/(768 - 320));
+    height: calc(144px + 8*(100vw - 768px)/(1440 - 768));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .project__image_second {
+    width: 190px;
+    height: 144px;
+  }
+}

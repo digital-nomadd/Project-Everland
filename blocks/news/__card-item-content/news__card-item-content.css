@@ -1,0 +1,16 @@
+.news__card-item-content {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  gap: 30px;
+}
+@media screen and (max-width: 1279px) {
+  .news__card-item-content {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .news__card-item-content {
+    margin: 24px;
+  }
+}

@@ -1,0 +1,15 @@
+.secondary-menu__wrapper {
+  display: flex;
+  width: 1360px;
+  height: 50px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .secondary-menu__wrapper {
+    width: calc(688px + 672*(100vw - 768px)/(1440 - 768));
+  }
+}

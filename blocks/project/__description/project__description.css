@@ -1,0 +1,8 @@
+.project__description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
