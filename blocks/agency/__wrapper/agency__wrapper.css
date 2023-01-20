@@ -1,0 +1,21 @@
+.agency__wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 40px 100px 40px;
+  background-color: #F5F5F5;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .agency__wrapper {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency__wrapper {
+    padding: 10px 10px 32px 10px;
+  }
+}
