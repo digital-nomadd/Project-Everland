@@ -1,7 +1,7 @@
 .footer__menu-link {
   font-weight: 400;
   font-size: 20px;
-  line-height: 130%;
+  line-height: 120%;
   color: #333333;
   text-decoration: none;
   margin-bottom: 10px;
@@ -9,7 +9,6 @@
 @media screen and (max-width: 780px) {
   .footer__menu-link {
     font-size: 16px;
-    line-height: 120%;
   }
 }
 @media screen and (max-width: 550px) {
