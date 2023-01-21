@@ -1,0 +1,15 @@
+.popup-menu__tablet {
+  display: none;
+}
+
+@media screen and (max-width: 1439px) {
+  .popup-menu__tablet {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup-menu__tablet {
+    display: none;
+  }
+}

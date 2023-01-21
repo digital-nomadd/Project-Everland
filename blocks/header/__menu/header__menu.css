@@ -5,7 +5,5 @@
   max-width: 95px;
   max-height: 26px;
   gap: 12px;
-  justify-content: space-between;
-  justify-self: center;
   align-items: center;
 }
