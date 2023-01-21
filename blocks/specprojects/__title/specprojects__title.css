@@ -5,13 +5,13 @@
   line-height: 120%;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1279px) {
   .specprojects__title {
     font-size: 36px;
   }
 }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 767px) {
   .specprojects__title {
     font-size: 26px;
   }
