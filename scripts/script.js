@@ -8,22 +8,24 @@ menuIcon.addEventListener("click", function(e) {
 
 // блок Advantages (главное в работе)
 
-const btnsAccordions = document.querySelectorAll('.advantages__button');
+const btnsAccordions = document.querySelectorAll('.button__accordion');
 
 btnsAccordions.forEach(btnAccordion => {
   if (!btnAccordion.dataset.target) {
-    console.error(`advantages__button: has not set target`, btnAccordion);
+    console.error(`button__accordion: has not set target`, btnAccordion);
     return;
   }
   const accordion = document.getElementById(btnAccordion.dataset.target);
   if (!accordion) {
-    console.error(`advantages__button: target not found`, btnAccordion);
+    console.error(`button__accordion: target not found`, btnAccordion);
     return;
   }
+
+  const colorButton = document.getElementById(btnAccordion.dataset.toggle);
   
   btnAccordion.addEventListener('click', () => {
-    accordion.classList.toggle('advantages__accordion_opened');   
-    
+    accordion.classList.toggle('advantages__accordion_opened');
+    colorButton.classList.toggle('button__accordion_pressed');    
   });
 
 });

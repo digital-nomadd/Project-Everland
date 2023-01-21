@@ -18,6 +18,7 @@
 @import url(../blocks/button/_color/_orange/button_color_orange.css);
 @import url(../blocks/button/_color/_green/button_color_green.css);
 @import url(../blocks/button/_color/_purple/button_color_purple.css);
+@import url(../blocks/button/_color/_black/button_color_black.css);
 @import url(../blocks/button/_type/_primary/button_type_primary.css);
 @import url(../blocks/button/_type/_fix-sum/button_type_fix-sum.css);
 @import url(../blocks/button/_type/_rand-sum/button_type_rand-sum.css);
@@ -30,6 +31,8 @@
 @import url(../blocks/button/_border-color/_black/button_border-color_black.css);
 @import url(../blocks/button/__arrow/button__arrow.css);
 @import url(../blocks/button/__arrow/_rotate/button__arrow_rotate.css);
+@import url(../blocks/button/__accordion/button__accordion.css);
+@import url(../blocks/button/__accordion/_pressed/button__accordion_pressed.css);
 
 
 
@@ -118,8 +121,6 @@
 @import url(../blocks/advantages/__box/advantages__box.css);
 @import url(../blocks/advantages/__accordion/advantages__accordion.css);
 @import url(../blocks/advantages/__accordion/_opened/advantages__accordion_opened.css);
-@import url(../blocks/advantages/__button/advantages__button.css);
-@import url(../blocks/advantages/__button/_pressed/advantages__button_pressed.css);
 @import url(../blocks/advantages/__column/advantages__column.css);
 @import url(../blocks/advantages/__content/advantages__content.css);
 @import url(../blocks/advantages/__header/advantages__header.css);
@@ -138,8 +139,7 @@
 
 @import url(../blocks/specprojects/specprojects.css);
 @import url(../blocks/specprojects/__box/specprojects__box.css);
-@import url(../blocks/specprojects/__button/specprojects__button.css);
-@import url(../blocks/specprojects/__buttons-sld/specprojects__buttons-sld.css);
+@import url(../blocks/specprojects/__buttons-box/specprojects__buttons-box.css);
 @import url(../blocks/specprojects/__column/specprojects__column.css);
 @import url(../blocks/specprojects/__description/specprojects__description.css);
 @import url(../blocks/specprojects/__header/specprojects__header.css);
