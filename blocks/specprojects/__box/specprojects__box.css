@@ -3,6 +3,8 @@
   border-radius: 30px;
   margin: 0 30px;
   overflow: hidden;
+  /* max-width: 1360px;
+  width: 100%; */
 }
 
 @media screen and (max-width: 550px) {
