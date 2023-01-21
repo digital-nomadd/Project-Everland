@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .histories__hero-story-item_reverse {
+    flex-direction: column-reverse;
+  }
+}

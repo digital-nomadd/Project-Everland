@@ -1,0 +1,20 @@
+.histories__text-button {
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: 400;
+  margin: 0;
+  color: #333;
+}
+
+@media screen and (max-width: 1279px) {
+  .histories__text-button {
+    font-size: 16px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .histories__text-button {
+    font-size: 12px;
+  }
+}
