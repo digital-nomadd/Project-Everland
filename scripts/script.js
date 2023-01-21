@@ -70,3 +70,23 @@ function rollSlider() {
     imageSecondContainer.style.transform = 'translate(-' + (count * widthOfSecond - widthOfSecond) + 'px)';
     current.textContent = count
 }
+
+// раскрывающееся подменю
+
+const menuArrows = document.querySelectorAll('.popup-menu__arrow');
+const menuLists = document.querySelectorAll('.popup-menu__list')
+
+for (let i = 0; i < menuArrows.length; i ++) {
+  const menuArrow = menuArrows[i];
+  const menuList = menuLists[i]
+
+  console.log('menuArrow', menuArrow)
+  console.log('menuList', menuList)
+  menuArrow.addEventListener('click', function() {
+  menuList.classList.toggle('popup-menu__list_activ');
+  menuArrow.classList.toggle('popup-menu__arrow_rotate');
+  })
+}
+
+
+console.log(menuArrows)

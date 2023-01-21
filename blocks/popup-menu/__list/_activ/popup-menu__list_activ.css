@@ -1,5 +1,7 @@
-.popup-menu__list_activ {
-  display: flex;
-  opacity: 1;
-  visibility: visible;
+@media screen and (max-width: 767px) {
+  .popup-menu__list_activ {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+  }
 }
