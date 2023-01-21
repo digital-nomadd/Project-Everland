@@ -1,10 +1,10 @@
 .digits__image {
-  max-width: 555px;
-  width: 100%;
+  
+  width: 38%;
   border-radius: 30px;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1130px) {
   .digits__image {
     display: none;
   }

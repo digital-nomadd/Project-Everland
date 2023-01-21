@@ -18,5 +18,11 @@
 @media screen and (max-width: 440px) {
   .advantages__content{
     row-gap: 16px;
+    margin: 24px 0;
+    
   }
 }
+
+/* div {
+  outline: 1px solid red;
+} */

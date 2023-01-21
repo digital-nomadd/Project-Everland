@@ -1,6 +1,7 @@
 .advantages__item {
   display: flex;
   flex-direction:column;
+  flex-grow: 1;
   border: 1px solid #DADADA;
   border-radius: 30px;
   padding: 29.5px 20px;
