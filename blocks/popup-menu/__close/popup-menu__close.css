@@ -1,16 +1,16 @@
 .popup-menu__close {
-  display: flex;
-  position: absolute;
-  right: -39px;
-  top: -39px;
   margin: 0;
   padding: 0;
   width: 32px;
+  height: 32px;
   color: white;
   background: none;
   z-index: 99;
   border: none;
   opacity: 1;
+  background-image: url('../../../images/Icon_close-menu.svg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 

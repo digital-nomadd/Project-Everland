@@ -1,10 +1,8 @@
 .project__image_second {
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 4;
-width: 352px;
-height: 315px;
+  display: flex;
+  width: 352px;
+  height: 315px;
+  transition: all ease 0.7s;
 }
 
 
