@@ -1,0 +1,17 @@
+.specprojects__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 700px;
+  width: 100%;
+
+}
+
+@media screen and (max-width: 767px) {
+  .specprojects__column {
+    
+
+    row-gap: 20px;
+  }
+}
