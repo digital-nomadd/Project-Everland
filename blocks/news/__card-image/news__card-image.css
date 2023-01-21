@@ -1,0 +1,14 @@
+.news__card-image {
+  max-width: 380px;
+  min-height: 300px;
+  width: 100%;
+  border-radius: 30px;
+  object-fit: cover;
+}
+@media screen and (max-width: 1279px) {
+  .news__card-image {
+    max-width: 275px;
+    min-height: 215px;
+    border-radius: 20px;
+  }
+}
