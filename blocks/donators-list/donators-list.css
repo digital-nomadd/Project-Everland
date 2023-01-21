@@ -1,8 +1,7 @@
 .donators-list {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
   gap: 40px;
   list-style: none;
+  max-width: 396px;
 }

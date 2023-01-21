@@ -1,6 +1,5 @@
 .support-form__radio-button_visible {
   display: flex;
-  cursor: pointer;
   user-select: none;
   background: #FFFFFF;
   border: 1px solid #DADADA;

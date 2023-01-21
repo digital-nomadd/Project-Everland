@@ -1,17 +1,18 @@
 .support {
   background-color: #E7F0FF;
-  width: 100%;
+  max-width: 1440px;
   display: flex;
   justify-content: flex-end;
   box-sizing: border-box;
   flex-direction: column;
   align-items: flex-start;
-  padding: 100px 104px 100px 40px;
+  padding: 100px 40px 100px 40px;
   gap: 10px;
 }
 
 @media (max-width: 768px) {
   .support {
+    max-width: 768px;
     padding: 44px 40px 56px;
   }
 
@@ -19,6 +20,7 @@
 
 @media (max-width: 320px) {
   .support {
+    max-width: 320px;
     padding: 31px 10px 32px;
   }
 }
