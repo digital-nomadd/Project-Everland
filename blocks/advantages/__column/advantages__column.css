@@ -1,8 +1,0 @@
-.advantages__column {
-  display: flex;
-  flex-direction: column;
-  row-gap: 20px;
-  max-width: 670px;
-  width: 100%;
-
-}

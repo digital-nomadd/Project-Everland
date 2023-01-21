@@ -5,10 +5,12 @@
   border: 1px solid #DADADA;
   border-radius: 30px;
   padding: 29.5px 20px;
+  list-style-type: none;
+  max-width: 670px;
 
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 768px) {
   .advantages__item{
     padding: 20.5px 20px;
   }

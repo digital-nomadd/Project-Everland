@@ -1,16 +1,19 @@
 .advantages__content {
-  display: flex;
-  column-gap: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, 670px));
+  max-width: 1360px;
+  width: 100%;
+  gap: 20px;
+  padding: 0;
   margin: 50px 0;
 
 
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 768px) {
   .advantages__content{
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
+    grid-template-columns: repeat(1, minmax(min-content, 768px));
 
   }
 }
@@ -22,7 +25,3 @@
     
   }
 }
-
-/* div {
-  outline: 1px solid red;
-} */
