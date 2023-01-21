@@ -1,10 +1,8 @@
 .project__image_first {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: 5;
+  display: flex;
   width: 392px;
   height: 407px;
+  transition: all ease 0.7s;
 }
 
 

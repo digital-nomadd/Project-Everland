@@ -1,0 +1,16 @@
+.popup-menu__main {
+  display: flex;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .popup-menu__main {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup-menu__main {
+    display: flex;
+  }
+}

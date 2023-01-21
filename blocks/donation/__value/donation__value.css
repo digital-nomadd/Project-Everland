@@ -1,4 +1,5 @@
 .donation__value {
+  width: 100%;
   display: flex;
   gap: 40px;
 }
@@ -15,7 +16,17 @@
   .donation__value {
     gap: 16px;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: space-around;
+    width: calc(260px + 80*(100vw - 320px)/(768 - 320));
+    margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .donation__value {
+    width: 260px;
+  }
+}
+
+
 

@@ -1,0 +1,13 @@
+.popup-menu__arrow {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .popup-menu__arrow {
+    display: flex;
+    cursor: pointer;
+    width: 12px;
+    height: 7px;
+  }
+}
+
