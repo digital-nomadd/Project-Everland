@@ -4,4 +4,7 @@
   gap: 40px;
   list-style: none;
   max-width: 396px;
+  background: linear-gradient(180deg, #333333 40%, #E7F0FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

@@ -25,7 +25,7 @@
 @import url(../blocks/support-form/__payment-button/support-form__payment-button.css);
 @import url(../blocks/support-form/__payment-container/support-form__payment-container.css);
 @import url(../blocks/support-form/__shevron/support-form__shevron.css);
-@import url(../blocks/support-form/_radio-button/_visible/support-form__radio-button_visible.css);
+@import url(../blocks/support-form/_radio-button/_visible/support-form_radio-button_visible.css);
 @import url(../blocks/support-form/_radio-button/_invisible/support-form_radio-button_invisible.css);
 @import url(../blocks/support-form/_checkbox/_visible/support-form__checkbox_visible.css);
 @import url(../blocks/support-form/_checkbox/_invisible/support-form__checkbox_invisible.css);
