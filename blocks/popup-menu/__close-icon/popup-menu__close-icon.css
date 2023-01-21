@@ -1,13 +1,6 @@
 .popup-menu__close-icon {
   margin: 0;
   padding: 0;
-  width: 32px;
-  height: 32px;
-}
-
-@media screen and (max-width: 767px) {
-  .popup-menu__close-icon {
-    width: calc(20px + 12*(100vw - 320px)/(1280 - 320));
-    height: calc(20px + 12*(100vw - 320px)/(1280 - 320));
-  }
+  width: 17px;
+  height: 17px;
 }

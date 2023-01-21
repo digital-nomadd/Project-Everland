@@ -1,8 +1,12 @@
 .button_type_slider {
-  display: flex;
-  border: none;
+  background-image: url('../../../../images/Icon_arrow-forward.svg');
+  background-repeat: no-repeat;
+  background-size: 17px;
+  background-position: center;
   width: 35px;
   height: 35px;
+  border: 0;
+  padding: 0;
 }
 
 

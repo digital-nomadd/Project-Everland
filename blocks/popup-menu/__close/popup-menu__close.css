@@ -8,6 +8,9 @@
   z-index: 99;
   border: none;
   opacity: 1;
+  background-image: url('../../../images/Icon_close-menu.svg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 

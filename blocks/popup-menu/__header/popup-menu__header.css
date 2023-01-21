@@ -1,11 +1,6 @@
 .popup-menu__header {
-  display: none;
-}
-
-@media screen and (max-width: 1439px) {
-  .popup-menu__header {
-    display: flex;
+  display: flex;
     position: relative;
     box-shadow: none;
-  }
 }
+

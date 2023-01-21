@@ -3,8 +3,11 @@
   padding: 0;
   margin: 0;
   width: 25px;
-  height: 20px;
+  height: 25px;
   background-color: white;
   border: none;
   cursor: pointer;
+  background-image: url('../../../images/Icon_menu.svg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
