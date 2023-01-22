@@ -1,0 +1,48 @@
+.button_type_link {
+  background-color: #fff;
+}
+
+.button_type_link:hover:not([disabled]) {
+  background-color: #fff;
+}
+
+.button_type_link:active:not([disabled]) {
+  background-color: #fff;
+}
+
+.button_type_link[disabled] {
+  background-color: #fff;
+  border: 0;
+}
+
+.button_type_link .button__text {
+  color: #333;
+}
+
+.button_type_link:hover:not([disabled]) .button__text {
+  color: #00275c;
+}
+
+.button_type_link:active:not([disabled]) .button__text {
+  color: #0c4ba0;
+}
+
+.button_type_link[disabled] .button__text {
+  color: #c4c4c4;
+}
+
+.button_type_link:hover:not([disabled]) .button__arrow {
+  background-image: url('../../../images/button_arrow-hover.svg');
+}
+
+.button_type_link:active:not([disabled]) .button__arrow {
+  background-image: url('../../../images/button_arrow-active.svg');
+}
+
+.button_type_link[disabled] .button__arrow {
+  background-image: url('../../../images/button_arrow-disabled.svg');
+}
+
+.button_type_link[disabled] .button__wrapper {
+  padding: 12px 16px;
+}

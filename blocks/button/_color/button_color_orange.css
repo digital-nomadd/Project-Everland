@@ -1,0 +1,52 @@
+.button_color_orange {
+  background-color: #FEEFEA;
+}
+
+.button_color_orange:hover:not([disabled]) {
+  background-color: #E98509;
+}
+
+.button_color_orange:active:not([disabled]) {
+  background-color: #864A00;
+}
+
+.button_color_orange[disabled] {
+  background-color: #C4C4C4;
+  border: 0;
+}
+
+.button_color_orange .button__text {
+  color: #E98509;
+}
+
+.button_color_orange:hover:not([disabled]) .button__text {
+  color: #fff;
+}
+
+.button_color_orange:active:not([disabled]) .button__text {
+  color: #fff;
+}
+
+.button_color_orange[disabled] .button__text {
+  color: rgba(38, 38, 38, 0.5);
+}
+
+.button_color_orange .button__arrow {
+  background-image: url('../../../images/button_arrow_orange.svg');
+}
+
+.button_color_orange:hover:not([disabled]) .button__arrow {
+  background-image: url('../../../images/button_arrow_white.svg');
+}
+
+.button_color_orange:active:not([disabled]) .button__arrow {
+  background-image: url('../../../images/button_arrow_white.svg');
+}
+
+.button_color_orange[disabled] .button__arrow {
+  background-image: url('../../../images/button_arrow_grey.svg');
+}
+
+.button_color_orange[disabled] .button__wrapper {
+  padding: 12px 16px;
+}
