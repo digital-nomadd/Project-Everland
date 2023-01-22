@@ -22,10 +22,11 @@
   background-color: #C4C4C4;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .button_type_slider {
     background-size: 10px;
     min-width: 24px;
     min-height: 24px;
+    border-radius: 6px;
   }
 }
