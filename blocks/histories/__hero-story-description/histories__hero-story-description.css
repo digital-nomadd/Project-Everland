@@ -1,0 +1,11 @@
+.histories__hero-story-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .histories__hero-story-description {
+    gap: 16px;
+  }
+}
