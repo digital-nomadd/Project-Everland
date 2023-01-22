@@ -56,7 +56,7 @@ next.addEventListener('click', function() {
 prev.addEventListener('click', function() {
   count --;
   if (count < 1) {
-    count = 1 
+    count = 1
   }
   rollSlider()
 })
@@ -101,10 +101,10 @@ btnsAccordions.forEach(btnAccordion => {
   }
 
   const colorButton = document.getElementById(btnAccordion.dataset.toggle);
-  
+
   btnAccordion.addEventListener('click', () => {
     accordion.classList.toggle('advantages__accordion_opened');
-    colorButton.classList.toggle('button__accordion_pressed');    
+    colorButton.classList.toggle('button__accordion_pressed');
   });
 
 });
@@ -114,7 +114,7 @@ btnsAccordions.forEach(btnAccordion => {
 const cards = document.querySelectorAll('.specprojects__item');
 const sliderLine = document.querySelector('.specprojects__track');
 
-let count = 0;
+let counter = 0;
 let width;
 
 function init() {
@@ -133,7 +133,7 @@ init();
 window.addEventListener('resize', init);
 
 function rollSlider() {
-  sliderLine.style.transform = 'translate(-' + count * width + 'px)';
+  sliderLine.style.transform = 'translate(-' + counter * width + 'px)';
 
 }
 
@@ -141,17 +141,17 @@ const btnNext = document.querySelector('.specprojects__button-sld_next');
 const btnPrev = document.querySelector('.specprojects__button-sld_prev');
 
 btnNext.addEventListener('click', () => {
-  count++;
-  if (count >= cards.length) {
-    count = 0;
+  counter++;
+  if (counter >= cards.length) {
+    counter = 0;
   }
   rollSlider();
 })
 
 btnPrev.addEventListener('click', () => {
-  count--;
-    if (count < 0) {
-        count = cards.length - 1;
+  counter--;
+    if (counter < 0) {
+        counter = cards.length - 1;
     }
     rollSlider();
 })
