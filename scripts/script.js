@@ -87,16 +87,16 @@ for (let i = 0; i < menuArrows.length; i ++) {
 
 // блок Advantages (главное в работе)
 
-const btnsAccordions = document.querySelectorAll('.button__accordion');
+const btnsAccordions = document.querySelectorAll('.button_type_accordeon');
 
 btnsAccordions.forEach(btnAccordion => {
   if (!btnAccordion.dataset.target) {
-    console.error(`button__accordion: has not set target`, btnAccordion);
+    console.error(`button_type_accordeon: has not set target`, btnAccordion);
     return;
   }
   const accordion = document.getElementById(btnAccordion.dataset.target);
   if (!accordion) {
-    console.error(`button__accordion: target not found`, btnAccordion);
+    console.error(`button_type_accordeon: target not found`, btnAccordion);
     return;
   }
 
@@ -104,7 +104,7 @@ btnsAccordions.forEach(btnAccordion => {
 
   btnAccordion.addEventListener('click', () => {
     accordion.classList.toggle('advantages__accordion_opened');
-    colorButton.classList.toggle('button__accordion_pressed');
+    colorButton.classList.toggle('button_pressed');
   });
 
 });
@@ -137,8 +137,8 @@ function rollSlider() {
 
 }
 
-const btnNext = document.querySelector('.specprojects__button-sld_next');
-const btnPrev = document.querySelector('.specprojects__button-sld_prev');
+const btnNext = document.querySelector('#sp-next');
+const btnPrev = document.querySelector('#sp-prev');
 
 btnNext.addEventListener('click', () => {
   counter++;
