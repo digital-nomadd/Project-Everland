@@ -1,0 +1,24 @@
+.histories__hero-cards {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 1360px;
+}
+
+@media screen and (max-width: 1279px) {
+  .histories__hero-cards {
+    margin: 8px 0 40px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .histories__hero-cards {
+    margin: 0px 0 24px 0;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}

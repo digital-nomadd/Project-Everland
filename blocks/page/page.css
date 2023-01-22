@@ -5,6 +5,7 @@
   margin: 0 auto;
   background-color: #fff;
   font-family: 'Raleway', Arial, sans-serif;
+  font-feature-settings: 'pnum' on, 'lnum' on;
   color: #333;
   min-width: 320px;
 }

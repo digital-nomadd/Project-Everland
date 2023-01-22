@@ -1,0 +1,22 @@
+.popup-menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .popup-menu__list {
+    gap: 16px
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup-menu__list {
+    display: none;
+    gap: 10px;
+    visibility: hidden;
+    opacity: 0;
+  }
+}

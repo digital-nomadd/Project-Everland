@@ -1,0 +1,12 @@
+.project__switcher {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .project__switcher {
+    align-self: center;
+  }
+}

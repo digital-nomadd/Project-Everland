@@ -1,0 +1,16 @@
+.footer__icon-copyright {
+  width: 160px;
+  height: 30px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 780px) {
+  .footer__icon-copyright {
+    width: 115px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .footer__icon-copyright {
+    margin-bottom: 10px;
+  }
+}

@@ -4,17 +4,19 @@
   font-weight: 700;
   margin: 0;
   padding-bottom: 50px;
+  margin: 100px 0 0 0;
 }
 
-@media screen and (max-width: 768px){
-  .section-title {
+@media screen and (max-width: 1279px){
+.section-title {
     font-size: 36px;
-    padding-bottom: 24px;
+    margin: 50px 0 0 0;
   }
 }
 
-@media screen and (max-width: 320px){
-  .section-title {
+@media screen and (max-width: 767px){
+.section-title {
     font-size: 26px;
+    margin: 32px 0 0 0;
   }
 }

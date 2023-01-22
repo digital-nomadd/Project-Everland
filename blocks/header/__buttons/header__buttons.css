@@ -1,0 +1,12 @@
+.header__buttons {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__buttons {
+    display: none;
+  }
+}

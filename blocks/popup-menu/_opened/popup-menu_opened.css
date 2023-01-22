@@ -1,0 +1,6 @@
+.popup-menu_opened {
+  display: flex;
+  opacity: 1;
+  visibility: visible;
+  justify-content: flex-start;
+}

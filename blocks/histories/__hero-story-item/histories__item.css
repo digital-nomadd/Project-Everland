@@ -1,0 +1,24 @@
+.histories__hero-story-item {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  padding: 51px 0;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .histories__hero-story-item {
+    gap: 32px;
+    margin-bottom: 32px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .histories__hero-story-item {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+}

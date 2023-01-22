@@ -1,0 +1,17 @@
+.section-subtitle_type_agency {
+  margin-top: 20px;
+  max-width: 955px;
+}
+
+@media screen and (max-width: 1279px){
+  .section-subtitle_type_agency {
+      margin-top: 16px;
+      max-width: 504px;
+    }
+  }
+
+@media screen and (max-width: 767px){
+  .section-subtitle_type_agency {
+      margin-top: 10px;
+    }
+  }
