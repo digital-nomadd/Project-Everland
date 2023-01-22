@@ -18,20 +18,14 @@
 }
 
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1365px) {
   .support-button {
-    width: calc(134px + 46*(100vw - 768px)/(1440 - 768));
+    width: 200px
   }
 }
 
 @media screen and (max-width: 767px) {
   .support-button {
-    width: calc(260px - 126*(100vw - 320px)/(768 - 320));
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .support-button {
-    width: 260px;
+    width: 100%;
   }
 }

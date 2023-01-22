@@ -6,13 +6,13 @@
   gap: 12px 5px;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 1024px) {
   .support-form__amount-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 767px) {
     .support-form__amount-container {
         grid-template-columns: repeat(1, 1fr);
     }

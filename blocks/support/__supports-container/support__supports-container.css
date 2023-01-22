@@ -1,20 +1,20 @@
 .support__supports-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   gap: 117px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1308px) {
   .support__supports-container {
     gap: 50px;
   }
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .support__supports-container {
     gap: 32px;
   }

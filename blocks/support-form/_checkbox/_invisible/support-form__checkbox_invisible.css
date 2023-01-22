@@ -6,6 +6,6 @@
   width: 0;
 }
 
-.support-form__checkbox_invisible:checked + span {
+.support-form__checkbox_invisible:checked + .support-form__checkbox_visible{
   background: #DADADA url(../../../../images/Icon_check.svg) no-repeat center;
 }

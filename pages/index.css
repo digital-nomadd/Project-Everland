@@ -6,6 +6,7 @@
 @import url(../blocks/header/header.css);
 
 @import url(../blocks/content/content.css);
+@import url(../blocks/support/__wrapper/support__wrapper.css);
 
 @import url(../blocks/main-text/main-text.css);
 @import url(../blocks/small-text/small-text.css);
@@ -29,6 +30,7 @@
 @import url(../blocks/support-form/_radio-button/_invisible/support-form_radio-button_invisible.css);
 @import url(../blocks/support-form/_checkbox/_visible/support-form__checkbox_visible.css);
 @import url(../blocks/support-form/_checkbox/_invisible/support-form__checkbox_invisible.css);
+@import url(../blocks/support-form/__link/support-form__link.css);
 @import url(../blocks/support-form/__icon-question/support-form__icon-question.css);
 @import url(../blocks/support-form/__another-sum-button/support-form__another-sum-button.css);
 

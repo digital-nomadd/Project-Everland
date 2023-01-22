@@ -3,7 +3,7 @@
   margin-left: -8px;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 767px) {
   .support-form__shevron {
     margin-left: 0;
     transform: rotate(90deg);

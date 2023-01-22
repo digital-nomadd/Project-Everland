@@ -1,10 +1,10 @@
-@media (max-width: 660px) {
+@media (max-width: 1024px) {
   .support-form__another-sum-button {
     grid-column: -3/-1;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 767px) {
   .support-form__another-sum-button {
     grid-column: 1;
   }
