@@ -3,7 +3,7 @@
   flex-direction: column;
   max-width: 1360px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 40px 100px 40px;
 }
 @media screen and (max-width: 767px) {
   .histories__container {
