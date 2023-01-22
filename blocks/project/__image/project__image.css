@@ -1,7 +1,5 @@
 .project__image {
-  display: flex;
   object-fit: cover;
   border: none;
-  border-radius: 10px;
 }
 
