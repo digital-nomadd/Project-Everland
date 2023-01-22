@@ -5,6 +5,13 @@
   margin: 0 auto;
   padding: 0 40px 100px 40px;
 }
+
+@media screen and (max-width: 1279px) {
+  .histories__container {
+    padding-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .histories__container {
     padding: 0 10px;
