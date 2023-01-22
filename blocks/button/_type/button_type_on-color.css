@@ -1,0 +1,33 @@
+.button_type_on-color {
+  background-color: #fff;
+  border: 1px solid #333;
+}
+
+.button_type_on-color:hover:not([disabled]) {
+  border: 2px solid #333;
+  background-color: #fff;
+}
+
+.button_type_on-color:active:not([disabled]) {
+  background-color: #333;
+}
+
+.button_type_on-color .button__text {
+  color: #333;
+}
+
+.button_type_on-color:hover:not([disabled]) .button__text {
+  color: #333;
+}
+
+.button_type_on-color:active:not([disabled]) .button__text {
+  color: #fff;
+}
+
+.button_type_on-color .button__wrapper {
+  padding: 11px 15px;
+}
+
+.button_type_on-color:hover:not([disabled]) .button__wrapper {
+  padding: 10px 14px;
+}

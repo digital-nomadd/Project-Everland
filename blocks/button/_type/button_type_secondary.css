@@ -1,0 +1,29 @@
+.button_type_secondary {
+  background-color: #fff;
+  border: 1px solid #0c4ba0;
+}
+
+.button_type_secondary:hover:not([disabled]) {
+  border-color: #00275c;
+  background-color: #fff;
+}
+
+.button_type_secondary:active:not([disabled]) {
+  background-color: #00275c;
+}
+
+.button_type_secondary .button__text {
+  color: #0c4ba0;
+}
+
+.button_type_secondary:hover:not([disabled]) .button__text {
+  color: #00275c;
+}
+
+.button_type_secondary:active:not([disabled]) .button__text {
+  color: #fff;
+}
+
+.button_type_secondary .button__wrapper {
+  padding: 11px 15px;
+}
