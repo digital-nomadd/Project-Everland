@@ -1,3 +1,5 @@
-.button__wrapper_full-width {
-  width: 100%;
+@media screen and (max-width: 767px) {
+  .button__wrapper_full-width {
+    width: 100%;
+  }
 }

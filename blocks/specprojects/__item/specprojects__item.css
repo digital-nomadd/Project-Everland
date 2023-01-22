@@ -1,0 +1,27 @@
+.specprojects__item {
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+  max-width: 1360px;
+  column-gap: 140px;
+
+}
+
+
+@media screen and (max-width: 1280px) {
+  .specprojects__item {
+    column-gap: 30px;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .specprojects__item {
+    margin: 25px;
+    column-gap: 0;
+
+
+
+  }
+}
+

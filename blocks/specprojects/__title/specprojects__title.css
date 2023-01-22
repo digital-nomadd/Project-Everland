@@ -1,0 +1,18 @@
+.specprojects__title {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+@media screen and (max-width: 1279px) {
+  .specprojects__title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .specprojects__title {
+    font-size: 26px;
+  }
+}
