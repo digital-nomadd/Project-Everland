@@ -1,0 +1,22 @@
+.support__donation-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  gap: 75px;
+  max-width: 488px;
+}
+
+@media (max-width: 1375px){
+  .support__donation-container {
+    max-width: 531px;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 320px){
+  .support__donation-container {
+    max-width: 300px;
+    gap: 36px;
+  }
+}

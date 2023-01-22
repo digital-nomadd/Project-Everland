@@ -7,9 +7,10 @@
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/big-text/big-text.css);
+@import url(../blocks/main-text/main-text.css);
+@import url(../blocks/small-text/small-text.css);
 @import url(../blocks/title-text/title-text.css);
 @import url(../blocks/subtitle-text-four/subtitle-text-four.css);
-@import url(../blocks/main-text/main-text.css);
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__wrapper/button__wrapper.css);
@@ -176,6 +177,40 @@
 @import url(../blocks/news/__card-date-text/news__card-date-text.css);
 @import url(../blocks/news/__card-theme-text/news__card-theme-text.css);
 @import url(../blocks/news/__card-image/news__card-image.css);
+
+@import url(../blocks/support/support.css);
+@import url(../blocks/support/__wrapper/support__wrapper.css);
+@import url(../blocks/support-subtitle/support-subtitle.css);
+@import url(../blocks/support/__supports-container/support__supports-container.css);
+@import url(../blocks/support/__donation-container/support__donation-container.css);
+
+@import url(../blocks/support-form/support-form.css);
+@import url(../blocks/support-form/__section-text/support-form__section-text.css);
+@import url(../blocks/support-form/__amount-container/support-form__amount-container.css);
+@import url(../blocks/support-form/__payment-period-container/support-form__payment-period-container.css);
+@import url(../blocks/support-form/__payment-amount-container/support-form__payment-amount-container.css);
+@import url(../blocks/support-form/__payment-method/support-form__payment-method.css);
+@import url(../blocks/support-form/__payment-data/support-form__payment-data.css);
+@import url(../blocks/support-form/__input/support-form__input.css);
+@import url(../blocks/support-form/__agreements/support-form__agreements.css);
+@import url(../blocks/support-form/__checkbox-container/support-form__checkbox-container.css);
+@import url(../blocks/support-form/__payment-button/support-form__payment-button.css);
+@import url(../blocks/support-form/__payment-container/support-form__payment-container.css);
+@import url(../blocks/support-form/__shevron/support-form__shevron.css);
+@import url(../blocks/support-form/_radio-button/_visible/support-form_radio-button_visible.css);
+@import url(../blocks/support-form/_radio-button/_invisible/support-form_radio-button_invisible.css);
+@import url(../blocks/support-form/_checkbox/_visible/support-form__checkbox_visible.css);
+@import url(../blocks/support-form/_checkbox/_invisible/support-form__checkbox_invisible.css);
+@import url(../blocks/support-form/__link/support-form__link.css);
+@import url(../blocks/support-form/__icon-question/support-form__icon-question.css);
+@import url(../blocks/support-form/__another-sum-button/support-form__another-sum-button.css);
+
+@import url(../blocks/support-button/support-button.css);
+
+@import url(../blocks/donators-list/donators-list.css);
+@import url(../blocks/donator/donator.css);
+@import url(../blocks/donator/__name-container/donator__name-container.css);
+@import url(../blocks/donator/__sum-container/donator__sum-container.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);

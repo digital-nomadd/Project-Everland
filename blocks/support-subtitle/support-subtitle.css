@@ -1,0 +1,20 @@
+.support-subtitle {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  margin: 0;
+  color: #333333;
+  text-align: center;
+}
+
+@media (max-width: 1365px){
+  .support-subtitle {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 767px){
+  .support-subtitle {
+    font-size: 18px;
+  }
+}
