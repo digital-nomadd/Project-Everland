@@ -50,7 +50,7 @@ next.addEventListener('click', function() {
   if (count >= 6) {
     count = 6
   }
-  rollSlider()
+  headerRollSlider()
 })
 
 prev.addEventListener('click', function() {
@@ -58,10 +58,10 @@ prev.addEventListener('click', function() {
   if (count < 1) {
     count = 1
   }
-  rollSlider()
+  headerRollSlider()
 })
 
-function rollSlider() {
+function headerRollSlider() {
   imageFirstContainer.style.transform = 'translate(-' + (count * widthOfFirst - widthOfFirst) + 'px)';
   imageSecondContainer.style.transform = 'translate(-' + (count * widthOfSecond - widthOfSecond) + 'px)';
   current.textContent = count
@@ -75,9 +75,6 @@ const menuLists = document.querySelectorAll('.popup-menu__list')
 for (let i = 0; i < menuArrows.length; i ++) {
   const menuArrow = menuArrows[i];
   const menuList = menuLists[i]
-
-  console.log('menuArrow', menuArrow)
-  console.log('menuList', menuList)
   menuArrow.addEventListener('click', function() {
   menuList.classList.toggle('popup-menu__list_activ');
   menuArrow.classList.toggle('popup-menu__arrow_rotate');
@@ -118,7 +115,6 @@ let counter = 0;
 let width;
 
 function init() {
-    console.log('resize');
     width = document.querySelector('.specprojects__box').offsetWidth;
     sliderLine.style.width = width * cards.length + 'px';
     cards.forEach(item => {
