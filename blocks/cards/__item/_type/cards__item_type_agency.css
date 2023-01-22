@@ -1,0 +1,13 @@
+.cards__item_type_agency {
+  max-width: 800px;
+  justify-content: flex-start;
+  max-height: fit-content;
+  padding: 0;
+  background-color: #F5F5F5;
+}
+
+@media screen and (max-width: 767px) {
+  .cards__item_type_agency {
+    gap: 30px;
+  }
+}
