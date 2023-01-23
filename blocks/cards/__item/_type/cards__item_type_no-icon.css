@@ -1,5 +1,6 @@
 .cards__item_type_no-icon {
   gap: 100px;
+  max-height: 500px;
 }
 
 @media screen and (max-width: 1279px) {
