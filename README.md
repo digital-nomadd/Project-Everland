@@ -14,7 +14,7 @@
 
 * [Бриф](https://www.notion.so/Everland-1-d3d4576f78ca451ab2331b6b0795d72c)
 
-* [GitHub Pages](https://digital-nomadd.github.io/Everland-Project/) (в планах)
+* [GitHub Pages](https://digital-nomadd.github.io/Project-Everland/)
 
 ## Используемые технологии ##
 Vanilla HTML, CSS, JavaScript
