@@ -4,7 +4,8 @@
   border-radius: 10px;
   justify-content: center;
   max-width: 159px;
-  width: 159px;
+  margin: 0 auto;
+  /* width: 159px; */
 }
 
 .button_type_radio:hover:not([disabled]) {
@@ -40,7 +41,7 @@
   padding: 10px 14px;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1320px) {
   .button_type_radio {
     max-width: 75px;
     width: 75px;
