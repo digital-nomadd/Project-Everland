@@ -14,6 +14,7 @@
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__wrapper/button__wrapper.css);
+@import url(../blocks/button/__wrapper/_full-width/button__wrapper_full-width.css);
 @import url(../blocks/button/__text/button__text.css);
 @import url(../blocks/button/__arrow/button__arrow.css);
 @import url(../blocks/button/_type/button_type_secondary.css);
@@ -21,6 +22,8 @@
 @import url(../blocks/button/_type/button_type_link.css);
 @import url(../blocks/button/_type/button_type_slider.css);
 @import url(../blocks/button/_type/button_type_accordeon.css);
+@import url(../blocks/button/_type/_fix-sum/button_type_fix-sum.css);
+@import url(../blocks/button/_type/_rand-sum/button_type_rand-sum.css);
 @import url(../blocks/button/_color/button_color_blue.css);
 @import url(../blocks/button/_color/button_color_green.css);
 @import url(../blocks/button/_color/button_color_orange.css);
@@ -28,12 +31,9 @@
 @import url(../blocks/button/_color/button_color_black.css);
 @import url(../blocks/button/_rotate/button_rotate.css);
 @import url(../blocks/button/_pressed/button_pressed.css);
-@import url(../blocks/button/_type/_fix-sum/button_type_fix-sum.css);
-@import url(../blocks/button/_type/_rand-sum/button_type_rand-sum.css);
 @import url(../blocks/button/_place/button_place_up.css);
 @import url(../blocks/button/_place/button_place_down.css);
 @import url(../blocks/button/_place/button_place_agency-down.css);
-@import url(../blocks/button/__wrapper/_full-width/button__wrapper_full-width.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__wrapper/header__wrapper.css);
@@ -74,8 +74,10 @@
 
 @import url(../blocks/donation/donation.css);
 @import url(../blocks/donation/__wrapper/donation__wrapper.css);
-@import url(../blocks/donation/__summa/donation__summa.css);
-@import url(../blocks/donation/__value/donation__value.css);
+@import url(../blocks/donation/__values/donation__values.css);
+@import url(../blocks/button/_type/button_type_radio.css);
+@import url(../blocks/button/_type/button_type_radio-dif.css);
+@import url(../blocks/button/_type/button_type_donate.css);
 
 @import url(../blocks/clients/clients.css);
 @import url(../blocks/clients/__wrapper/clients__wrapper.css);

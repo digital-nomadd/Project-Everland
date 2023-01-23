@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   max-width: 380px;
-  max-height: 378px;
+  max-height: 398px;
   background-color: #fff;
   border-radius: 30px;
   padding: 30px;
@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 1279px) {
   .cards__item {
+    box-sizing: border-box;
     max-width: 450px;
     gap: 20px;
   }
