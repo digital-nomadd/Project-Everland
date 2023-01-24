@@ -1,6 +1,6 @@
 .specprojects__buttons-box {
   position: absolute;
-  top: 80%;
+  bottom: 35px;
   right: 55%;
   display: flex;
   column-gap: 8px;
