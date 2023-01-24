@@ -1,34 +1,23 @@
 .button_color_purple {
   background-color: #EAE6FF;
+  color: #8B75FF;
 }
 
 .button_color_purple:hover:not([disabled]) {
   background-color: #8B75FF;
+  color: #fff;
 }
 
 .button_color_purple:active:not([disabled]) {
   background-color: #4935B5;
+  color: #fff;
 }
 
 .button_color_purple[disabled] {
   background-color: #C4C4C4;
   border: 0;
-}
-
-.button_color_purple .button__text {
-  color: #8B75FF;
-}
-
-.button_color_purple:hover:not([disabled]) .button__text {
-  color: #fff;
-}
-
-.button_color_purple:active:not([disabled]) .button__text {
-  color: #fff;
-}
-
-.button_color_purple[disabled] .button__text {
   color: rgba(38, 38, 38, 0.5);
+  padding: 12px 16px;
 }
 
 .button_color_purple .button__arrow {
@@ -46,8 +35,4 @@
 .button_color_purple[disabled] .button__arrow {
   background-image: url('../../../images/button_arrow_grey.svg');
   border: 0;
-}
-
-.button_color_purple[disabled] .button__wrapper {
-  padding: 12px 16px;
 }
