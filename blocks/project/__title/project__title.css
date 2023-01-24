@@ -1,9 +1,9 @@
 .project__title {
   display: flex;
   width: 826px;
+  transition: all ease 0.5s;
   top: 0;
   left: 0;
-  z-index: 2;
   margin: 0;
   padding: 0;
 }
