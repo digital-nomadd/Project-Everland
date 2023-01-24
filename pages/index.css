@@ -216,6 +216,7 @@
 @import url(../blocks/footer/__item-title/footer__item-title.css);
 @import url(../blocks/footer/__item-text/footer__item-text.css);
 @import url(../blocks/footer/__item-text/_width-320/footer__item-text_width-320.css);
+@import url(../blocks/footer/__item-text/_align-self/footer__item-text_align-self.css);
 @import url(../blocks/footer/__item-support-list/footer__item-support-list.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__menu-links/footer__menu-links.css);
