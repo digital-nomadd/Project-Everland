@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 767px) {
   .specprojects__photo-mobile {
     display: block;
     border-radius: 10px;

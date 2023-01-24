@@ -5,14 +5,14 @@
   line-height: 120%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
   .specprojects__header {
     font-size: 16px;
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
   }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 767px) {
   .specprojects__header {
     font-size: 14px;
 

@@ -8,14 +8,14 @@
 }
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .specprojects__item {
     column-gap: 30px;
 
   }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 767px) {
   .specprojects__item {
     margin: 25px;
     column-gap: 0;
