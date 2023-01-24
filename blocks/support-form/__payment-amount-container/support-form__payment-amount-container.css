@@ -1,8 +1,0 @@
-.support-form__payment-amount-container {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  gap: 16px;
-  border: none;
-  border-top: 1px solid #DADADA;;
-}

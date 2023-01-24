@@ -1,0 +1,20 @@
+.support__form {
+  padding: 16px;
+  background-color: white;
+  border-radius: 30px;
+  max-width: 691px;
+  box-shadow: 0 4px 30px rgba(42, 48, 56, 0.1);
+  box-sizing: border-box;
+}
+
+@media (max-width: 1365px){
+  .support__form {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 767px){
+  .support__form {
+    padding: 32px 20px;
+  }
+}

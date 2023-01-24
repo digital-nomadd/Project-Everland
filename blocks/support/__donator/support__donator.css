@@ -1,0 +1,10 @@
+.support__donator {
+  /* margin: auto; */
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  gap: 10px;
+}
+
+
+

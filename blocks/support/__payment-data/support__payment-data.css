@@ -1,0 +1,15 @@
+.support__payment-data {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-top: 1px solid #DADADA;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0 0 39px 0;
+}
+
+@media screen and (max-width: 1365px) {
+  .support__payment-data {
+    padding-bottom: 24px;
+  }
+}
