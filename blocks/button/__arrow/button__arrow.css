@@ -13,7 +13,7 @@
   background-image: url('../../../images/button_arrow_grey.svg');
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
   .button__arrow {
     background-size: 14px;
     min-height: 20px;

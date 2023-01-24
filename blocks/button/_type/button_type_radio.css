@@ -1,11 +1,10 @@
 .button_type_radio {
-  align-items: center;
   background-color: #fff;
   border-radius: 10px;
   color: #333;
+  flex-basis: 159px;
   max-width: 159px;
   width: max-content;
-  flex-basis: 159px;
 }
 
 .button_type_radio:hover:not([disabled]) {
@@ -29,7 +28,7 @@
 
 @media screen and (max-width: 767px) {
   .button_type_radio {
-    width: calc(50% - 16px);
+    width: calc(50% - 8px);
     max-width: none;
     flex-basis: initial;
   }
