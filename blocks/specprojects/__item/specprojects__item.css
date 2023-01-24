@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 440px) {
   .specprojects__item {
     margin: 25px;
     column-gap: 0;
