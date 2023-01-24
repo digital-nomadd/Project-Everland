@@ -8,12 +8,6 @@
   flex-shrink: 1;
 }
 
-/* @media screen and (max-width: 1300px) {
-  .donation__values {
-     gap: 40px;
-  }
-} */
-
 @media screen and (max-width: 1279px) {
   .donation__values {
     gap: 10px;

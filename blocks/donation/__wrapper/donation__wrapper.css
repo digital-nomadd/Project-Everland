@@ -12,13 +12,6 @@
   width: calc(100% - 84px);
 }
 
-/* @media screen and (max-width: 1279px) {
-  .donation__wrapper {
-    padding: 32px 24px 36px 24px;
-    gap: 40px;
-  }
-} */
-
 @media screen and (max-width: 1279px) {
   .donation__wrapper {
     padding: 32px 24px 36px 24px;
