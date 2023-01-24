@@ -18,11 +18,11 @@
   <header class="header">
     <div class="header__wrapper">
       <a href="#" class="header__link">
-        <img class="header__logo" src="./images/Icon_logo.svg" alt="logo-Everland" />
+        <img class="header__logo" src="./images/Icon_logo.svg" alt="Логотоп Эверленд" />
       </a>
       <div class="header__content">
         <div class="header__menu">
-          <button class="header__menu-icon icon-menu" role="button">
+          <button class="header__menu-icon icon-menu" type="button">
           </button>
           <p class="header__menu-text big-text">Меню</p>
         </div>
@@ -139,13 +139,13 @@
     <section class="donation">
       <div class="donation__wrapper">
         <div class="donation__values">
-          <button href="#" class="button button_type_radio" role="button">250 &#8381;</button>
-          <button href="#" class="button button_type_radio" role="button">500 &#8381;</button>
-          <button href="#" class="button button_type_radio" role="button">750 &#8381;</button>
-          <button href="#" class="button button_type_radio" role="button">1000 &#8381;</button>
-          <button href="#" class="button button_type_radio-dif" role="button">Другая сумма</button>
+          <button class="button button_type_radio" type="button">250 &#8381;</button>
+          <button class="button button_type_radio" type="button">500 &#8381;</button>
+          <button class="button button_type_radio" type="button">750 &#8381;</button>
+          <button class="button button_type_radio" type="button">1000 &#8381;</button>
+          <button class="button button_type_radio-dif" type="button">Другая сумма</button>
         </div>
-        <button href="#" class="button button_type_donate" role="button">Поддержать</button>
+        <a href="#" class="button button_type_donate" role="button">Поддержать</a>
       </div>
     </section>
     <section class="clients" id="we_work_for">
@@ -269,7 +269,7 @@
         <div class="advantages__item">
           <div class="advantages__header">
             <h4 class="advantages__title">Заработанные средства</h4>
-            <button class="button button_type_accordeon" role="button" data-target="accrodion-open-1" id="change-color"
+            <button class="button button_type_accordeon" type="button" data-target="accrodion-open-1" id="change-color"
               data-toggle="change-color"></button>
           </div>
           <p class="advantages__accordion" id="accrodion-open-1">Идут на оплату сотрудников, создание новых курсов,
@@ -279,7 +279,7 @@
         <div class="advantages__item">
           <div class="advantages__header">
             <h4 class="advantages__title">Инклюзивность</h4>
-            <button class="button button_type_accordeon" role="button" data-target="accrodion-open-2"
+            <button class="button button_type_accordeon" type="button" data-target="accrodion-open-2"
               id="change-color-2" data-toggle="change-color-2"></button>
           </div>
           <p class="advantages__accordion" id="accrodion-open-2">Мы – это сообщество людей с инвалидностью и без нее.
@@ -291,7 +291,7 @@
         <div class="advantages__item">
           <div class="advantages__header">
             <h4 class="advantages__title">Использование Digital</h4>
-            <button class="button button_type_accordeon" role="button" data-target="accrodion-open-3"
+            <button class="button button_type_accordeon" type="button" data-target="accrodion-open-3"
               id="change-color-3" data-toggle="change-color-3"></button>
           </div>
           <p class="advantages__accordion" id="accrodion-open-3">Нам не важны страна и вид ограничений: наши сотрудники
@@ -302,7 +302,7 @@
         <div class="advantages__item">
           <div class="advantages__header">
             <h4 class="advantages__title">Крупные клиенты</h4>
-            <button class="button button_type_accordeon" role="button" data-target="accrodion-open-4"
+            <button class="button button_type_accordeon" type="button" data-target="accrodion-open-4"
               id="change-color-4" data-toggle="change-color-4"></button>
           </div>
           <p class="advantages__accordion" id="accrodion-open-4">Нам доверяют ведущие компании рынка и некоммерческие
@@ -314,7 +314,7 @@
         <div class="advantages__item">
           <div class="advantages__header">
             <h4 class="advantages__title">Свои исследования</h4>
-            <button class="button button_type_accordeon" role="button" data-target="accrodion-open-5"
+            <button class="button button_type_accordeon" type="button" data-target="accrodion-open-5"
               id="change-color-5" data-toggle="change-color-5"></button>
           </div>
           <p class="advantages__accordion" id="accrodion-open-5">Создаем спецпроекты и исследования в разных жанрах и
@@ -324,7 +324,7 @@
         <div class="advantages__item">
           <div class="advantages__header">
             <h4 class="advantages__title">Большой опыт</h4>
-            <button class="button button_type_accordeon" role="button" data-target="accrodion-open-6"
+            <button class="button button_type_accordeon" type="button" data-target="accrodion-open-6"
               id="change-color-6" data-toggle="change-color-6"></button>
           </div>
           <p class="advantages__accordion" id="accrodion-open-6">За время существования проекта с 2016 года социальная
@@ -337,7 +337,7 @@
     <section class="digits" id="in_digit">
       <h2 class="section-title">Everland в цифрах</h2>
       <div class="digits__content">
-        <img class="digits__image" src="./images/man-and-woman.jpg">
+        <img class="digits__image" src="./images/man-and-woman.jpg" alt aria-hidden="true">
 
         <div class="digits__grid">
 
@@ -370,77 +370,88 @@
           <div class="specprojects__item">
             <div class="specprojects__column">
               <p class="specprojects__header">Наши спецпроекты</p>
-              <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg">
+              <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg"
+                alt="Алексей с собакой ведёт съемку в горах">
               <h2 class="specprojects__title">Фотопроект «Семья как семья»</h2>
               <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
               <a href="#" class="button button_type_on-color button_full-width" role="button">Посмотреть</a>
             </div>
             <div class="specprojects__photo">
-              <img class="specprojects__image" src="./images/human-and-dog.jpg">
+              <img class="specprojects__image" src="./images/human-and-dog.jpg"
+                alt="Алексей с собакой ведёт съемку в горах">
             </div>
           </div>
 
           <div class="specprojects__item">
             <div class="specprojects__column">
               <p class="specprojects__header">Наши спецпроекты</p>
-              <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg">
+              <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg"
+                alt="Алексей с собакой ведёт съемку в горах">
               <h2 class="specprojects__title">Фотопроект «Семья как семья»</h2>
               <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
               <a href="#" class="button button_type_on-color button_full-width" role="button">Посмотреть</a>
             </div>
             <div class="specprojects__photo">
-              <img class="specprojects__image" src="./images/human-and-dog.jpg">
+              <img class="specprojects__image" src="./images/human-and-dog.jpg"
+                alt="Алексей с собакой ведёт съемку в горах">
             </div>
           </div>
 
           <div class="specprojects__item">
             <div class="specprojects__column">
               <p class="specprojects__header">Наши спецпроекты</p>
-              <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg">
+              <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg"
+                alt="Алексей с собакой ведёт съемку в горах">
               <h2 class="specprojects__title">Фотопроект «Семья как семья»</h2>
               <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
               <a href="#" class="button button_type_on-color button_full-width" role="button">Посмотреть</a>
             </div>
             <div class="specprojects__photo">
-              <img class="specprojects__image" src="./images/human-and-dog.jpg">
+              <img class="specprojects__image" src="./images/human-and-dog.jpg"
+                alt="Алексей с собакой ведёт съемку в горах">
             </div>
           </div>
 
           <div class="specprojects__item">
             <div class="specprojects__column">
               <p class="specprojects__header">Наши спецпроекты</p>
-              <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg">
+              <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg"
+                alt="Алексей с собакой ведёт съемку в горах">
               <h2 class="specprojects__title">Фотопроект «Семья как семья»</h2>
               <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
               <a href="#" class="button button_type_on-color button_full-width" role="button">Посмотреть</a>
             </div>
             <div class="specprojects__photo">
-              <img class="specprojects__image" src="./images/human-and-dog.jpg">
+              <img class="specprojects__image" src="./images/human-and-dog.jpg"
+                alt="Алексей с собакой ведёт съемку в горах">
             </div>
           </div>
 
           <div class="specprojects__item">
             <div class="specprojects__column">
               <p class="specprojects__header">Наши спецпроекты</p>
-              <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg">
+              <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg"
+                alt="Алексей с собакой ведёт съемку в горах">
               <h2 class="specprojects__title">Фотопроект «Семья как семья»</h2>
               <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
               <a href="#" class="button button_type_on-color button_full-width" role="button">Посмотреть</a>
             </div>
             <div class="specprojects__photo">
-              <img class="specprojects__image" src="./images/human-and-dog.jpg">
+              <img class="specprojects__image" src="./images/human-and-dog.jpg"
+                alt="Алексей с собакой ведёт съемку в горах">
             </div>
           </div>
 
           <div class="specprojects__item">
             <div class="specprojects__column">
               <p class="specprojects__header">Наши спецпроекты</p>
-              <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg">
+              <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg"
+                alt="Алексей с собакой ведёт съемку в горах">
               <h2 class="specprojects__title">Фотопроект «Семья как семья»</h2>
               <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
                 семей,
@@ -449,20 +460,23 @@
               <a href="#" class="button button_type_on-color button_full-width" role="button">Посмотреть</a>
             </div>
             <div class="specprojects__photo">
-              <img class="specprojects__image" src="./images/human-and-dog.jpg">
+              <img class="specprojects__image" src="./images/human-and-dog.jpg"
+                alt="Алексей с собакой ведёт съемку в горах">
             </div>
           </div>
           <div class="specprojects__item">
             <div class="specprojects__column">
               <p class="specprojects__header">Наши спецпроекты</p>
-              <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg">
+              <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg"
+                alt="Алексей с собакой ведёт съемку в горах">
               <h2 class="specprojects__title">Фотопроект «Семья как семья»</h2>
               <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
               <a href="#" class="button button_type_on-color button_full-width" role="button">Посмотреть</a>
             </div>
             <div class="specprojects__photo">
-              <img class="specprojects__image" src="./images/human-and-dog.jpg">
+              <img class="specprojects__image" src="./images/human-and-dog.jpg"
+                alt="Алексей с собакой ведёт съемку в горах">
             </div>
           </div>
 
@@ -470,9 +484,9 @@
 
 
         <div class="specprojects__buttons-box">
-          <button class="button button_type_slider button_color_black button_rotate" role="button" id="sp-prev">
+          <button class="button button_type_slider button_color_black button_rotate" type="button" id="sp-prev">
           </button>
-          <button class="button button_type_slider button_color_black" role="button" id="sp-next">
+          <button class="button button_type_slider button_color_black" type="button" id="sp-next">
           </button>
         </div>
       </div>
@@ -961,11 +975,11 @@
       <header class="header popup-menu__header">
         <div class="header__wrapper">
           <a href="#" class="header__link">
-            <img class="header__logo" src="./images/Icon_logo.svg" alt="logo-Everland" />
+            <img class="header__logo" src="./images/Icon_logo.svg" alt="Логотип Эверленд" />
           </a>
           <div class="header__content">
             <div class="header__menu">
-              <button class="popup-menu__close close" role="button" id="closebutton">
+              <button class="popup-menu__close close" type="button" id="closebutton">
               </button>
               <p class="header__menu-text big-text">Меню</p>
             </div>
