@@ -1,10 +1,9 @@
 .button_type_radio-dif {
-  align-items: center;
   background-color: #fff;
   color: #333;
+  flex-basis: 211px;
   max-width: 211px;
   width: max-content;
-  flex-basis: 211px;
 }
 
 .button_type_radio-dif:hover:not([disabled]) {
@@ -25,14 +24,6 @@
   cursor: no-drop;
   padding: 10px 14px;
 }
-
-
-/* @media screen and (max-width: 1279px) {
-  .button_type_radio-dif {
-    max-width: 135px;
-    flex-basis: 135px;
-  }
-} */
 
 @media screen and (max-width: 767px) {
   .button_type_radio-dif {
