@@ -1,16 +1,16 @@
 .button_type_radio-dif {
   align-items: center;
   background-color: #fff;
-  border-radius: 10px;
-  justify-content: center;
+  color: #333;
   max-width: 211px;
-  width: 211px;
+  width: max-content;
+  flex-basis: 211px;
 }
 
 .button_type_radio-dif:hover:not([disabled]) {
   background-color: #fff;
   border: 1px solid #C4C4C4;
-  width: 209px;
+  padding: 11px 15px;
 }
 
 .button_type_radio-dif:active:not([disabled]) {
@@ -21,35 +21,23 @@
 .button_type_radio-dif[disabled] {
   background-color: #F5F5F5;
   border: 2px solid #C4C4C4;
-}
-
-.button_type_radio-dif:not([disabled]) .button__text {
-  color: #333;
-}
-
-.button_type_radio-dif[disabled] .button__text {
   color: #C4C4C4;
-}
-
-.button_type_radio-dif:hover:not([disabled]) .button__wrapper {
-  padding: 11px 15px;
-}
-
-.button_type_radio-dif[disabled] .button__wrapper {
   cursor: no-drop;
   padding: 10px 14px;
 }
 
-@media screen and (max-width: 1320px) {
+
+/* @media screen and (max-width: 1279px) {
   .button_type_radio-dif {
     max-width: 135px;
-    width: 135px;
+    flex-basis: 135px;
   }
-}
+} */
 
 @media screen and (max-width: 767px) {
   .button_type_radio-dif {
-    max-width: 100%;
     width: 100%;
+    max-width: none;
+    flex-basis: initial;
   }
 }

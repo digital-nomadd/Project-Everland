@@ -1,12 +1,13 @@
 .button_type_donate {
   justify-content: center;
   max-width: 179px;
-  width: 159px;
+  flex-basis: 179px;
 }
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1279px) {
   .button_type_donate {
-    width: 143px;
+    max-width: none;
+    flex-basis: 199px;
   }
 }
 
@@ -14,5 +15,6 @@
   .button_type_donate {
     max-width: 100%;
     width: 100%;
+    flex-basis: initial;
   }
 }

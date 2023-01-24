@@ -1,34 +1,23 @@
 .button_color_green {
   background-color: #DAEFD5;
+  color: #319B17;
 }
 
 .button_color_green:hover:not([disabled]) {
   background-color: #319b17;
+  color: #fff;
 }
 
 .button_color_green:active:not([disabled]) {
   background-color: #0e4900;
+  color: #fff;
 }
 
 .button_color_green[disabled] {
   background-color: #C4C4C4;
   border: 0;
-}
-
-.button_color_green .button__text {
-  color: #319B17;
-}
-
-.button_color_green:hover:not([disabled]) .button__text {
-  color: #fff;
-}
-
-.button_color_green:active:not([disabled]) .button__text {
-  color: #fff;
-}
-
-.button_color_green[disabled] .button__text {
   color: rgba(38, 38, 38, 0.5);
+  padding: 12px 16px;
 }
 
 .button_color_green .button__arrow {
@@ -46,8 +35,4 @@
 .button_color_green[disabled] .button__arrow {
   background-image: url('../../../images/button_arrow_grey.svg');
   border: 0;
-}
-
-.button_color_green[disabled] .button__wrapper {
-  padding: 12px 16px;
 }
