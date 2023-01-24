@@ -10,4 +10,17 @@
   background-image: url('../../../images/Icon_menu.svg');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 20px 25px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu-icon {
+    background-size: 25px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-icon {
+    background-size: 24px 20px;
+  }
 }
