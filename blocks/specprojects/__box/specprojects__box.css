@@ -4,8 +4,6 @@
   margin: 0 30px;
   overflow: hidden;
   max-width: 1360px;
-  /* max-width: 1360px;
-  width: 100%; */
 }
 
 @media screen and (max-width: 767px) {

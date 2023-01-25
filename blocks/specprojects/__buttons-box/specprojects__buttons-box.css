@@ -6,13 +6,6 @@
   column-gap: 8px;
 }
 
-/* @media screen and (max-width: 768px) {
-  .specprojects__buttons-box {
-    right: 40px;
-    top: 24px;
-
-  }
-} */
 @media screen and (max-width: 767px) {
   .specprojects__buttons-box {
     right: 30px;

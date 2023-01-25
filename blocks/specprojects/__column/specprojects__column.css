@@ -10,7 +10,6 @@
 
 @media screen and (max-width: 767px) {
   .specprojects__column {
-    
     row-gap: 0;
   }
 }
