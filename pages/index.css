@@ -106,7 +106,7 @@
 @import url(../blocks/digits/__image/digits__image.css);
 @import url(../blocks/digits/__item/digits__item.css);
 @import url(../blocks/digits/__paragraph/digits__paragraph.css);
-@import url(../blocks/digits/__title-accent/digits__title-accent.css);
+@import url(../blocks/digits/__title/__title-accent/digits__title_accent.css);
 @import url(../blocks/digits/__title/digits__title.css);
 
 @import url(../blocks/specprojects/specprojects.css);

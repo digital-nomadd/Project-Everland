@@ -13,13 +13,14 @@
 @media screen and (max-width: 1279px) {
   .advantages__content{
     margin: 32px 0;
+    grid-template-columns: repeat(1, minmax(min-content, 1279px));
+    row-gap: 16px;
+    align-self: center;
   }
 }
 
 @media screen and (max-width: 767px) {
   .advantages__content{
-    grid-template-columns: repeat(1, minmax(min-content, 767px));
-    row-gap: 16px;
     margin: 24px 0;
 
   }
