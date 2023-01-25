@@ -151,3 +151,41 @@ btnPrev.addEventListener('click', () => {
     }
     rollSlider();
 })
+
+// Блок "donation"
+
+const donationInputConatainer = document.querySelector('.donation__values');
+const supportInputConatainer = document.querySelector('.support-form__amount-container');
+const donationRadioButtons = donationInputConatainer.querySelectorAll('.button');
+let buttonToBeChanged = new Object();
+
+donationRadioButtons.forEach(button => button.addEventListener('change', () => updateRadioButton(button)));
+
+function updateRadioButton(button) {
+  const buttonId = button.id;
+  console.log(buttonId);
+  switch (buttonId) {
+    case 'sum_250':
+      buttonToBeChanged = supportInputConatainer.querySelector('#amount-250');
+      buttonToBeChanged.checked = true;
+      break;
+    case 'sum_500':
+      buttonToBeChanged = supportInputConatainer.querySelector('#amount-500');
+      buttonToBeChanged.checked = true;
+      break;
+    case 'sum_750':
+      buttonToBeChanged = supportInputConatainer.querySelector('#amount-750');
+      buttonToBeChanged.checked = true;
+      break;
+    case 'sum_1000':
+      buttonToBeChanged = supportInputConatainer.querySelector('#amount-1000');
+      buttonToBeChanged.checked = true;
+      break;
+    case 'sum_dif':
+      buttonToBeChanged = supportInputConatainer.querySelector('#another-amount');
+      buttonToBeChanged.checked = true;
+      break;
+    default:
+      break;
+  }
+}
