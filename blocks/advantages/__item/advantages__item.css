@@ -4,18 +4,16 @@
   flex-grow: 1;
   border: 1px solid #DADADA;
   border-radius: 30px;
-  padding: 29.5px 20px;
+  padding: 30px 20px;
   max-width: 670px;
 
 }
 
 @media screen and (max-width: 1279px) {
   .advantages__item{
-    padding: 20.5px 20px;
+    padding: 20px 20px;
     border-radius: 20px;
-    max-width: 1140px;
-
-
+    max-width: none;
   }
 }
 

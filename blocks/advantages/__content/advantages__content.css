@@ -1,27 +1,23 @@
 .advantages__content {
-
   display: grid;
   grid-template-columns: repeat(2, minmax(min-content, 670px));
   width: 100%;
   gap: 20px;
   padding: 0;
   margin: 50px 0;
-
-
 }
 
 @media screen and (max-width: 1279px) {
   .advantages__content{
-    margin: 32px 0;
+    margin: 32px auto;
     grid-template-columns: repeat(1, minmax(min-content, 1279px));
     row-gap: 16px;
-    align-self: center;
+    max-width: 920px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .advantages__content{
     margin: 24px 0;
-
   }
 }
