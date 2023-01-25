@@ -20,3 +20,77 @@
     min-width: 20px;
   }
 }
+
+/* Blue */
+
+.button_color_blue .button__arrow {
+  background-image: url('../../../images/button_arrow_blue.svg');
+}
+
+.button_color_blue:hover:not([disabled]) .button__arrow {
+  background-image: url('../../../images/button_arrow_white.svg');
+}
+
+.button_color_blue:active:not([disabled]) .button__arrow {
+  background-image: url('../../../images/button_arrow_white.svg');
+}
+
+.button_color_blue[disabled] .button__arrow {
+  background-image: url('../../../images/button_arrow_grey.svg');
+}
+
+/* Green */
+
+.button_color_green .button__arrow {
+  background-image: url('../../../images/button_arrow_green.svg');
+}
+
+.button_color_green:hover:not([disabled]) .button__arrow {
+  background-image: url('../../../images/button_arrow_white.svg');
+}
+
+.button_color_green:active:not([disabled]) .button__arrow {
+  background-image: url('../../../images/button_arrow_white.svg');
+}
+
+.button_color_green[disabled] .button__arrow {
+  background-image: url('../../../images/button_arrow_grey.svg');
+  border: 0;
+}
+
+/* Orange */
+
+.button_color_orange .button__arrow {
+  background-image: url('../../../images/button_arrow_orange.svg');
+}
+
+.button_color_orange:hover:not([disabled]) .button__arrow {
+  background-image: url('../../../images/button_arrow_white.svg');
+}
+
+.button_color_orange:active:not([disabled]) .button__arrow {
+  background-image: url('../../../images/button_arrow_white.svg');
+}
+
+.button_color_orange[disabled] .button__arrow {
+  background-image: url('../../../images/button_arrow_grey.svg');
+}
+
+/* Purple */
+
+.button_color_purple .button__arrow {
+  background-image: url('../../../images/button_arrow_purple.svg');
+}
+
+.button_color_purple:hover:not([disabled]) .button__arrow {
+  background-image: url('../../../images/button_arrow_white.svg');
+}
+
+.button_color_purple:active:not([disabled]) .button__arrow {
+  background-image: url('../../../images/button_arrow_white.svg');
+}
+
+.button_color_purple[disabled] .button__arrow {
+  background-image: url('../../../images/button_arrow_grey.svg');
+  border: 0;
+}
