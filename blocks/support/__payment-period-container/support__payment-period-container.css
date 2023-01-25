@@ -1,0 +1,9 @@
+.support__payment-period-container {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-row: 1;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  border: none;
+}

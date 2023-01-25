@@ -1,0 +1,12 @@
+.support__payment-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 1px;
+  grid-template-rows: 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 767px) {
+  .support__payment-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

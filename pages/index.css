@@ -173,37 +173,34 @@
 
 @import url(../blocks/support/support.css);
 @import url(../blocks/support/__wrapper/support__wrapper.css);
-@import url(../blocks/support-subtitle/support-subtitle.css);
+@import url(../blocks/support/__subtitle/support__subtitle.css);
 @import url(../blocks/support/__supports-container/support__supports-container.css);
 @import url(../blocks/support/__donation-container/support__donation-container.css);
-
-@import url(../blocks/support-form/support-form.css);
-@import url(../blocks/support-form/__section-text/support-form__section-text.css);
-@import url(../blocks/support-form/__amount-container/support-form__amount-container.css);
-@import url(../blocks/support-form/__payment-period-container/support-form__payment-period-container.css);
-@import url(../blocks/support-form/__payment-amount-container/support-form__payment-amount-container.css);
-@import url(../blocks/support-form/__payment-method/support-form__payment-method.css);
-@import url(../blocks/support-form/__payment-data/support-form__payment-data.css);
-@import url(../blocks/support-form/__input/support-form__input.css);
-@import url(../blocks/support-form/__agreements/support-form__agreements.css);
-@import url(../blocks/support-form/__checkbox-container/support-form__checkbox-container.css);
-@import url(../blocks/support-form/__payment-button/support-form__payment-button.css);
-@import url(../blocks/support-form/__payment-container/support-form__payment-container.css);
-@import url(../blocks/support-form/__shevron/support-form__shevron.css);
-@import url(../blocks/support-form/_radio-button/_visible/support-form_radio-button_visible.css);
-@import url(../blocks/support-form/_radio-button/_invisible/support-form_radio-button_invisible.css);
-@import url(../blocks/support-form/_checkbox/_visible/support-form__checkbox_visible.css);
-@import url(../blocks/support-form/_checkbox/_invisible/support-form__checkbox_invisible.css);
-@import url(../blocks/support-form/__link/support-form__link.css);
-@import url(../blocks/support-form/__icon-question/support-form__icon-question.css);
-@import url(../blocks/support-form/__another-sum-button/support-form__another-sum-button.css);
-
-@import url(../blocks/support-button/support-button.css);
-
-@import url(../blocks/donators-list/donators-list.css);
-@import url(../blocks/donator/donator.css);
-@import url(../blocks/donator/__name-container/donator__name-container.css);
-@import url(../blocks/donator/__sum-container/donator__sum-container.css);
+@import url(../blocks/support/__form/support__form.css);
+@import url(../blocks/support/__section-text/support__section-text.css);
+@import url(../blocks/support/__amount-container/support__amount-container.css);
+@import url(../blocks/support/__payment-period-container/support__payment-period-container.css);
+@import url(../blocks/support/__payment-amount-container/support__payment-amount-container.css);
+@import url(../blocks/support/__payment-method/support__payment-method.css);
+@import url(../blocks/support/__payment-data/support__payment-data.css);
+@import url(../blocks/support/__input/support__input.css);
+@import url(../blocks/support/__agreements/support__agreements.css);
+@import url(../blocks/support/__checkbox-container/support__checkbox-container.css);
+@import url(../blocks/support/__payment-button/support__payment-button.css);
+@import url(../blocks/support/__payment-container/support__payment-container.css);
+@import url(../blocks/support/__shevron/support__shevron.css);
+@import url(../blocks/support/__radio-button/support__radio-button.css);
+@import url(../blocks/support/__radio-button/_invisible/support__radio-button_invisible.css);
+@import url(../blocks/support/__checkbox/support__checkbox.css);
+@import url(../blocks/support/__checkbox/_invisible/support__checkbox_invisible.css);
+@import url(../blocks/support/__link/support__link.css);
+@import url(../blocks/support/__icon-question/support__icon-question.css);
+@import url(../blocks/support/__another-sum-button/support__another-sum-button.css);
+@import url(../blocks/support/__button/support__button.css);
+@import url(../blocks/support/__donators-list/support__donators-list.css);
+@import url(../blocks/support/__donator/support__donator.css);
+@import url(../blocks/support/__name-container/support__name-container.css);
+@import url(../blocks/support/__sum-container/support__sum-container.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
