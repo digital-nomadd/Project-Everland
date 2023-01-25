@@ -20,8 +20,3 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .project__image_first {
-    height: 160px;
-  }
-}

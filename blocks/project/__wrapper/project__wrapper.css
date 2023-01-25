@@ -26,8 +26,3 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .project__wrapper {
-    width: 300px;
-  }
-}

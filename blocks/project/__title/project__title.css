@@ -20,9 +20,3 @@
     width: calc(300px + 124*(100vw - 320px)/(768 - 320));
   }
 }
-
-@media screen and (max-width: 320px) {
-  .project__title {
-    width: 300px;
-  }
-}
