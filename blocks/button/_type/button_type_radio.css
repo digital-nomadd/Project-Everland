@@ -1,10 +1,14 @@
 .button_type_radio {
+  appearance: none;
   background-color: #fff;
-  border-radius: 10px;
   color: #333;
   flex-basis: 159px;
   max-width: 159px;
   width: max-content;
+}
+
+.button_type_radio::before {
+  content: attr(value);
 }
 
 .button_type_radio:hover:not([disabled]) {
@@ -15,7 +19,13 @@
 
 .button_type_radio:active:not([disabled]) {
   background-color: #fff;
-  border: 1px solid #00275c;
+  border: 1px solid #0c4ba0;
+}
+
+
+.button_type_radio:checked:not([disabled]) {
+  background-color: #fff;
+  border: 1px solid #0c4ba0;
 }
 
 .button_type_radio[disabled] {
