@@ -36,20 +36,27 @@ function closeByOverlay(popup) {
 // слайдер "социальный предпринимательский проект"
 const imageFirstContainer = document.querySelector('.project__image_first');
 const imageSecondContainer = document.querySelector('.project__image_second');
+const textList = document.querySelector('.project__text-list');
+const projectTitle = document.querySelector('.project__title');
 
 const next = document.querySelector('#next')
 const prev = document.querySelector('#prev')
 const current = document.querySelector('.current')
 const widthOfFirst = imageFirstContainer.offsetWidth;
 const widthOfSecond = imageSecondContainer.offsetWidth;
+const widthOfTextList = textList.offsetWidth;
+const widthOfTitle = projectTitle.offsetWidth;
 
 let count = 1;
+const maxCount = 6;
 
 next.addEventListener('click', function() {
   count++;
-  if (count >= 6) {
-    count = 6
+  if (count >= maxCount) {
+    count = maxCount
   }
+  prev.disabled = count === 1
+  next.disabled = count === maxCount
   headerRollSlider()
 })
 
@@ -58,12 +65,16 @@ prev.addEventListener('click', function() {
   if (count < 1) {
     count = 1
   }
+   prev.disabled = count === 1
+   next.disabled = count === maxCount
   headerRollSlider()
 })
 
 function headerRollSlider() {
   imageFirstContainer.style.transform = 'translate(-' + (count * widthOfFirst - widthOfFirst) + 'px)';
   imageSecondContainer.style.transform = 'translate(-' + (count * widthOfSecond - widthOfSecond) + 'px)';
+  textList.style.transform = 'translate(-' + (count * widthOfTextList - widthOfTextList) + 'px)';
+  projectTitle.style.transform = 'translate(-' + (count * widthOfTitle - widthOfTitle) + 'px)';
   current.textContent = count
 }
 

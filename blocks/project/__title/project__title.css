@@ -1,9 +1,9 @@
 .project__title {
   display: flex;
   width: 826px;
+  transition: all ease 0.5s;
   top: 0;
   left: 0;
-  z-index: 2;
   margin: 0;
   padding: 0;
 }
@@ -18,11 +18,5 @@
 @media screen and (max-width: 767px) {
   .project__title {
     width: calc(300px + 124*(100vw - 320px)/(768 - 320));
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .project__title {
-    width: 300px;
   }
 }
