@@ -166,7 +166,7 @@ btnPrev.addEventListener('click', () => {
 // Блок "donation"
 
 const donationInputConatainer = document.querySelector('.donation__values');
-const supportInputConatainer = document.querySelector('.support-form__amount-container');
+const supportInputConatainer = document.querySelector('.support__amount-container');
 const donationRadioButtons = donationInputConatainer.querySelectorAll('.button');
 let buttonToBeChanged = new Object();
 
@@ -174,7 +174,6 @@ donationRadioButtons.forEach(button => button.addEventListener('change', () => u
 
 function updateRadioButton(button) {
   const buttonId = button.id;
-  console.log(buttonId);
   switch (buttonId) {
     case 'sum_250':
       buttonToBeChanged = supportInputConatainer.querySelector('#amount-250');
