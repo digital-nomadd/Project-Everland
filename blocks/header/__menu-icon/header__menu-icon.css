@@ -13,7 +13,7 @@
   background-size: 20px 25px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1279px) {
   .header__menu-icon {
     background-size: 25px 24px;
   }

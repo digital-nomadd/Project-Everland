@@ -2,7 +2,8 @@
   display: flex;
   position: relative;
   column-gap: 20px;
-  width: 1360px;
+  width: calc(100% - 80px);
+  max-width: 1360px;
   padding: 0 40px 125px 40px;
   margin: 0;
   flex-shrink: 0;
@@ -11,13 +12,11 @@
   flex-wrap: wrap;
 }
 
-
-@media screen and (max-width: 1439px) {
+/* 1439 */
+@media screen and (max-width: 1279px) {
   .popup-menu__wrapper {
-    width: calc(688px + 672*(100vw - 768px)/(1440 - 768));
+    /* width: calc(688px + 672*(100vw - 768px)/(1440 - 768)); */
     padding-bottom: calc(78px + 47*(100vw - 768px)/(1440 - 768));
-    column-gap: 50px;
-    row-gap: 64px;
   }
 }
 
