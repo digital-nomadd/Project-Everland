@@ -12,11 +12,14 @@
 @media screen and (max-width: 1279px) {
   .advantages__item{
     padding: 20.5px 20px;
+    border-radius: 20px;
+
   }
 }
 
 @media screen and (max-width: 767px) {
   .advantages__item{
     padding: 18px 16px;
+    border-radius: 15px;
   }
 }
