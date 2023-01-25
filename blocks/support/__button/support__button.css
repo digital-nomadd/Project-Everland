@@ -1,0 +1,31 @@
+.support__button {
+  width: 180px;
+  height: 48px;
+  background-color: #0C4BA0;
+  color: white;
+  border-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+
+@media screen and (max-width: 1365px) {
+  .support__button {
+    width: 200px
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__button {
+    width: 100%;
+  }
+}

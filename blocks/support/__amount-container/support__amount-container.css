@@ -1,0 +1,19 @@
+.support__amount-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 12px 5px;
+}
+
+@media (max-width: 1024px) {
+  .support__amount-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+    .support__amount-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

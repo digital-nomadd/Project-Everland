@@ -6,9 +6,9 @@
   background-size: 17px;
   border-radius: 20px;
   border: 0;
-  max-height: 45px;
+  height: 45px;
   min-height: 45px;
-  min-width: 45px;
+  width: 45px;
   padding: 0;
 }
 
@@ -27,10 +27,12 @@
   background-color: #C4C4C4;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
   .button_type_accordeon {
     background-size: 12px;
     min-height: 32px;
     min-width: 32px;
+    height: 32px;
+    width: 32px;
   }
 }

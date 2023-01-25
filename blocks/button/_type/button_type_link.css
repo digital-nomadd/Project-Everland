@@ -1,6 +1,7 @@
 .button_type_link {
   background-color: #fff;
   color: #333;
+  width: fit-content;
 }
 
 .button_type_link:hover:not([disabled]) {
@@ -29,4 +30,10 @@
 
 .button_type_link[disabled] .button__arrow {
   background-image: url('../../../images/button_arrow-disabled.svg');
+}
+
+@media screen and (max-width: 1279px) {
+  .button_type_link {
+    width: fit-content;
+  }
 }

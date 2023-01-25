@@ -1,0 +1,8 @@
+.footer__item-text_align-self {
+  align-self: flex-end;
+}
+@media screen and (max-width: 550px) {
+  .footer__item-text_align-self {
+    align-self: unset;
+  }
+}

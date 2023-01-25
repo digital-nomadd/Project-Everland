@@ -1,9 +1,0 @@
-.digits__title-accent {
-  color: #0C4BA0;
-}
-
-@media screen and (max-width: 820px) {
-  .digits__title-accent {
-    font-size: 26px;
-  }
-}

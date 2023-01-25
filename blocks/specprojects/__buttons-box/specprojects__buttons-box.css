@@ -1,20 +1,14 @@
 .specprojects__buttons-box {
   position: absolute;
-  top: 85%;
+  bottom: 35px;
   right: 55%;
   display: flex;
   column-gap: 8px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .specprojects__buttons-box {
-    right: 40px;
-    top: 24px;
-
-  }
-}
-@media screen and (max-width: 440px) {
-  .specprojects__buttons-box {
-    right: 30px;
+    right: 35px;
+    top: 25px;
   }
 }

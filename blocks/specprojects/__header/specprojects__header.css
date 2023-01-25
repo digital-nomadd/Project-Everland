@@ -8,11 +8,13 @@
 @media screen and (max-width: 1279px) {
   .specprojects__header {
     font-size: 16px;
+    margin-bottom: 12px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .specprojects__header {
     font-size: 14px;
+
   }
 }

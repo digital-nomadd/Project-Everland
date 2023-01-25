@@ -1,0 +1,20 @@
+.support__radio-button_invisible {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.support__radio-button_invisible:checked + .support__radio-button {
+  border: 1px solid #0C4BA0;
+}
+
+.support__radio-button_invisible:hover + .support__radio-button {
+  border: 1px solid #0C4BA0;
+}
+
+.support__radio-button_invisible:disabled + .support__radio-button {
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+}
