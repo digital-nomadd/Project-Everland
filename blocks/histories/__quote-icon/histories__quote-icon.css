@@ -1,6 +1,11 @@
 .histories__quote-icon {
+  background-image: url(../../../images/Icon_quote.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 35px;
   height: 28px;
+  flex-shrink: 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -10,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 767px) {
   .histories__quote-icon {
     width: 24px;
     height: 24px;
