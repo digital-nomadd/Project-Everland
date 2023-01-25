@@ -1,0 +1,10 @@
+ .button_pressed:not([disabled]){
+  background-color: #0C4BA0;
+  background-image: url(../../../images/button_plus_cross.svg);
+
+}
+
+ .button_pressed:hover:not([disabled]){
+  background-color: #0C4BA0;
+  background-image: url(../../../images/button_plus_cross.svg);
+}

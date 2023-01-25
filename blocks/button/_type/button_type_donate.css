@@ -1,0 +1,19 @@
+.button_type_donate {
+  max-width: 179px;
+  flex-basis: 179px;
+}
+
+@media screen and (max-width: 1279px) {
+  .button_type_donate {
+    max-width: none;
+    flex-basis: 199px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button_type_donate {
+    max-width: 100%;
+    width: 100%;
+    flex-basis: initial;
+  }
+}

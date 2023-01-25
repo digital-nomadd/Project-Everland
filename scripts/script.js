@@ -50,7 +50,7 @@ next.addEventListener('click', function() {
   if (count >= 6) {
     count = 6
   }
-  rollSlider()
+  headerRollSlider()
 })
 
 prev.addEventListener('click', function() {
@@ -58,10 +58,10 @@ prev.addEventListener('click', function() {
   if (count < 1) {
     count = 1
   }
-  rollSlider()
+  headerRollSlider()
 })
 
-function rollSlider() {
+function headerRollSlider() {
   imageFirstContainer.style.transform = 'translate(-' + (count * widthOfFirst - widthOfFirst) + 'px)';
   imageSecondContainer.style.transform = 'translate(-' + (count * widthOfSecond - widthOfSecond) + 'px)';
   current.textContent = count
@@ -75,9 +75,6 @@ const menuLists = document.querySelectorAll('.popup-menu__list')
 for (let i = 0; i < menuArrows.length; i ++) {
   const menuArrow = menuArrows[i];
   const menuList = menuLists[i]
-
-  console.log('menuArrow', menuArrow)
-  console.log('menuList', menuList)
   menuArrow.addEventListener('click', function() {
   menuList.classList.toggle('popup-menu__list_activ');
   menuArrow.classList.toggle('popup-menu__arrow_rotate');
@@ -87,16 +84,16 @@ for (let i = 0; i < menuArrows.length; i ++) {
 
 // блок Advantages (главное в работе)
 
-const btnsAccordions = document.querySelectorAll('.button__accordion');
+const btnsAccordions = document.querySelectorAll('.button_type_accordeon');
 
 btnsAccordions.forEach(btnAccordion => {
   if (!btnAccordion.dataset.target) {
-    console.error(`button__accordion: has not set target`, btnAccordion);
+    console.error(`button_type_accordeon: has not set target`, btnAccordion);
     return;
   }
   const accordion = document.getElementById(btnAccordion.dataset.target);
   if (!accordion) {
-    console.error(`button__accordion: target not found`, btnAccordion);
+    console.error(`button_type_accordeon: target not found`, btnAccordion);
     return;
   }
 
@@ -104,7 +101,7 @@ btnsAccordions.forEach(btnAccordion => {
 
   btnAccordion.addEventListener('click', () => {
     accordion.classList.toggle('advantages__accordion_opened');
-    colorButton.classList.toggle('button__accordion_pressed');
+    colorButton.classList.toggle('button_pressed');
   });
 
 });
@@ -118,7 +115,6 @@ let counter = 0;
 let width;
 
 function init() {
-    console.log('resize');
     width = document.querySelector('.specprojects__box').offsetWidth;
     sliderLine.style.width = width * cards.length + 'px';
     cards.forEach(item => {
@@ -137,8 +133,8 @@ function rollSlider() {
 
 }
 
-const btnNext = document.querySelector('.specprojects__button-sld_next');
-const btnPrev = document.querySelector('.specprojects__button-sld_prev');
+const btnNext = document.querySelector('#sp-next');
+const btnPrev = document.querySelector('#sp-prev');
 
 btnNext.addEventListener('click', () => {
   counter++;
