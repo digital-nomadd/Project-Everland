@@ -19,8 +19,6 @@
 @import url(../blocks/button/_type/button_type_link.css);
 @import url(../blocks/button/_type/button_type_slider.css);
 @import url(../blocks/button/_type/button_type_accordeon.css);
-@import url(../blocks/button/_type/_fix-sum/button_type_fix-sum.css);
-@import url(../blocks/button/_type/_rand-sum/button_type_rand-sum.css);
 @import url(../blocks/button/_color/button_color_blue.css);
 @import url(../blocks/button/_color/button_color_green.css);
 @import url(../blocks/button/_color/button_color_orange.css);
