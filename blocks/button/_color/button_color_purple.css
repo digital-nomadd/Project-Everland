@@ -19,20 +19,3 @@
   color: rgba(38, 38, 38, 0.5);
   padding: 12px 16px;
 }
-
-.button_color_purple .button__arrow {
-  background-image: url('../../../images/button_arrow_purple.svg');
-}
-
-.button_color_purple:hover:not([disabled]) .button__arrow {
-  background-image: url('../../../images/button_arrow_white.svg');
-}
-
-.button_color_purple:active:not([disabled]) .button__arrow {
-  background-image: url('../../../images/button_arrow_white.svg');
-}
-
-.button_color_purple[disabled] .button__arrow {
-  background-image: url('../../../images/button_arrow_grey.svg');
-  border: 0;
-}
