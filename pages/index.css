@@ -61,8 +61,8 @@
 @import url(../blocks/project/__text-container/project__text-container.css);
 @import url(../blocks/project/__images/project__images.css);
 @import url(../blocks/project/__image/project__image.css);
-@import url(../blocks/project/__image-container/_first/project__image-container_first.css);
-@import url(../blocks/project/__image-container/_second/project__image-container_second.css);
+@import url(../blocks/project/__image-container-first/project__image-container-first.css);
+@import url(../blocks/project/__image-container-second/project__image-container-second.css);
 @import url(../blocks/project/__image/_first/project__image_first.css);
 @import url(../blocks/project/__image/_second/project__image_second.css);
 @import url(../blocks/project/__span/project__span.css);

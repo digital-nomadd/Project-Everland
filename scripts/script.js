@@ -48,12 +48,15 @@ const widthOfTextList = textList.offsetWidth;
 const widthOfTitle = projectTitle.offsetWidth;
 
 let count = 1;
+const maxCount = 6;
 
 next.addEventListener('click', function() {
   count++;
-  if (count >= 6) {
-    count = 6
+  if (count >= maxCount) {
+    count = maxCount
   }
+  prev.disabled = count === 1
+  next.disabled = count === maxCount
   headerRollSlider()
 })
 
@@ -62,6 +65,8 @@ prev.addEventListener('click', function() {
   if (count < 1) {
     count = 1
   }
+   prev.disabled = count === 1
+   next.disabled = count === maxCount
   headerRollSlider()
 })
 
