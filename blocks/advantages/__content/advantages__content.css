@@ -2,7 +2,6 @@
 
   display: grid;
   grid-template-columns: repeat(2, minmax(min-content, 670px));
-  max-width: 1360px;
   width: 100%;
   gap: 20px;
   padding: 0;
@@ -14,13 +13,12 @@
 @media screen and (max-width: 1279px) {
   .advantages__content{
     margin: 32px 0;
-
   }
 }
 
 @media screen and (max-width: 767px) {
   .advantages__content{
-    grid-template-columns: repeat(1, minmax(min-content, 768px));
+    grid-template-columns: repeat(1, minmax(min-content, 767px));
     row-gap: 16px;
     margin: 24px 0;
 
