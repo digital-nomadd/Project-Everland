@@ -8,9 +8,8 @@
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
   .specprojects__column {
-    
     row-gap: 0;
   }
 }
