@@ -42,8 +42,6 @@
 @import url(../blocks/header/__menu-text/header__menu-text.css);
 @import url(../blocks/header/__buttons/header__buttons.css);
 
-@import url(../blocks/icon-menu/icon-menu.css);
-
 @import url(../blocks/secondary-menu/secondary-menu.css);
 @import url(../blocks/secondary-menu/__wrapper/secondary-menu__wrapper.css);
 @import url(../blocks/secondary-menu/__list/secondary-menu__list.css);

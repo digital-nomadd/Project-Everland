@@ -9,7 +9,7 @@
   min-width: 826px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1279px) {
   .title-text {
     font-size: calc(38px + 34*(100vw - 768px)/1440);
     min-width: calc(424px + 402*(100vw - 768px)/(1440 - 768));
@@ -23,9 +23,3 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .title-text {
-    font-size: 28px;
-    min-width: 300px;
-  }
-}
