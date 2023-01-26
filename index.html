@@ -19,21 +19,21 @@
       </a>
       <div class="header__content">
         <div class="header__menu">
-          <button class="header__menu-icon icon-menu" type="button">
+          <button class="header__menu-icon" type="button">
           </button>
           <p class="header__menu-text big-text">Меню</p>
         </div>
 
-        <div class="header__buttons header__button-headen">
-          <a href="#" class="button button_type_secondary" role="link">Платформа</a>
-          <a href="#" class="button" role="link">Поддержать</a>
+        <div class="header__buttons">
+          <a href="#" class="button button_type_secondary" role="button">Платформа</a>
+          <a href="#" class="button" role="button">Поддержать</a>
           <!--ссылка на раздел "Поддержите нас" -->
         </div>
       </div>
     </div>
   </header>
   <main class="content">
-    <section class="secondary-menu">
+    <nav class="secondary-menu">
       <div class="secondary-menu__wrapper">
         <ul class="secondary-menu__list big-text">
           <li class="secondary-menu__item">
@@ -70,20 +70,63 @@
           </li>
         </ul>
       </div>
-    </section>
+    </nav>
     <section class="project">
       <div class="project__wrapper">
         <div class="project__description">
-          <div class="project__title">
-            <h1 class="title-text">
-              <span class="project__span">Everland</span> — социальный
-              предпринимательский проект
-            </h1>
+          <div class="project__title-container">
+            <div class="project__title">
+              <h1 class="title-text">
+                <span class="project__span">Everland</span> — социальный
+                предпринимательский проект
+              </h1>
+              <h2 class="title-text">
+                <span class="project__span">Эверленд</span> — проект безграничных возможностей
+              </h2>
+              <h2 class="title-text">
+                <span class="project__span">Everland</span> — социальный
+                предпринимательский проект
+              </h2>
+              <h2 class="title-text">
+                <span class="project__span">"Эверленд"</span> — проект безграничных возможностей
+              </h2>
+              <h2 class="title-text">
+                <span class="project__span">Everland</span> — социальный
+                предпринимательский проект
+              </h2>
+              <h2 class="title-text">
+                <span class="project__span">"Эверленд"</span> — проект безграничных возможностей
+              </h2>
+            </div>
           </div>
-          <p class="project__text main-text">
-            Мы работаем с 2016 года по России и СНГ и помогаем людям с
-            инвалидностью устойчиво интегрироваться в открытый рынок труда
-          </p>
+          <div class="project__text-container">
+            <div class="project__text-list">
+              <p class="project__text main-text">
+                Мы работаем с 2016 года по России и СНГ и помогаем людям с
+                инвалидностью устойчиво интегрироваться в открытый рынок труда
+              </p>
+              <p class="project__text main-text">
+                Помогаем создать устойчивые инклюзивные командынайти работу,
+                пройти обучение, предоставляем разные виды поддержки.
+              </p>
+              <p class="project__text main-text">
+                Мы работаем с 2016 года по России и СНГ и помогаем людям с
+                инвалидностью устойчиво интегрироваться в открытый рынок труда
+              </p>
+              <p class="project__text main-text">
+                Помогаем создать устойчивые инклюзивные командынайти работу,
+                пройти обучение, предоставляем разные виды поддержки.
+              </p>
+              <p class="project__text main-text">
+                Мы работаем с 2016 года по России и СНГ и помогаем людям с
+                инвалидностью устойчиво интегрироваться в открытый рынок труда
+              </p>
+              <p class="project__text main-text">
+                Помогаем создать устойчивые инклюзивные командынайти работу,
+                пройти обучение, предоставляем разные виды поддержки.
+              </p>
+            </div>
+          </div>
           <div class="project__switcher">
             <button class="button button_type_slider button_rotate" type="button" id="prev"></button>
             <div class="project__switcher-counter">
@@ -96,7 +139,7 @@
         </div>
         <div class="project__slider">
           <div class="project__images">
-            <div class="project__image-container_first">
+            <div class="project__image-container-first">
               <div class="project__image_first">
                 <img class="project__image project__image_first" src="./images/main-photo-1.jpg"
                   alt="Мужчина на стуле" />
@@ -112,7 +155,7 @@
                   alt="Мужчина у флипчарта" />
               </div>
             </div>
-            <div class="project__image-container_second">
+            <div class="project__image-container-second">
               <div class="project__image_second">
                 <img class="project__image project__image_second" src="./images/main-photo-2.jpg"
                   alt="Мужчина у флипчарта" />
@@ -213,7 +256,8 @@
             <div class="button__arrow" aria-hidden="true"></div>
           </a>
         </li>
-        <li class="cards__item cards__item_type_no-icon cards__item_color_green cards__item_on-the-right">
+        <li
+          class="cards__item cards__item_type_no-icon cards__item_color_green cards__item_on-the-right">
           <div class="cards__description">
             <h3 class="cards__title">Биржа проектов и готовые решения</h3>
             <p class="cards__text">ИТ-система для интеграции в открытый рынок труда людей с
@@ -269,7 +313,8 @@
             <button class="button button_type_accordeon" type="button" data-target="accrodion-open-1" id="change-color"
               data-toggle="change-color"></button>
           </div>
-          <p class="advantages__accordion" id="accrodion-open-1">Идут на оплату сотрудников, создание новых курсов,
+          <p class="advantages__accordion" id="accrodion-open-1">Идут на оплату сотрудников,
+            создание новых курсов,
             разработку и реализацию
             социальных проектов АНО «Пространство равных возможностей».</p>
         </div>
@@ -279,9 +324,11 @@
             <button class="button button_type_accordeon" type="button" data-target="accrodion-open-2"
               id="change-color-2" data-toggle="change-color-2"></button>
           </div>
-          <p class="advantages__accordion" id="accrodion-open-2">Мы – это сообщество людей с инвалидностью и без нее.
+          <p class="advantages__accordion" id="accrodion-open-2">Мы – это сообщество людей с
+            инвалидностью и без нее.
             Помогаем в трудоустройстве,
-            профессиональном росте и интеллектуальном развитии. Сотрудничаем с НКО и бизнесом. Развиваем социально
+            профессиональном росте и интеллектуальном развитии. Сотрудничаем с НКО и бизнесом.
+            Развиваем социально
             значимые
             проекты.</p>
         </div>
@@ -291,7 +338,8 @@
             <button class="button button_type_accordeon" type="button" data-target="accrodion-open-3"
               id="change-color-3" data-toggle="change-color-3"></button>
           </div>
-          <p class="advantages__accordion" id="accrodion-open-3">Нам не важны страна и вид ограничений: наши сотрудники
+          <p class="advantages__accordion" id="accrodion-open-3">Нам не важны страна и вид
+            ограничений: наши сотрудники
             –
             профессионалы, работающие
             удаленно.и</p>
@@ -302,9 +350,11 @@
             <button class="button button_type_accordeon" type="button" data-target="accrodion-open-4"
               id="change-color-4" data-toggle="change-color-4"></button>
           </div>
-          <p class="advantages__accordion" id="accrodion-open-4">Нам доверяют ведущие компании рынка и некоммерческие
+          <p class="advantages__accordion" id="accrodion-open-4">Нам доверяют ведущие компании рынка
+            и некоммерческие
             организации, в их числе
-            билайн, экосистема VK, «Тинькофф», группа «М.Видео-Эльдорадо», «Яндекс», X5 Group, Совкомбанк и др. С
+            билайн, экосистема VK, «Тинькофф», группа «М.Видео-Эльдорадо», «Яндекс», X5 Group,
+            Совкомбанк и др. С
             большинством
             клиентов мы работаем много лет подряд.</p>
         </div>
@@ -314,9 +364,11 @@
             <button class="button button_type_accordeon" type="button" data-target="accrodion-open-5"
               id="change-color-5" data-toggle="change-color-5"></button>
           </div>
-          <p class="advantages__accordion" id="accrodion-open-5">Создаем спецпроекты и исследования в разных жанрах и
+          <p class="advantages__accordion" id="accrodion-open-5">Создаем спецпроекты и исследования
+            в разных жанрах и
             форматах, рассказываем и
-            привлекаем внимание к проблемам инклюзивного общества и доступной среды, предлагаем для них решения.</p>
+            привлекаем внимание к проблемам инклюзивного общества и доступной среды, предлагаем для
+            них решения.</p>
         </div>
         <div class="advantages__item">
           <div class="advantages__header">
@@ -324,10 +376,12 @@
             <button class="button button_type_accordeon" type="button" data-target="accrodion-open-6"
               id="change-color-6" data-toggle="change-color-6"></button>
           </div>
-          <p class="advantages__accordion" id="accrodion-open-6">За время существования проекта с 2016 года социальная
+          <p class="advantages__accordion" id="accrodion-open-6">За время существования проекта с
+            2016 года социальная
             предпринимательская модель
             Everland доказала свою
-            эффективность - мы действительно умеем давать работу людям с разными видами инвалидности</p>
+            эффективность - мы действительно умеем давать работу людям с разными видами инвалидности
+          </p>
         </div>
       </div>
     </section>
@@ -370,7 +424,8 @@
               <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg"
                 alt="Алексей с собакой ведёт съемку в горах">
               <h2 class="specprojects__title">Фотопроект «Семья как семья»</h2>
-              <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+              <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя
+                восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
               <a href="#" class="button button_type_on-color button_full-width" role="link">Посмотреть</a>
             </div>
@@ -386,7 +441,8 @@
               <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg"
                 alt="Алексей с собакой ведёт съемку в горах">
               <h2 class="specprojects__title">Фотопроект «Семья как семья»</h2>
-              <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+              <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя
+                восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
               <a href="#" class="button button_type_on-color button_full-width" role="link">Посмотреть</a>
             </div>
@@ -402,7 +458,8 @@
               <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg"
                 alt="Алексей с собакой ведёт съемку в горах">
               <h2 class="specprojects__title">Фотопроект «Семья как семья»</h2>
-              <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+              <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя
+                восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
               <a href="#" class="button button_type_on-color button_full-width" role="link">Посмотреть</a>
             </div>
@@ -418,7 +475,8 @@
               <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg"
                 alt="Алексей с собакой ведёт съемку в горах">
               <h2 class="specprojects__title">Фотопроект «Семья как семья»</h2>
-              <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+              <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя
+                восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
               <a href="#" class="button button_type_on-color button_full-width" role="link">Посмотреть</a>
             </div>
@@ -434,7 +492,8 @@
               <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg"
                 alt="Алексей с собакой ведёт съемку в горах">
               <h2 class="specprojects__title">Фотопроект «Семья как семья»</h2>
-              <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+              <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя
+                восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
               <a href="#" class="button button_type_on-color button_full-width" role="link">Посмотреть</a>
             </div>
@@ -450,7 +509,8 @@
               <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg"
                 alt="Алексей с собакой ведёт съемку в горах">
               <h2 class="specprojects__title">Фотопроект «Семья как семья»</h2>
-              <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+              <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя
+                восемь историй людей и
                 семей,
                 где
                 один или оба супруга имеют инвалидность</p>
@@ -467,7 +527,8 @@
               <img class="specprojects__photo-mobile" src="./images/human-and-dog.jpg"
                 alt="Алексей с собакой ведёт съемку в горах">
               <h2 class="specprojects__title">Фотопроект «Семья как семья»</h2>
-              <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+              <p class="specprojects__description">Фотопроект Алексея Горшенина включает в себя
+                восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
               <a href="#" class="button button_type_on-color button_full-width" role="link">Посмотреть</a>
             </div>
@@ -481,7 +542,8 @@
 
 
         <div class="specprojects__buttons-box">
-          <button class="button button_type_slider button_color_black button_rotate" type="button" id="sp-prev">
+          <button class="button button_type_slider button_color_black button_rotate" type="button"
+            id="sp-prev">
           </button>
           <button class="button button_type_slider button_color_black" type="button" id="sp-next">
           </button>
@@ -502,9 +564,11 @@
             <div class="histories__hero-story-content">
               <div class="histories__quote-icon"></div>
               <div class="histories__hero-story-description">
-                <h3 class="histories__text-title">Мне интересно слушать интервью с людьми. Это мотивация и вдохновение,
+                <h3 class="histories__text-title">Мне интересно слушать интервью с людьми. Это
+                  мотивация и вдохновение,
                   которых так не хватает</h3>
-                <p class="histories__text-main">Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы по
+                <p class="histories__text-main">Максиму Гильфанову из Узбекистана 41 год. Диплом
+                  программиста и курсы по
                   веб-дизайну не решили проблему с трудоустройством</p>
                 <a href="#" class="button button_type_link button_color_blue" role="link">История Максима
                   <div class="button__arrow" aria-hidden="true"></div>
@@ -516,7 +580,8 @@
             <div class="histories__hero-story-content">
               <div class="histories__quote-icon"></div>
               <div class="histories__hero-story-description">
-                <h3 class="histories__text-title">Платформа дала надежду: кто-то заинтересован в трудоустройстве
+                <h3 class="histories__text-title">Платформа дала надежду: кто-то заинтересован в
+                  трудоустройстве
                   инвалидов</h3>
                 <p class="histories__text-main">Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно
                   сделал сальто и повредил позвоночник. С тех пор ему тяжело передвигаться на большие расстояния</p>
@@ -562,40 +627,43 @@
         <a href="#" class="button button_type_secondary button_place_down" role="link">Все истории</a>
       </div>
     </section>
-    <section class="agency" id="аgency">
+    <section class="agency" id="agency">
       <div class="agency__wrapper">
         <h2 class="section-title">Лучшие проекты агентства</h2>
-        <h4 class="section-subtitle section-subtitle_type_agency">Мы выполняем работы в области веб-разработки,
+        <h3 class="section-subtitle section-subtitle_type_agency">Мы выполняем работы в области веб-разработки,
           дизайна,
-          права, видео, анимации и контента</h4>
+          права, видео, анимации и контента</h3>
         <ul class="cards cards_agency">
           <li class="cards__item cards__item_type_agency">
             <a href="#">
-              <img class="cards__image" src="./images/scripts.jpg" alt aria-hidden="true">
+              <img class="cards__image" src="./images/scripts.jpg"
+                alt="Два изображения дизайна сайтов со скриптами-рекомендациями для бизнеса">
             </a>
             <a href="#" class="page__link">
-              <h5 class="cards__subtitle">Скрипты-рекомендации для бизнеса (DisQuestion)</h5>
+              <h4 class="cards__subtitle">Скрипты-рекомендации для бизнеса (DisQuestion)</h4>
             </a>
           </li>
           <li class="cards__item cards__item_type_agency">
             <a href="#">
-              <img class="cards__image" src="./images/onconavigator.jpg" alt aria-hidden="true">
+              <img class="cards__image" src="./images/onconavigator.jpg"
+                alt="Дизайн проекта Онконавигатор на экране планшета и телефона">
             </a>
             <a href="#" class="page__link">
-              <h5 class="cards__subtitle">Проект «Онконавигатор»</h5>
+              <h4 class="cards__subtitle">Проект «Онконавигатор»</h4>
             </a>
           </li>
           <li class="cards__item cards__item_type_agency cards__item_type_hidden">
             <a href="#">
-              <img class="cards__image" src="./images/migrants.jpg" alt aria-hidden="true">
+              <img class="cards__image" src="./images/migrants.jpg"
+                alt="Презентация минималистичного дизайна проекта Миграции на трех мокапах мобильных девайсов">
             </a>
             <a href="#" class="page__link">
-              <h5 class="cards__subtitle">Проект «Миграции: приоткрывая личное»</h5>
+              <h4 class="cards__subtitle">Проект «Миграции: приоткрывая личное»</h4>
             </a>
           </li>
         </ul>
-        <a href="#" class="button button_type_secondary button_place_agency-down button_full-width"
-          role="link">Посмотреть все</a>
+        <a href="#" class="button button_type_secondary button_place_agency-down button_full-width" role="link">Посмотреть
+          все</a>
       </div>
     </section>
     <section class="news" id="news">
@@ -610,8 +678,10 @@
               <p class="news__card-theme-text">Тема</p>
               <img src="./images/pepsico.jpg" alt="Открытка" class="news__card-image">
               <div class="news__card-text-content">
-                <h3 class="news__card-title">Ура! Новое партнерство — с <span lang="en">PepsiCo</span></h3>
-                <p class="news__card-text"><span lang="en">Everland</span> совместно с <span lang="en">PepsiCo</span>
+                <h3 class="news__card-title">Ура! Новое партнерство — с <span
+                    lang="en">PepsiCo</span></h3>
+                <p class="news__card-text"><span lang="en">Everland</span> совместно с <span
+                    lang="en">PepsiCo</span>
                   приняли участие в акции «Благотворительность
                   вместо
                   сувениров»</p>
@@ -623,12 +693,15 @@
             <div class="news__card-item-content">
               <p class="news__card-theme-text">Тема</p>
               <div class="news__card-text-content">
-                <h3 class="news__card-title">Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия: как строить
+                <h3 class="news__card-title">Трехдневный интенсив для КСО-менеджеров «Бизнес и
+                  инклюзия: как строить
                   эффективные программы»</h3>
                 <p class="news__card-text">
-                  Эксперты с инвалидностью, представители бизнеса и некоммерческих организаций поговорили о том, что
+                  Эксперты с инвалидностью, представители бизнеса и некоммерческих организаций
+                  поговорили о том, что
                   такое
-                  инклюзия, рассмотрели подходы к трудоустройству людей с инвалидностью, обсудили проблемы, к которым
+                  инклюзия, рассмотрели подходы к трудоустройству людей с инвалидностью, обсудили
+                  проблемы, к которым
                   нужно быть готовым, и поделились успешными кейсами
                 </p>
               </div>
@@ -640,12 +713,13 @@
               <p class="news__card-theme-text">Тема</p>
               <div class="news__card-text-content">
                 <h3 class="news__card-title">Тестируем супермаркеты на доступность</h3>
-                <p class="news__card-text"><span lang="en">Everland</span> совместно с торговой сетью «Перекресток»
+                <p class="news__card-text"><span lang="en">Everland</span> совместно с торговой
+                  сетью «Перекресток»
                   провели аудит продуктовых
                   магазинов на доступность для людей с разными видами инвалидности</p>
               </div>
-              <img src="./images/supermarkets.jpg" alt="Работник помогает мужчине в инвалидном кресле"
-                class="news__card-image">
+              <img src="./images/supermarkets.jpg"
+                alt="Работник помогает мужчине в инвалидном кресле" class="news__card-image">
               <p class="news__card-date-text">20 сентября 2021</p>
             </div>
           </div>
@@ -720,11 +794,14 @@
                 </label>
               </div>
 
-              <p class="small-text">Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим
+              <p class="small-text">Регулярные пожертвования очень важны для Everland. Это то, что
+                помогает нашим
                 программам работать
-                бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную
+                бесперебойно, что открывает новые востребованные проекты, что максимально эффективно
+                решает социальную
                 задачу.
-                Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться
+                Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей
+                карты будет списываться
                 указанная вами сумма.
               </p>
             </fieldset>
@@ -908,13 +985,14 @@
             <div class="footer__icon-container">
               <div class="footer__icon-support-container">
                 <a href="#">
-                  <img src="./images/Icon_logo-beeline.jpg" alt="Логотип Билайн" class="footer__icon-support">
+                  <img src="./images/Icon_logo-beeline.jpg" alt="Логотип Билайн"
+                    class="footer__icon-support">
                 </a>
               </div>
               <div class="footer__icon-support-container">
                 <a href="#">
-                  <img src="./images/Icon_logo-fondgrantov.jpg" alt="Логотип Фонда президентских грантов"
-                    class="footer__icon-support">
+                  <img src="./images/Icon_logo-fondgrantov.jpg"
+                    alt="Логотип Фонда президентских грантов" class="footer__icon-support">
                 </a>
               </div>
             </div>
@@ -966,10 +1044,10 @@
       </div>
     </div>
   </footer>
-  <nav class="popup-menu popup overlay" id="popup-menu">
+  <nav class="popup-menu overlay" id="popup-menu">
     <div class="popup-menu__wrapper">
       <header class="header popup-menu__header">
-        <div class="header__wrapper">
+        <div class="header__wrapper header__wrapper_popup">
           <a href="#" class="header__link">
             <img class="header__logo" src="./images/Icon_logo.svg" alt="Логотип Эверленд" />
           </a>
@@ -989,9 +1067,10 @@
         </div>
       </header>
       <div class="popup-menu__group">
-        <h4 class="subtitle-text-four">О проекте
-          <img class="popup-menu__arrow" src="./images/Icon_menu-arrow.svg" alt="кнопка выпадающего меню">
-        </h4>
+        <h2 class="popup-menu__title">О проекте
+          <img class="popup-menu__arrow" src="./images/Icon_menu-arrow.svg"
+            alt="кнопка выпадающего меню">
+        </h2>
         <ul class="popup-menu__list">
           <li class="popup-menu__item">
             <a class="popup-menu__link" href="#">
@@ -1028,9 +1107,10 @@
         </ul>
       </div>
       <div class="popup-menu__group">
-        <h4 class="subtitle-text-four">Людям с инвалидностью
-          <img class="popup-menu__arrow" src="./images/Icon_menu-arrow.svg" alt="кнопка выпадающего меню">
-        </h4>
+        <h2 class="popup-menu__title">Людям с инвалидностью
+          <img class="popup-menu__arrow" src="./images/Icon_menu-arrow.svg"
+            alt="кнопка выпадающего меню">
+        </h2>
         <ul class="popup-menu__list">
           <li class="popup-menu__item">
             <a class="popup-menu__link" href="#">
@@ -1055,9 +1135,10 @@
         </ul>
       </div>
       <div class="popup-menu__group">
-        <h4 class="subtitle-text-four">Услуги
-          <img class="popup-menu__arrow" src="./images/Icon_menu-arrow.svg" alt="кнопка выпадающего меню">
-        </h4>
+        <h2 class="popup-menu__title">Услуги
+          <img class="popup-menu__arrow" src="./images/Icon_menu-arrow.svg"
+            alt="кнопка выпадающего меню">
+        </h2>
         <ul class="popup-menu__list">
           <li class="popup-menu__item">
             <a class="popup-menu__link" href="#">
@@ -1091,33 +1172,33 @@
 
       <div class="popup-menu__group popup-menu__main">
         <a class="popup-menu__link" href="#">
-          <h4 class="subtitle-text-four">Мы благодарим</h4>
+          <h3 class="popup-menu__title">Мы благодарим</h3>
         </a>
         <a class="popup-menu__link" href="#">
-          <h4 class="subtitle-text-four">Программы</h4>
+          <h3 class="popup-menu__title">Программы</h3>
         </a>
         <a class="popup-menu__link" href="#">
-          <h4 class="subtitle-text-four">Наставникам</h4>
+          <h3 class="popup-menu__title">Наставникам</h3>
         </a>
         <a class="popup-menu__link" href="#">
-          <h4 class="subtitle-text-four">Помочь</h4>
+          <h3 class="popup-menu__title">Помочь</h3>
         </a>
       </div>
 
       <div class="popup-menu__group popup-menu__tablet">
         <a class="popup-menu__link" href="#">
-          <h4 class="subtitle-text-four">Мы благодарим</h4>
+          <h3 class="popup-menu__title">Мы благодарим</h3>
         </a>
         <a class="popup-menu__link" href="#">
-          <h4 class="subtitle-text-four">Программы</h4>
+          <h3 class="popup-menu__title">Программы</h3>
         </a>
       </div>
       <div class="popup-menu__group popup-menu__tablet">
         <a class="popup-menu__link" href="#">
-          <h4 class="subtitle-text-four">Наставникам</h4>
+          <h3 class="popup-menu__title">Наставникам</h3>
         </a>
         <a class="popup-menu__link" href="#">
-          <h4 class="subtitle-text-four">Помочь</h4>
+          <h3 class="popup-menu__title">Помочь</h3>
         </a>
       </div>
 

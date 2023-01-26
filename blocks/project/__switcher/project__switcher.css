@@ -8,5 +8,6 @@
 @media screen and (max-width: 767px) {
   .project__switcher {
     align-self: center;
+    gap: 12px;
   }
 }

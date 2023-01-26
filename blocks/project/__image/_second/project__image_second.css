@@ -2,7 +2,7 @@
   display: flex;
   width: 352px;
   height: 315px;
-  transition: all ease 0.7s;
+  transition: all ease 0.5s;
 }
 
 
@@ -20,9 +20,3 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .project__image_second {
-    width: 190px;
-    height: 144px;
-  }
-}

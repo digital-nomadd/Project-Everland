@@ -3,7 +3,7 @@
 }
 
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1279px) {
   .popup-menu__main {
     display: none;
   }
