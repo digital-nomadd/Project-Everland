@@ -21,6 +21,18 @@
   }
 }
 
+.button_type_link:hover:not([disabled]) .button__arrow {
+  background-image: url('../../../images/button_arrow-hover.svg');
+}
+
+.button_type_link:active:not([disabled]) .button__arrow {
+  background-image: url('../../../images/button_arrow-active.svg');
+}
+
+.button_type_link[disabled] .button__arrow {
+  background-image: url('../../../images/button_arrow-disabled.svg');
+}
+
 /* Blue */
 
 .button_color_blue .button__arrow {
