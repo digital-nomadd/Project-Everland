@@ -12,7 +12,6 @@
 @import url(../blocks/title-text/title-text.css);
 
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/__arrow/button__arrow.css);
 @import url(../blocks/button/_type/button_type_secondary.css);
 @import url(../blocks/button/_type/button_type_on-color.css);
 @import url(../blocks/button/_type/button_type_link.css);
@@ -23,6 +22,7 @@
 @import url(../blocks/button/_color/button_color_orange.css);
 @import url(../blocks/button/_color/button_color_purple.css);
 @import url(../blocks/button/_color/button_color_black.css);
+@import url(../blocks/button/__arrow/button__arrow.css);
 @import url(../blocks/button/_full-width/button_full-width.css);
 @import url(../blocks/button/_rotate/button_rotate.css);
 @import url(../blocks/button/_pressed/button_pressed.css);
