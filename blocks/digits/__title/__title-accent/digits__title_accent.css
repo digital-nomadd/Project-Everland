@@ -1,0 +1,15 @@
+.digits__title_accent {
+  color: #0C4BA0;
+}
+
+@media screen and (max-width: 1279px) {
+  .digits__title_accent {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .digits__title_accent {
+    font-size: 18px;
+  }
+}

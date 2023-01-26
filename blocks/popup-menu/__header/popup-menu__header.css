@@ -1,6 +1,5 @@
 .popup-menu__header {
   display: flex;
-    position: relative;
-    box-shadow: none;
+  position: relative;
+  box-shadow: none;
 }
-

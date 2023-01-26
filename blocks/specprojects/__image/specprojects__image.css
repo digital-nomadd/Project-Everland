@@ -6,10 +6,10 @@
   border-radius: 30px;
 }
 
-@media screen and (max-width: 1045px) {
+@media screen and (max-width: 1279px) {
   .specprojects__image {
-    max-width: 260px;
-
+    min-width: 280px;
+    border-radius: 10px;
   }
 }
 

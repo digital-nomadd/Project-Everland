@@ -1,0 +1,19 @@
+.project__text-list {
+  display: flex;
+  width: 543px;
+  transition: all ease 0.5s;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .project__text-list {
+    width: calc(401px + 142*(100vw - 768px)/(1440 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project__text-list {
+    width: calc(300px + 101*(100vw - 320px)/(768 - 320));
+  }
+}
+

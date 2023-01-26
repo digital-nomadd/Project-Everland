@@ -1,39 +1,31 @@
 .popup-menu__wrapper {
   display: flex;
   position: relative;
-  row-gap: 64px;
-  column-gap: auto;
-  margin: 40px auto;
-  width: 1360px;
-  padding: 0 40px;
+  column-gap: 20px;
+  width: calc(100% - 80px);
+  max-width: 1360px;
+  padding: 0 40px 125px 40px;
   margin: 0;
   flex-shrink: 0;
   flex-grow: 0;
   background-color: white;
-  overflow: visible;
-  opacity: 1;
   flex-wrap: wrap;
 }
 
-
-@media screen and (max-width: 1439px) {
+/* 1439 */
+@media screen and (max-width: 1279px) {
   .popup-menu__wrapper {
-   width: calc(688px + 672*(100vw - 768px)/(1440 - 768));
-   gap: 18px;
-   
+    /* width: calc(688px + 672*(100vw - 768px)/(1440 - 768)); */
+    padding-bottom: calc(78px + 47*(100vw - 768px)/(1440 - 768));
   }
 }
 
 @media screen and (max-width: 767px) {
   .popup-menu__wrapper {
-    width: calc(300px + 388*(100vw - 320px)/(768 - 320));
+    width: calc(100% - 20px);
     flex-direction: column;
-    padding: 0 10px;
+    padding: 0 10px 110px 10px;
+    row-gap: 20px;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .popup-menu__wrapper {
-    width: 300px;
-  }
-}
