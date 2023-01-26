@@ -4,6 +4,11 @@
   font-weight: 700;
   margin: 0;
   color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 @media screen and (max-width: 1279px) {
