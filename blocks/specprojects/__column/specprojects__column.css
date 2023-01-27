@@ -2,14 +2,19 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  row-gap: 20px;
   max-width: 700px;
-  width: 100%;
-
+  row-gap: 20px;
 }
 
 @media screen and (max-width: 1279px) {
   .specprojects__column {
     row-gap: 0;
+    width: 54%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .specprojects__column {
+    width: 100%;
   }
 }
