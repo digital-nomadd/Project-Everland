@@ -1,3 +1,7 @@
+.button_place_up {
+  margin-bottom: 18px;
+}
+
 @media screen and (max-width: 1279px) {
   .button_place_up {
     display: none;
