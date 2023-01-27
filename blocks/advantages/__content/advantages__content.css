@@ -9,15 +9,16 @@
 
 @media screen and (max-width: 1279px) {
   .advantages__content{
-    margin: 32px auto;
+    margin: 32px auto 50px;
     grid-template-columns: repeat(1, minmax(min-content, 1279px));
-    row-gap: 16px;
+    gap: 20px;
     max-width: 920px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .advantages__content{
-    margin: 24px 0;
+    margin: 24px 0 32px;
+    gap: 16px;
   }
 }

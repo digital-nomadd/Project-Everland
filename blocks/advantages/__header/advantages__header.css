@@ -1,10 +1,6 @@
 .advantages__header{
   display: flex;
   justify-content: space-between;
-}
-
-@media screen and (max-width: 767px) {
-  .advantages__header{
-    align-items: center;
-  }
+  align-items: center;
+  gap: 20px;
 }
