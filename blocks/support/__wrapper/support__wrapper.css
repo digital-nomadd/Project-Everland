@@ -5,6 +5,7 @@
   margin: 0 auto;
   gap: 50px;
   padding: 0 40px 100px 40px;
+  width: calc(100% - 80px);
 }
 
 @media screen and (max-width: 1375px) {
@@ -18,5 +19,6 @@
 @media screen and (max-width: 767px) {
   .support__wrapper {
     padding: 0 10px 32px 10px;
+    width: calc(100% - 20px);
   }
 }

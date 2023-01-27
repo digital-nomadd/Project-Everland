@@ -4,7 +4,6 @@
   align-items: flex-start;
   gap: 117px;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 @media (max-width: 1308px) {
