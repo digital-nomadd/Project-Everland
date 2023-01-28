@@ -3,4 +3,6 @@
 #### Oписание
 Ясное и чёткое описание проделанной работы.
 
-Resolves #(Issue), resolves #(Issue)
+#### Issue(s)
+- Resolves #(Issue)
+- Resolves #(Issue)
