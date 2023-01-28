@@ -8,7 +8,7 @@
 #### Проект создается силами студентов когорты №20-forestgreen [Яндекс.Практикума](https://practicum.yandex.ru/) в качестве первой командной работы
 
 ## Задача:
-**Cверстать страницу “Главная” для нового сайта Everland: desktop, mobile и tablet** 
+**Cверстать страницу “Главная” для нового сайта Everland: desktop, mobile и tablet**
 
 Дизайн сайта клиента устарел, и заявка нашего партнера звучала следующим образом:
 
@@ -18,8 +18,8 @@
 
 * [GitHub Pages](https://digital-nomadd.github.io/Project-Everland/)
 
-## Используемые технологии: 
-Vanilla JavaScript, CSS, HTML 
+## Используемые технологии:
+Vanilla JavaScript, CSS, HTML
 
 ## Contribute
-Если вы хотите внести свой вклад в проект, ознакомьтесь с коротким [пояснениями](docs/CONTRIBUTING.md) к работе
+Если вы хотите внести свой вклад в проект, ознакомьтесь с коротким [пояснениями](CONTRIBUTING.md) к работе
