@@ -2,16 +2,16 @@
   display: flex;
   flex-direction:column;
   flex-grow: 1;
-  border: 1px solid #DADADA;
+  border: 2px solid #DADADA;
   border-radius: 30px;
-  padding: 30px 20px;
+  padding: 24px 18px;
   max-width: 670px;
 
 }
 
 @media screen and (max-width: 1279px) {
   .advantages__item{
-    padding: 20px 20px;
+    padding: 18px;
     border-radius: 20px;
     max-width: none;
   }
@@ -19,7 +19,8 @@
 
 @media screen and (max-width: 767px) {
   .advantages__item{
-    padding: 18px 16px;
-    border-radius: 15px;
+    border: 1px solid #DADADA;
+    padding: 11px 19px 11px 15px;
+    border-radius: 16px;
   }
 }

@@ -8,13 +8,13 @@
 @media screen and (max-width: 1279px) {
   .digits__content {
     column-gap: 100px;
-    margin: 32px 0;
+    margin: 32px 0 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .digits__content {
     flex-direction: column-reverse;
-    margin: 24px 0;
+    margin: 24px 0 32px;
   }
 }

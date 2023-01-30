@@ -1,20 +1,12 @@
 .specprojects__image {
-  max-width: 555px;
-  width: 100%;
-  height: 100%;
-  object-fit:cover;
   border-radius: 30px;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 @media screen and (max-width: 1279px) {
   .specprojects__image {
-    min-width: 280px;
     border-radius: 10px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .specprojects__image {
-    display: none;
   }
 }

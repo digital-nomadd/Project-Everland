@@ -116,10 +116,10 @@
 @import url(../blocks/specprojects/__header/specprojects__header.css);
 @import url(../blocks/specprojects/__image/specprojects__image.css);
 @import url(../blocks/specprojects/__item/specprojects__item.css);
-@import url(../blocks/specprojects/__photo-mobile/specprojects__photo-mobile.css);
 @import url(../blocks/specprojects/__photo/specprojects__photo.css);
 @import url(../blocks/specprojects/__title/specprojects__title.css);
 @import url(../blocks/specprojects/__track/specprojects__track.css);
+@import url(../blocks/specprojects/__photo/_mobile/specprojects__photo_mobile.css);
 
 @import url(../blocks/histories/histories.css);
 @import url(../blocks/histories/__container/histories__container.css);

@@ -1,4 +1,5 @@
 .project__slider {
   display: flex;
   z-index: 1;
+  align-items: flex-end;
 }

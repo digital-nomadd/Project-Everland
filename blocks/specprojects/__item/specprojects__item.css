@@ -1,10 +1,7 @@
 .specprojects__item {
   display: flex;
-  margin: 30px;
   justify-content: space-between;
-  max-width: 1300px;
-  column-gap: 140px;
-
+  margin: 30px;
 }
 
 
@@ -16,8 +13,9 @@
 
 @media screen and (max-width: 767px) {
   .specprojects__item {
-    margin: 25px;
     column-gap: 0;
+    flex-direction: column;
+    margin: 25px;
   }
 }
 

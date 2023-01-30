@@ -12,6 +12,7 @@
     width: calc(688px + 672*(100vw - 768px)/(1440 - 768));
     margin: 56px auto 0;
     gap: 20px;
+    height: calc(100vw * .37);
   }
 }
 
