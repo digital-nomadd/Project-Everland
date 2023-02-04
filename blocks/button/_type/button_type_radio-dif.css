@@ -1,0 +1,45 @@
+.button_type_radio-dif {
+  appearance: none;
+  background-color: #fff;
+  color: #333;
+  flex-basis: 211px;
+  max-width: 211px;
+  width: max-content;
+}
+
+.button_type_radio-dif::before {
+  content: attr(value);
+}
+
+.button_type_radio-dif:hover:not([disabled]) {
+  background-color: #fff;
+  border: 1px solid #C4C4C4;
+  padding: 11px 15px;
+}
+
+.button_type_radio-dif:active:not([disabled]) {
+  background-color: #fff;
+  border: 1px solid #0c4ba0;
+}
+
+.button_type_radio-dif:checked:not([disabled]) {
+  background-color: #fff;
+  border: 1px solid #0c4ba0;
+}
+
+
+.button_type_radio-dif[disabled] {
+  background-color: #F5F5F5;
+  border: 2px solid #C4C4C4;
+  color: #C4C4C4;
+  cursor: no-drop;
+  padding: 10px 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .button_type_radio-dif {
+    width: 100%;
+    max-width: none;
+    flex-basis: initial;
+  }
+}

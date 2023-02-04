@@ -1,0 +1,13 @@
+.histories__hero-cards-description {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px
+}
+
+@media screen and (max-width: 1279px) {
+  .histories__hero-cards-description {
+    gap: 10px
+  }
+}
+

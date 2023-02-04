@@ -1,0 +1,4 @@
+.specprojects__track {
+  display: flex;
+  transition: .8s;
+}

@@ -1,0 +1,21 @@
+.button_color_blue {
+  background-color: #e7f0ff;
+  color: #0C4BA0;
+}
+
+.button_color_blue:hover:not([disabled]) {
+  background-color: #0C4BA0;
+  color: #fff;
+}
+
+.button_color_blue:active:not([disabled]) {
+  background-color: #00275C;
+  color: #fff;
+}
+
+.button_color_blue[disabled] {
+  background-color: #C4C4C4;
+  border: 0;
+  color: rgba(38, 38, 38, 0.5);
+  padding: 12px 16px;
+}

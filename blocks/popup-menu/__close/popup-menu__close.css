@@ -1,0 +1,36 @@
+.popup-menu__close {
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  color: white;
+  background: none;
+  z-index: 99;
+  border: none;
+  opacity: 1;
+  background-image: url('../../../images/Icon_close-menu.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+}
+
+@media screen and (max-width: 1279px) {
+  .popup-menu__close {
+    width: 24px;
+    height: 24px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup-menu__close {
+    right: 0px;
+    top: -36px;
+    background-size: 17px 17px;
+  }
+}
+
+.popup-menu__close:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}

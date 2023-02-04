@@ -1,0 +1,21 @@
+.button_type_link {
+  background-color: #fff;
+  color: #333;
+  width: fit-content;
+}
+
+.button_type_link:hover:not([disabled]) {
+  background-color: #fff;
+  color: #00275c;
+}
+
+.button_type_link:active:not([disabled]) {
+  background-color: #fff;
+  color: #0c4ba0;
+}
+
+.button_type_link[disabled] {
+  background-color: #fff;
+  border: 0;
+  color: #c4c4c4;
+}

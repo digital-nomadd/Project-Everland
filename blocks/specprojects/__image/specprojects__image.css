@@ -1,0 +1,12 @@
+.specprojects__image {
+  border-radius: 30px;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .specprojects__image {
+    border-radius: 10px;
+  }
+}

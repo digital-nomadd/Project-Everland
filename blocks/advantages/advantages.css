@@ -1,0 +1,13 @@
+.advantages {
+  max-width: 1360px;
+  width: calc(100% - 80px);
+  margin: 0;
+  padding: 0 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .advantages {
+    padding: 0 10px;
+    width: calc(100% - 20px);
+  }
+}

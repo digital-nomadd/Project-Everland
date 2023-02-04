@@ -1,0 +1,16 @@
+.button_place_down {
+  display: none;
+}
+@media screen and (max-width: 1279px) {
+  .button_place_down {
+    display: flex;
+    align-self: center;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button_place_down {
+    width: 100%;
+  }
+}

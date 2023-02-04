@@ -1,0 +1,20 @@
+.cards_agency {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 50px 0 50px 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .cards_agency {
+    margin: 0 auto;
+    padding: 32px 0 50px 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards_agency {
+    grid-template-columns: 1fr;
+    padding: 24px 0 24px 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

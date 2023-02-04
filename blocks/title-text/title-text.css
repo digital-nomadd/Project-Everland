@@ -1,0 +1,24 @@
+.title-text {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  margin: 0;
+  padding: 0;
+  min-width: 826px;
+}
+
+@media screen and (max-width: 1279px) {
+  .title-text {
+    font-size: calc(38px + 34*(100vw - 768px)/1440);
+    min-width: calc(424px + 402*(100vw - 768px)/(1440 - 768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title-text {
+    font-size: calc(28px + 10*(100vw - 320px)/768);
+    min-width: calc(300px + 124*(100vw - 320px)/(768 - 320));
+  }
+}
+

@@ -1,0 +1,38 @@
+.button_type_accordeon {
+  background-color: #E7F0FF;
+  background-image: url('../../../images/button_plus_blue.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 17px;
+  border-radius: 20px;
+  border: 0;
+  height: 47px;
+  min-height: 47px;
+  width: 47px;
+  padding: 0;
+}
+
+.button_type_accordeon:hover:not([disabled]) {
+  background-image: url('../../../images/button_plus_white.svg');
+  background-color: #0C4BA0;
+}
+
+.button_type_accordeon:active:not([disabled]) {
+  background-image: url('../../../images/button_plus_cross.svg');
+  background-color: #0C4BA0;
+}
+
+.button_type_accordeon[disabled] {
+  background-image: url('../../../images/button_plus_grey.svg');
+  background-color: #C4C4C4;
+}
+
+@media screen and (max-width: 1279px) {
+  .button_type_accordeon {
+    background-size: 12px;
+    min-height: 32px;
+    min-width: 32px;
+    height: 32px;
+    width: 32px;
+  }
+}

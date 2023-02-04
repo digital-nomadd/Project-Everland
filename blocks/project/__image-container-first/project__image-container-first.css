@@ -1,0 +1,9 @@
+.project__image-container-first {
+  max-width: 100%;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  border-radius: 10px;
+  bottom: 0;
+  z-index: 10;
+}

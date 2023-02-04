@@ -1,0 +1,21 @@
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  justify-self: end;
+  align-items: center;
+  width: calc(384px + 396*(100vw - 768px)/(1440 - 768));
+  max-width: 779px;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__content {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__content {
+    width: 100%
+  }
+}
+

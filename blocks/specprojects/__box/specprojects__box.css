@@ -1,0 +1,13 @@
+.specprojects__box {
+  background-color: #E7F0FF;
+  border-radius: 30px;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .specprojects__box {
+    border-radius: 20px;
+  }
+}

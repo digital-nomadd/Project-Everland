@@ -1,0 +1,13 @@
+@media screen and (max-width: 1279px) {
+  .cards_one-column {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    padding: 32px 0 50px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards_one-column {
+    padding: 24px 0 32px 0;
+  }
+}

@@ -1,0 +1,19 @@
+.news__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 40px 100px 40px;
+}
+
+@media screen and (max-width: 1279px) {
+  .news__container {
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__container {
+    padding: 0 10px 32px 10px;
+  }
+}

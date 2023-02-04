@@ -1,0 +1,10 @@
+.footer__item-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 550px) {
+  .footer__item-content {
+    flex-direction: column;
+  }
+}

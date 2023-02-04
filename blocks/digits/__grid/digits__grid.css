@@ -1,0 +1,23 @@
+.digits__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, 325px));
+  grid-template-rows: auto;
+  row-gap: 30px;
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 1279px) {
+  .digits__grid {
+    grid-template-columns: repeat(2, minmax(min-content, 670px));
+    margin: 0;
+    row-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .digits__grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+}

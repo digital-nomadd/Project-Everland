@@ -1,0 +1,16 @@
+.button_color_black {
+  background-color: #333;
+}
+
+.button_color_black:hover:not([disabled]) {
+  background-color: #0C4BA0;
+}
+
+.button_color_black:active:not([disabled]) {
+  background-color: #00275C;
+}
+
+.button_color_black[disabled] {
+  background-color: #C4C4C4;
+  background-image: url('../../../images/button_arrow_grey.svg');
+}
