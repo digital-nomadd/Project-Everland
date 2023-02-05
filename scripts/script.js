@@ -95,24 +95,31 @@ for (let i = 0; i < menuArrows.length; i ++) {
 
 // блок Advantages (главное в работе)
 
+const headerAccordions = document.querySelectorAll('.advantages__header');
+
+headerAccordions.forEach((el) => {
+  el.addEventListener('click', () => {
+    let accordion = el.nextElementSibling;
+
+    if (accordion.style.maxHeight) {
+      document.querySelectorAll('.advantages__accordion').forEach((el) => el.style.maxHeight = null)
+    } else {
+      document.querySelectorAll('.advantages__accordion').forEach((el) => el.style.maxHeight = null)
+      accordion.style.maxHeight = accordion.scrollHeight + 'px';
+    }
+  })
+})
+
 const btnsAccordions = document.querySelectorAll('.button_type_accordeon');
 
 btnsAccordions.forEach(btnAccordion => {
-  if (!btnAccordion.dataset.target) {
-    console.error(`button_type_accordeon: has not set target`, btnAccordion);
-    return;
-  }
-  const accordion = document.getElementById(btnAccordion.dataset.target);
-  if (!accordion) {
-    console.error(`button_type_accordeon: target not found`, btnAccordion);
-    return;
-  }
 
   const colorButton = document.getElementById(btnAccordion.dataset.toggle);
+  const accordion = document.getElementById(btnAccordion.dataset.target);
 
   btnAccordion.addEventListener('click', () => {
-    accordion.classList.toggle('advantages__accordion_opened');
     colorButton.classList.toggle('button_pressed');
+    accordion.classList.toggle('advantages__accordion_opened');
   });
 
 });
